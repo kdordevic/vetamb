@@ -1,28 +1,30 @@
 import React from 'react';
 import articles from './articles.js';
 import { useTranslation } from "react-i18next";
+import { i18n } from "./App.js"; 
 
-
-const example = articles.map((article) => {
-  const { img,text, title, id } = article;
-  return (
-      <section key={id}>
-      <h1>{ title }</h1>
-        <img src={img} alt="" />
-        <p>{text}</p>
-    </section>
-  );
-});
 
 function Practice() {
-  const { t } = useTranslation();
-   return (
-      <section>
-       <h3>{t("praksa tekst")}</h3>
-        { example }
+  const example = articles.map((article) => {
+    const { img, id } = article;
+    const translatedTitle = i18n.t(article.title);
+    const translatedText = i18n.t(article.text);
+
+    return (
+      <section key={id}>
+        <h3>{translatedTitle}</h3>
+        <img src={img} alt="" />
+        <p>{translatedText}</p>
       </section>
     );
+  });
+  const { t } = useTranslation();
+   return (
+      <main>
+       <h1>{t("praksa tekst")}</h1>
+        { example }
+      </main>
+    );
 }
-
 
 export default Practice

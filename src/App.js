@@ -3,7 +3,8 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import translationEN from "./locales/en/translation.json";
 import translationSR from "./locales/sr/translation.json";
-import './App.css';
+import './style/App.css';
+
 import Vet from './Vet.js'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     resources,
     lng: "sr",
     fallbackLng: "sr",
+    keySeparator: false,
     interpolation: {
       escapeValue: false,
     },
@@ -30,5 +32,5 @@ function App() {
     </div>
   );
 }
-
+export { i18n };
 export default App;

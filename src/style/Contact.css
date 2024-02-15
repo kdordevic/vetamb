@@ -1,0 +1,23 @@
+.marker{
+ background-image: url('../locales/photos/mapbox-icon.png');
+ background-color: #ff6347;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  
+}
+.map{
+  width: 50%;
+  height: 400px;
+}
+@media screen and (max-width:768px) {
+    .map{
+  width: 100%;
+  height: 400px;
+}
+} 

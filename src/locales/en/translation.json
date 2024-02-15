@@ -13,13 +13,18 @@
   "formular tekst": "For all questions, you can also contact us using the form",
   "footer": "useful information",
   "galerija naslov": "Here you can view a photo gallery of your pets",
-  "homepage tekst": "Veterinary clinic Pet Love",
+  "photo title 1": "name of your pet 1 ",
+  "photo title 2": "name of your pet 2 ",
+  "homepage tekst": "Veterinary clinic",
+  "homepage tekst1": "Pet Love",
   "praksa tekst": "Here you can get acquainted with interesting examples from our practice",
   "pitanja naslov": "Frequently asked Questions ",
   "pitanje 1": "When is it necessary to bring a pet for examination for the first time?",
   "usluge naslov": "Outpatient services",
   "usluga 1": "Preventive examinations",
   "usluga 2": "Vaccination",
-  "article 1": "Article 1",
-  "article 2": "Article 2"
+  "article 1": "Article about our practice 1",
+  "article 2": "Article  about our practice2",
+  "article text 1": "text about our practice 1",
+  "article text 2": "text about our practice2"
 }

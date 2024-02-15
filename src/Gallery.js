@@ -1,25 +1,29 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import photos from './photoGallery';
+import { i18n } from "./App.js"; 
 
-const allPhotos = photos.map((img) => {
-    const{photo,title,id}=img
-    return (
-        <div key={id}>
-           
-            <img src={photo} alt="" />
-            <h5>{title}</h5>
-      </div>
-    )
-})
+
 
 function Gallery() {
+
+const allPhotos = photos.map((img) => {
+  const { photo, id } = img;
+  const translatedTitle = i18n.t(img.title);
+
+  return (
+    <div key={id}>
+      <img src={photo} alt="" />
+      <h5>{translatedTitle}</h5>
+    </div>
+  );
+});
   const { t } = useTranslation();
     return (
-      <div>
-        <h4>{t("galerija naslov")}</h4>
+      <main>
+        <h1>{t("galerija naslov")}</h1>
         {allPhotos}
-      </div>
+      </main>
     );
 }
 
