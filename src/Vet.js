@@ -21,10 +21,7 @@ function Vet() {
     return (
       <div>
         <div className={toogle ? "big-screen-nav" : "small-screen-nav"}>
-          <div
-            className={toogle ? "menu" : ""}
-            onClick={menuToogle}
-          ></div>
+          <div className={toogle ? "menu" : ""} onClick={menuToogle}></div>
           <nav className="nav">
             <ul onClick={menuToogle}>
               <li onClick={() => setContent(<Homepage />)}>{t("Homepage")}</li>
@@ -36,10 +33,12 @@ function Vet() {
               </li>
               <li onClick={() => setContent(<Contact />)}>{t("Contact")}</li>
               <li onClick={() => setContent(<Gallery />)}>{t("Gallery")}</li>
-              <li>
-                <LanguageSwitcher />
-              </li>
             </ul>
+            
+              <div className='lang'>
+                <LanguageSwitcher />
+              </div>
+          
           </nav>
         </div>
         {content}

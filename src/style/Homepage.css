@@ -16,15 +16,16 @@
 }
 .homepage h1{
   
-padding-bottom: 10vh;
-top: 25vh;
+padding-bottom: 0vh;
+padding-top: 12vh;
+top: 22vh;
 }
-h2{
+.homepage h2{
     font-weight: 400;
     font-size: 50px;
     text-transform: uppercase;
     position: relative;
-    top: 23vh;
+    top: 20vh;
 }
 .circle {
     margin: auto;
@@ -41,12 +42,20 @@ h2{
          top:-200px ;
     }
     h1{
-  top: 39vh;
-}
-h2{
+    top: 39vh;
+    }
+    h2{
     top:35vh
-}
-.circle{
+    }
+    .circle{
     top:37vh;
-}
+    }
 } 
+@media screen and (max-width:480px) {
+  .circle{
+    top:20vh;
+    }
+    .homepage{
+         top:-20px ;
+    }
+}

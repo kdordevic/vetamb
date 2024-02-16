@@ -1,3 +1,12 @@
+.kontakt{
+  display: flex;
+  flex-direction: column;
+}
+.kontakt form{
+   display: flex;
+  flex-direction: column;
+  width: 80%;
+}
 .marker{
  background-image: url('../locales/photos/mapbox-icon.png');
  background-color: #ff6347;
@@ -17,7 +26,7 @@
 }
 @media screen and (max-width:768px) {
     .map{
-  width: 100%;
+  width: 80%;
   height: 400px;
 }
 } 

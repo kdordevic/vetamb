@@ -12,10 +12,10 @@ const allPhotos = photos.map((img) => {
   const translatedTitle = i18n.t(img.title);
 
   return (
-    <div key={id}>
+    <section key={id}>
       <img src={photo} alt="" />
       <h5>{translatedTitle}</h5>
-    </div>
+    </section>
   );
 });
   const { t } = useTranslation();

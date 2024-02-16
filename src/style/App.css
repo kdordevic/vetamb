@@ -5,18 +5,30 @@ main{
     background-attachment: fixed;
     background-size: cover;
     color: white;
-    height: 100vh;
-    position:relative ;
-    top:-80px ;
+    height: 100%;
+    position:relative;
+    top:-20px ;
+    
 }
 h1{
   font-weight: 200;
   font-size: 30px;
   text-transform: uppercase;
   position: relative;
-  top: 15vh;
-/* padding-bottom: 30vh; */
+  top: 20vh;
+ padding-bottom: 30vh; 
 }
 main img{
     width: 300px;
+}
+@media screen and (max-width:768px) {
+  main{
+   top:-200px ;
+  }
+  h1{
+    padding-bottom:40vh ;
+  }
+}
+@media screen and (max-width:480px) {
+  
 }

@@ -1,12 +1,27 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
+import qanda from "./qanda.js";
+import { i18n } from "./App.js"; 
 
 function Questions() {
+
+  const example = qanda.map((article) => {
+    const { id } = article;
+    const translatedQ = i18n.t(article.question);
+    const translatedA = i18n.t(article.answer);
+
+    return (
+      <section key={id}>
+        <p>{translatedQ}</p>
+        <p>{translatedA}</p>
+      </section>
+    );
+  });
   const { t } = useTranslation();
     return (
       <main>
         <h1>{t("pitanja naslov")}</h1>
-        <p>{t("pitanje 1")}</p>
+       {example}
       </main>
     );
 }

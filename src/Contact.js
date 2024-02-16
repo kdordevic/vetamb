@@ -9,19 +9,21 @@ function Contact() {
     const { t } = useTranslation();
     return (
       <main>
-        <h1>Kontaktirajte nas</h1>
-        <section>
-          <p>{t("adresa")}</p>
-          <p>{t("telefon")}</p>
-        </section>
-        <form action="">
-          {t("formular tekst")}
-          <input type="text" name="" id="" />
-          <input type="email" name="" id="" />
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-        </form>
-        <section className='map'>
-          <Map/>
+        <h1>{t("contact title")}</h1>
+        <div className='kontakt'>
+          <section>
+            <p>{t("adresa")}</p>
+            <p>{t("telefon")}</p>
+          </section>
+          <form action="">
+            {t("formular tekst")}
+            <input type="text" name="" id="" />
+            <input type="email" name="" id="" />
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </form>
+        </div>
+        <section className="map">
+          <Map />
         </section>
       </main>
     );

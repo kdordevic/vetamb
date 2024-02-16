@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.83caf0c0.css",
-    "main.js": "/static/js/main.eb41183b.js",
+    "main.css": "/static/css/main.ba9bc69d.css",
+    "main.js": "/static/js/main.7713f524.js",
+    "static/js/912.d6fab4d4.chunk.js": "/static/js/912.d6fab4d4.chunk.js",
+    "static/media/krista-mangulsone-9gz3wfHr65U-unsplash.jpg": "/static/media/krista-mangulsone-9gz3wfHr65U-unsplash.00df15906b59ec41b665.jpg",
     "index.html": "/index.html",
-    "main.83caf0c0.css.map": "/static/css/main.83caf0c0.css.map",
-    "main.eb41183b.js.map": "/static/js/main.eb41183b.js.map"
+    "main.ba9bc69d.css.map": "/static/css/main.ba9bc69d.css.map",
+    "main.7713f524.js.map": "/static/js/main.7713f524.js.map",
+    "912.d6fab4d4.chunk.js.map": "/static/js/912.d6fab4d4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83caf0c0.css",
-    "static/js/main.eb41183b.js"
+    "static/css/main.ba9bc69d.css",
+    "static/js/main.7713f524.js"
   ]
 }

@@ -14,8 +14,8 @@ const LanguageSwitcher = () => {
     <select value={i18n.language} onChange={handleLanguageChange} className="lang">
       <option value="sr">Srpski</option>
       <option value="en">English</option>
-      
     </select>
+    
   );
 };
 
