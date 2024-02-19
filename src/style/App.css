@@ -1,13 +1,9 @@
 main{
     text-align: center;
-    background-color: #b6b3b3;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    color: white;
-    height: 100%;
+    background-color: #646464;
+ 
     position:relative;
-    top:-20px ;
+
     
 }
 h1{
@@ -15,20 +11,20 @@ h1{
   font-size: 30px;
   text-transform: uppercase;
   position: relative;
-  top: 20vh;
- padding-bottom: 30vh; 
+
 }
 main img{
     width: 300px;
 }
 @media screen and (max-width:768px) {
-  main{
-   top:-200px ;
-  }
-  h1{
-    padding-bottom:40vh ;
-  }
+  main {
+        flex-direction: column;
+    }
+  
+ 
 }
 @media screen and (max-width:480px) {
+ 
+
   
 }

@@ -8,7 +8,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 
 const Map = () => {
     const [viewport, setViewport] = React.useState({
-      width: "100%",
+      width: "",
       height: "400px",
       latitude: 44.76532887627308, // Initial latitude
       longitude: 20.480645967692666, // Initial longitude

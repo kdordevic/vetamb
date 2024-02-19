@@ -1,17 +1,15 @@
 .homepage{
     text-align: center;
-    background-color: #707070;
     background-image: url('../locales/photos/krista-mangulsone-9gz3wfHr65U-unsplash.jpg');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    color: white;
-    height: 110vh;
     position:relative ;
+   height: 105vh;
 }
 .container{
-    background-color: rgba(0, 0, 0,0.4);
-     height: 110vh;
+    background-color: rgba(0, 0, 0,0.5);
+     height: 105vh;
 
 }
 .homepage h1{
@@ -37,25 +35,33 @@ top: 22vh;
     position: relative;
     top: 22vh;
     }
+.icon{
+    font-size: 70px;
+}
     @media screen and (max-width:768px) {
-    .homepage{
-         top:-200px ;
-    }
-    h1{
+    
+.homepage h1{
     top: 39vh;
     }
-    h2{
+ .homepage h2{
     top:35vh
     }
     .circle{
     top:37vh;
     }
+    
 } 
 @media screen and (max-width:480px) {
-  .circle{
-    top:20vh;
-    }
+
     .homepage{
-         top:-20px ;
+        /* top: -40px; */
+        top:0px
     }
+    .container{
+        
+    }
+/* .footer{
+    top:-60px;
+} */
+    
 }

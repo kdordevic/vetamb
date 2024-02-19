@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba9bc69d.css",
-    "main.js": "/static/js/main.7713f524.js",
+    "main.css": "/static/css/main.d85e7c16.css",
+    "main.js": "/static/js/main.8743ea2f.js",
     "static/js/912.d6fab4d4.chunk.js": "/static/js/912.d6fab4d4.chunk.js",
+    "static/media/aboodi-vesakaran-LmZsF4tnUR0-unsplash.jpg": "/static/media/aboodi-vesakaran-LmZsF4tnUR0-unsplash.7f25d8ae203b02327c21.jpg",
     "static/media/krista-mangulsone-9gz3wfHr65U-unsplash.jpg": "/static/media/krista-mangulsone-9gz3wfHr65U-unsplash.00df15906b59ec41b665.jpg",
+    "static/media/karsten-winegeart-loJL4ijUobg-unsplash.jpg": "/static/media/karsten-winegeart-loJL4ijUobg-unsplash.f79511a15fd093b9476e.jpg",
     "index.html": "/index.html",
-    "main.ba9bc69d.css.map": "/static/css/main.ba9bc69d.css.map",
-    "main.7713f524.js.map": "/static/js/main.7713f524.js.map",
+    "main.d85e7c16.css.map": "/static/css/main.d85e7c16.css.map",
+    "main.8743ea2f.js.map": "/static/js/main.8743ea2f.js.map",
     "912.d6fab4d4.chunk.js.map": "/static/js/912.d6fab4d4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba9bc69d.css",
-    "static/js/main.7713f524.js"
+    "static/css/main.d85e7c16.css",
+    "static/js/main.8743ea2f.js"
   ]
 }

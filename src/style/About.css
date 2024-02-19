@@ -1,6 +1,43 @@
 .about{
+     
+    display: flex;
+}
+.about h1{
+   top: 10px;
+   padding-bottom: 20px;
+
+}
+.photo-about{
+    width: 100%;
+    background-image: url('../locales/photos/karsten-winegeart-loJL4ijUobg-unsplash.jpg');
+    /* background-attachment: scroll; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text-about{
+    width: 80%;
+    padding: 5vw;
+    text-align: left;
+}
+ @media screen and (max-width:768px) {
     
-    background-color: #082408;
+    .about {
+        flex-direction: column;
+        top: -60px;
+    }
+    .photo-about{
+        height: 400px;
+        
+    }
+    /* footer{
+        position: relative;
+         top: -60px;
+    } */
     
-    
+} 
+@media screen and (max-width:480px) {
+   .photo-about{
+        height: 400px;
+    }
 }

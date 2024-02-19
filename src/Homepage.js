@@ -10,10 +10,12 @@ function Homepage() {
     return (
       <main className="homepage">
         <div className="container">
-          <div className="circle"></div>
-          <div>
-            <FontAwesomeIcon icon={faPaw} />
+          <div className="circle">
+            <div className='icon'>
+              <FontAwesomeIcon icon={faPaw} />
+            </div>
           </div>
+
           <h1>{t("homepage tekst")}</h1>
           <h2>{t("homepage tekst1")}</h2>
         </div>

@@ -6,9 +6,20 @@ function Services() {
     const { t } = useTranslation();
     return (
       <main className="services">
-        <h1>{t("usluge naslov")}</h1>
-        <h3>{t("usluga 1")}</h3>
-        <h3>{t("usluga 2")}</h3>
+        <div className="services-text">
+          <h1>{t("usluge naslov")}</h1>
+          <h4>{t("usluga 1")}</h4>
+          <h4>{t("usluga 2")}</h4>
+          <h4>{t("usluga 1")}</h4>
+          <h4>{t("usluga 2")}</h4>
+          <h4>{t("usluga 1")}</h4>
+          <h4>{t("usluga 2")}</h4>
+          <h4>{t("usluga 1")}</h4>
+          <h4>{t("usluga 2")}</h4>
+          <h4>{t("usluga 1")}</h4>
+          <h4>{t("usluga 2")}</h4>
+        </div>
+        <div className="services-photo"></div>
       </main>
     );
 }
