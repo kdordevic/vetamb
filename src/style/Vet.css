@@ -17,7 +17,9 @@ display: inline;
 justify-content: right;
 }
 .nav{
-    background-color:#7CA228;
+    /* background-color:#7CA228; */
+    background-color: #88B04B;
+
     display: flex;
     justify-content: right;
     position:sticky;
@@ -51,8 +53,11 @@ padding: 0;
 }
 footer{
     min-height: 400px;
-    background-color: #7CA228;
+    /* background-color: #7CA228; */
+    background-color: #88B04B;
     position:relative;
+      margin: 0;
+      top:-17px
 }
 footer button{
     background-color: transparent;
@@ -64,11 +69,13 @@ footer button{
     height: 50px;
 }
 .call-us{
-    background-color: #474847;
+    /* background-color: #474847; */
+     background-color: #333129;
     display: flex;
      height: 60px;
     justify-content: space-evenly;
     vertical-align: middle;
+  
 
 }
 
@@ -91,6 +98,7 @@ footer button{
         margin: auto;
         margin-top: -10px;
     }
+    
 }  
 
 @media screen and (max-width:480px) {
@@ -118,13 +126,10 @@ footer button{
         
     }
    
-         footer{
-    /* top:-60px ; */
-    
-  }
   main{
-      top:50px
+      top:-60px
   }
-
-
+  footer{
+    top: -60px;
+  }
 }  

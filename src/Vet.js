@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import Contact from "./Contact.js";
 import Gallery from "./Gallery.js";
-import Practice from "./Practice";
+import Practice from "./Practice.js";
 import About from "./About.js";
 import Homepage from "./Homepage.js";
 import Questions from "./Questions.js";

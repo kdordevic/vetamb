@@ -8,7 +8,7 @@
 }
 .services-photo{
     width: 100%;
-    background-image: url('../locales/photos/aboodi-vesakaran-LmZsF4tnUR0-unsplash.jpg');
+    background-image: url('../locales/photos/priscilla-du-preez-2hc6ocDAsNY-unsplash.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,9 +44,9 @@
    .photo-about{
         height: 400px;
     }
-    /* .services {
-    top:10px
-    } */
+    .services {
+    top:-40px
+    } 
     
   }
 

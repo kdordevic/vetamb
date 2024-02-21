@@ -1,0 +1,42 @@
+.questions{
+     
+    display: flex;
+}
+.questions h1{
+   top: 10px;
+   padding-bottom: 20px;
+
+}
+.questions-photo{
+    width: 100%;
+    background-image: url('../locales/photos/paul-hanaoka-w2DsS-ZAP4U-unsplash.jpg');
+    /* background-attachment: scroll; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.questions-text{
+    width: 80%;
+    padding: 5vw;
+    text-align: left;
+}
+ @media screen and (max-width:768px) {
+    
+    .questions {
+        flex-direction: column;
+        top: -60px;
+        background-position: bottom;
+    }
+    .questions-photo{
+        height: 400px;
+        
+    }
+    /* footer{
+        position: relative;
+         top: -60px;
+    } */
+    
+} 
+@media screen and (max-width:480px) {
+   
+}

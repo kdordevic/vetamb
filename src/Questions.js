@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from "react-i18next";
 import qanda from "./qanda.js";
 import { i18n } from "./App.js"; 
+import "./style/Questions.css";
 
 function Questions() {
 
@@ -19,9 +20,12 @@ function Questions() {
   });
   const { t } = useTranslation();
     return (
-      <main>
-        <h1>{t("pitanja naslov")}</h1>
-       {example}
+      <main className="questions">
+        <div className="questions-photo"></div>
+        <div className="questions-text">
+          <h1>{t("pitanja naslov")}</h1>
+          {example}
+        </div>
       </main>
     );
 }

@@ -1,0 +1,18 @@
+.gallery{
+margin: auto;
+}
+.photo{
+    background-position: center;
+    background-size: cover;
+    margin: 20px;
+   
+}
+.photo-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    padding:30px;
+ 
+}
+.photo-holder{
+    margin: auto;
+}

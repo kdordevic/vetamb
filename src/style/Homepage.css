@@ -1,6 +1,6 @@
 .homepage{
     text-align: center;
-    background-image: url('../locales/photos/krista-mangulsone-9gz3wfHr65U-unsplash.jpg');
+    background-image: url('../locales/photos/jamie-street-wcO2PWLuQ3U-unsplash.jpg');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -54,8 +54,17 @@ top: 22vh;
 @media screen and (max-width:480px) {
 
     .homepage{
-        /* top: -40px; */
-        top:0px
+        top: -40px;
+        /* top:0px */
+    }
+    .homepage h1{
+    top:100px;
+    }
+ .homepage h2{
+    top:100px
+    }
+    .circle{
+    top:110px
     }
     .container{
         

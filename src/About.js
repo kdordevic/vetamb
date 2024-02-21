@@ -2,7 +2,6 @@ import React from 'react';
 import { useTranslation } from "react-i18next";
 import "./style/About.css";
 
-
 function About() {
   const { t } = useTranslation();
     return (
