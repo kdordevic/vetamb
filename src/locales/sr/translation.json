@@ -10,7 +10,8 @@
   "tekst o nama": "Veterinarska ambulanta Love Pet osnovana je 2024 godine. Na njenom čelu nalazi se spec vet med J C S ",
   "contact title": "Kontaktirajte nas",
   "adresa": "Nasa ordinacija nalazi se u ulici Bilecka 67,Lokal 07, 11000  Voždovac, Beograd",
-  "telefon": "Kontakt telefon ",
+  "telefon": "Kontakt telefon +381-11-xxxx-xxx, +381-11-xxxx-xxx",
+  "e-mail":"E-mail lovevet@xx.com",
   "formular tekst": "Za sva vaša pitanja možete nas kontaktirati putem telefona, e-maila, društvenih mreža ili putem priloženog formulara, a možete doći i lično na adresu ",
   "name": "Ime i prezime",
   "footer": "korisne informacije",
@@ -26,6 +27,9 @@
   "usluga 2": "Vakcinisanje",
   "article 1": "Članak o našoj praksi 1",
   "article 2": "Članak o našoj praksi 2",
-  "article text 1": "tekst o nasoj praksi 1",
-  "article text 2": "tekst o nasoj praksi 2"
+  "article 3": "Članak o našoj praksi 2",
+  "article text 1": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, illum saepe nam aliquam dolorem nobis voluptate ipsam provident deleniti laboriosam quasi rem tempore quis incidunt rerum nostrum autem temporibus accusantium quo. Placeat, dicta corporis. <br/>Cumque voluptate odit quo? Repellat magnam repellendus nam recusandae autem veritatis quas, debitis alias obcaecati quia?",
+  "article text 2": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, illum saepe nam aliquam dolorem nobis voluptate ipsam provident deleniti laboriosam quasi rem tempore quis incidunt rerum nostrum autem temporibus accusantium quo. Placeat, dicta corporis. <br/>Cumque voluptate odit quo? Repellat magnam repellendus nam recusandae autem veritatis quas, debitis alias obcaecati quia?",
+  "article text 3": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, illum saepe nam aliquam dolorem nobis voluptate ipsam provident deleniti laboriosam quasi rem tempore quis incidunt rerum nostrum autem temporibus accusantium quo. Placeat, dicta corporis. <br/>Cumque voluptate odit quo? Repellat magnam repellendus nam recusandae autem veritatis quas, debitis alias obcaecati quia?",
+  "privacy": "Politika privatnosti"
 }

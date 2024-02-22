@@ -14,7 +14,7 @@ function Contact() {
           <p>{t("formular tekst")}</p>
           <p>{t("adresa")}</p>
           <p>{t("telefon")}</p>
-          <p>e-mail</p>
+          <p>{t("e-mail")}</p>
         </section>
         <section className="map-form">
           <div className="form">

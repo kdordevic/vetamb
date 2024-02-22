@@ -2,7 +2,6 @@
     width: 700px;
     height: 400px;
     margin: auto;
-
 }
 .slide{
     width: 700px;
@@ -12,9 +11,38 @@
 }
 .practice h1{
     padding-top: 50px;
+    /* margin-bottom:-150px; */
+
+}
+.practice h3 {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  margin-top:-100px;
+  
+
+}
+h3:before, h3:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+h3:before {
+  margin-right: 10px
+}
+h3:after {
+  margin-left: 10px
+}
+.rectangle{
+    background-color:rgb(230, 218, 181,0.5);
+    height: 200px;
+    width: 100vw;
+    position: relative;
+    top:260px 
 }
 .practice p{
-    text-align: justify;
+    
     width: 90vw;
     margin: auto;
     padding-bottom: 50px;
@@ -30,15 +58,9 @@
     background-color:rgba(250, 250, 250,0.2);
     
 }
-/* .slideshow button :hover{
-   
-    color:rgba(250, 250, 250,0.5)
-} */
 
 .slideshow :nth-child( 1 of button) {
     right: 40vw;
-   
-
 }
 .slideshow :nth-child(2 of button) {
     left: 40vw;
@@ -50,11 +72,18 @@
 .slide{
     width: 500px;
 }
+.practice h3{
+    width: 500px
+}
 
 }
 @media screen and (max-width:480px) {
    .practice h1{
-    padding-top: 120px;
+    padding-top: 150px;
+    width: 90vw;
+    margin: auto;
+    margin-bottom:-150px;
+
 }
  .slider{
     width: 350px;
@@ -66,5 +95,18 @@
 }
 .slide{
     width: 350px;
+}
+.slideshow button{
+   
+     color:rgba(250, 250, 250);
+    
+}
+.practice h3{
+    width: 350px;
+     margin-top:-20px;
+}
+.rectangle{
+   
+    top:350px 
 }
 }

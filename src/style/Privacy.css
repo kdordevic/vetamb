@@ -1,0 +1,82 @@
+.privacy h1{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    text-align: left; 
+    
+}
+.privacy p{
+    text-align: justify;
+    width: 72vw;
+    margin: auto;
+    padding: 50px;
+    background-color: rgb(230, 218, 181,0.5);
+     border-bottom: 3px solid white;
+
+}
+.deco-right{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 50px; */
+    /* padding-top: 40px; */
+    /* background-color: rgba(0, 128, 41, 0.3); */
+    margin-left:-100px;
+    /* margin-bottom: 50px; */
+
+}
+.photos{
+    height: 70vh;
+}
+.deco1, .deco2 ,.deco3{
+    width: 50%;
+    height: 33.3%;
+    background-size: cover;
+     background-position: center;
+     /* border:5px solid white; */
+     margin-left:25%;
+     border-left: 3px solid white;
+}
+.deco1{
+   background-image: url('../locales/photos/priscilla-du-preez-2hc6ocDAsNY-unsplash.jpg');
+    
+    
+}
+.deco2{
+    background-image: url('../locales/photos/priscilla-du-preez-pv1qaGYYbuU-unsplash.jpg');
+  
+}
+.deco3{
+    background-image: url('../locales/photos/priscilla-du-preez-pWQ4TlnCFqY-unsplash.jpg');
+    
+}
+
+
+.privacy{
+    display: flex;
+}
+@media screen and (max-width:768px) {
+ 
+    .privacy p{
+padding: 10px;
+    width: 90vw;
+    border: none;
+}
+.deco-right{
+width: 90vw;
+height: 500px;
+padding: 10px;
+margin:auto;
+} 
+.deco1, .deco2 ,.deco3{
+    border: none;
+}
+}
+@media screen and (max-width:480px) {
+
+    
+}
+
+
+
+

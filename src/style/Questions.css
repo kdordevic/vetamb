@@ -5,6 +5,7 @@
 .questions h1{
    top: 10px;
    padding-bottom: 20px;
+   margin-top:-50px
 
 }
 .questions-photo{
@@ -16,9 +17,9 @@
     background-repeat: no-repeat;
 }
 .questions-text{
-    width: 80%;
     padding: 5vw;
     text-align: left;
+    width: 80%;
 }
  @media screen and (max-width:768px) {
     
@@ -31,10 +32,10 @@
         height: 400px;
         
     }
-    /* footer{
-        position: relative;
-         top: -60px;
-    } */
+    .questions-text{
+          width: 90%;
+    }
+   
     
 } 
 @media screen and (max-width:480px) {

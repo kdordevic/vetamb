@@ -1,18 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.29c2faed.css",
-    "main.js": "/static/js/main.621c9a87.js",
+    "main.css": "/static/css/main.c0523560.css",
+    "main.js": "/static/js/main.82a799b8.js",
     "static/js/912.d6fab4d4.chunk.js": "/static/js/912.d6fab4d4.chunk.js",
     "static/media/aboodi-vesakaran-LmZsF4tnUR0-unsplash.jpg": "/static/media/aboodi-vesakaran-LmZsF4tnUR0-unsplash.7f25d8ae203b02327c21.jpg",
+    "static/media/amber-kipp-75715CVEJhI-unsplash.jpg": "/static/media/amber-kipp-75715CVEJhI-unsplash.50e67283b685069d81b8.jpg",
+    "static/media/andrew-pons-lylCw4zcA7I-unsplash.jpg": "/static/media/andrew-pons-lylCw4zcA7I-unsplash.90d40c35900df812ade3.jpg",
+    "static/media/rana-sawalha-X7UR0BDz-UY-unsplash.jpg": "/static/media/rana-sawalha-X7UR0BDz-UY-unsplash.9feaa82b205843596c8c.jpg",
+    "static/media/david-kohler-wkA0d5fVt1Y-unsplash.jpg": "/static/media/david-kohler-wkA0d5fVt1Y-unsplash.2206dc791775a514571b.jpg",
+    "static/media/richard-brutyo-Sg3XwuEpybU-unsplash.jpg": "/static/media/richard-brutyo-Sg3XwuEpybU-unsplash.474e8ff86938c025d81d.jpg",
+    "static/media/jamie-street-wcO2PWLuQ3U-unsplash.jpg": "/static/media/jamie-street-wcO2PWLuQ3U-unsplash.118e22aef281eef8b520.jpg",
+    "static/media/ejsoq-ZFid7KPqPbo-unsplash.jpg": "/static/media/ejsoq-ZFid7KPqPbo-unsplash.2f2003944c37a61c6584.jpg",
+    "static/media/andriyko-podilnyk-0R7_yBljvgg-unsplash.jpg": "/static/media/andriyko-podilnyk-0R7_yBljvgg-unsplash.a9a8f21eba350cc635fe.jpg",
+    "static/media/alvan-nee-ZCHj_2lJP00-unsplash.jpg": "/static/media/alvan-nee-ZCHj_2lJP00-unsplash.349b86c471eaf6410618.jpg",
+    "static/media/jametlene-reskp-VDrErQEF9e4-unsplash.jpg": "/static/media/jametlene-reskp-VDrErQEF9e4-unsplash.14b07c98e16d2b031595.jpg",
+    "static/media/luiza-sayfullina-9giow4jXrzM-unsplash.jpg": "/static/media/luiza-sayfullina-9giow4jXrzM-unsplash.c129d204975e4ccfb718.jpg",
     "static/media/krista-mangulsone-9gz3wfHr65U-unsplash.jpg": "/static/media/krista-mangulsone-9gz3wfHr65U-unsplash.00df15906b59ec41b665.jpg",
+    "static/media/amy-humphries-AllEP6K_TAg-unsplash.jpg": "/static/media/amy-humphries-AllEP6K_TAg-unsplash.76b35c86f1811232a935.jpg",
+    "static/media/priscilla-du-preez-2hc6ocDAsNY-unsplash.jpg": "/static/media/priscilla-du-preez-2hc6ocDAsNY-unsplash.b489eb210b5a707a3993.jpg",
+    "static/media/paul-hanaoka-w2DsS-ZAP4U-unsplash.jpg": "/static/media/paul-hanaoka-w2DsS-ZAP4U-unsplash.69a4e96eaf9f06e0a44f.jpg",
     "static/media/karsten-winegeart-loJL4ijUobg-unsplash.jpg": "/static/media/karsten-winegeart-loJL4ijUobg-unsplash.f79511a15fd093b9476e.jpg",
+    "static/media/ACIDRectoverso1.jpg": "/static/media/ACIDRectoverso1.a5b98c398626c5afdfc6.jpg",
     "index.html": "/index.html",
-    "main.29c2faed.css.map": "/static/css/main.29c2faed.css.map",
-    "main.621c9a87.js.map": "/static/js/main.621c9a87.js.map",
+    "main.c0523560.css.map": "/static/css/main.c0523560.css.map",
+    "main.82a799b8.js.map": "/static/js/main.82a799b8.js.map",
     "912.d6fab4d4.chunk.js.map": "/static/js/912.d6fab4d4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29c2faed.css",
-    "static/js/main.621c9a87.js"
+    "static/css/main.c0523560.css",
+    "static/js/main.82a799b8.js"
   ]
 }

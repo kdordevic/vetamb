@@ -4,6 +4,7 @@
 .services h1{
    top: 10px;
    padding-bottom: 20px;
+   margin-top:-50px
 
 }
 .services-photo{
@@ -32,12 +33,9 @@
         height: 500px;
     }
     .services {
-    top:10px
+    top:0px
     }
-    /* footer{
-        position: relative;
-         top: -60px;
-    } */
+  
     
 } 
 @media screen and (max-width:480px) {

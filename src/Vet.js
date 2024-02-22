@@ -4,12 +4,20 @@ import Contact from "./Contact.js";
 import Gallery from "./Gallery.js";
 import Practice from "./Practice.js";
 import About from "./About.js";
+import Privacy from "./Privacy.js";
 import Homepage from "./Homepage.js";
 import Questions from "./Questions.js";
 import Services from "./Services.js";
 // import Footer from "./Footer.js";
 import LanguageSwitcher from "./LanguageSwitcher";
 import "./style/Vet.css";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   faSquareFacebook,
+//   faSquareInstagram,
+//   faLinkedin,
+// } from "@fortawesome/free-brands-svg-icons";
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
 function Vet() {
   const { t } = useTranslation();
@@ -21,10 +29,14 @@ function Vet() {
   const questions = () => setContent(<Questions />);
   const contact = () => setContent(<Contact />);
   const gallery = () => setContent(<Gallery />);
+  const privacy = () => setContent(<Privacy />);
   const [toogle, setToogle] = useState(true);
   const menuToogle= () => {
      setToogle(!toogle);
-   };
+  };
+  // const openInNewTab = (url) => {
+  //   window.open(url, "_blank", "noreferrer");
+  // };
     return (
       <div>
         <div className={toogle ? "big-screen-nav" : "small-screen-nav"}>
@@ -55,6 +67,32 @@ function Vet() {
             <button onClick={contact}>{t("contact title")}</button>
           </div>
           <h3>{t("footer")}</h3>
+
+          {/* <button className="social-icon"
+            role="link"
+            onClick={() => openInNewTab("https://instagram.com")}
+          >
+            {" "}
+            <FontAwesomeIcon icon={faSquareInstagram} />
+          </button>
+          <button className="social-icon"
+            role="link"
+            onClick={() => openInNewTab("https://facebook.com")}
+          >
+            <FontAwesomeIcon icon={faSquareFacebook} />
+          </button>
+          <button className="social-icon"
+            role="link"
+            onClick={() => openInNewTab("https://linkedin.com")}
+          >
+            <FontAwesomeIcon icon={faLinkedin} />
+          </button> */}
+
+          <div></div>
+          <div className="policy">
+            <span onClick={privacy}>{t("privacy")}  </span>
+            <span className="copy"> &copy;  Lovevet.rs 2024</span>
+          </div>
         </footer>
       </div>
     );

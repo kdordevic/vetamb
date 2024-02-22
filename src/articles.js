@@ -30,12 +30,3 @@ const articles = [
   },
 ];
 export default articles;
-
-
-// src/locales/photos/ACIDRectoverso1.jpg
-// src/locales/photos/andriyko-podilnyk-0R7_yBljvgg-unsplash.jpg
-// src/locales/photos/david-kohler-wkA0d5fVt1Y-unsplash.jpg
-// src/locales/photos/jametlene-reskp-VDrErQEF9e4-unsplash.jpg
-// src/locales/photos/jamie-street-wcO2PWLuQ3U-unsplash.jpg
-// src/locales/photos/karsten-winegeart-loJL4ijUobg-unsplash.jpg
-// src/locales/photos/krista-mangulsone-9gz3wfHr65U-unsplash.jpg

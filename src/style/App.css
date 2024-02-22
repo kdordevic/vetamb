@@ -2,8 +2,9 @@ main{
     text-align: center;
     /* background-color: #646464; */
     background-color: #636159;
- 
     position:relative;
+
+  
 
     
 }
@@ -16,6 +17,18 @@ h1{
   padding-top: 40px;
 
 }
+p{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+h3{
+  font-weight: 200;
+  font-size: 22px;
+  margin:auto;
+  margin-bottom:30px;;
+
+}
 
 @media screen and (max-width:768px) {
   main {
@@ -24,6 +37,11 @@ h1{
 }
 @media screen and (max-width:480px) {
  
-
+h1{
+   padding-top: 100px;
+}
+main{
+    margin-bottom: -60px;
+}
   
 }
