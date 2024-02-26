@@ -31,15 +31,9 @@ justify-content: right;
 .main-nav{
 padding: 0;
 }
-.nav  li{
-        list-style: none;
-        display: inline;
+.nav  a{
         margin-right: 20px;
-        color: white;
-        text-decoration:none;
         text-transform: uppercase;
-        cursor: pointer;
-        vertical-align: middle;  
     }
 .lang{
     color:white;
@@ -49,7 +43,6 @@ padding: 0;
     border: none;
     font-size: 16px;
     padding-top: 10px;
-
 }
 footer{
     height: 400px;
@@ -68,13 +61,16 @@ footer button{
     height: 50px;
 }
 .call-us{
-    /* background-color: #474847; */
      background-color: #333129;
     display: flex;
      height: 60px;
     justify-content: space-evenly;
-    vertical-align: middle;
+
+    /* vertical-align: middle; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.call-us p {
+      padding-left: 50px;
 }
 .policy{
   background-color: rgb(95, 117, 61);;
@@ -90,14 +86,6 @@ footer button{
 span{
     padding-left: 20px;
 }
-/* .social-icon{
-    border: none;
-    margin:0px;
-    width: 50px;
-    height: 50px;
-    font-size: 30px;
-
-} */
 
 @media screen and (max-width:786px) {
     .nav{
@@ -108,7 +96,7 @@ span{
         
       
     }
-    .nav  li{       
+    .nav  a{       
         display: block; 
         margin: auto; 
     
@@ -143,7 +131,7 @@ span{
         font-size: 30px; 
         position: fixed; 
     }
-     .nav  li{  
+     .nav  a{  
 
         margin-top: 30px;
         margin-left: 0px; 

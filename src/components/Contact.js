@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import "mapbox-gl/dist/mapbox-gl.css";
-import "./style/Contact.css";
+import "../style/Contact.css";
 import Map from "./Map";
 
 

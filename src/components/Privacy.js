@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
-import "./style/Privacy.css";
+import "../style/Privacy.css";
 
 function Privacy() {
     const { t } = useTranslation();

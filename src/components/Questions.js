@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from "react-i18next";
 import qanda from "./qanda.js";
 import { i18n } from "./App.js"; 
-import "./style/Questions.css";
+import "../style/Questions.css";
 
 function Questions() {
 

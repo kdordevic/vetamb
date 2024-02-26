@@ -29,6 +29,11 @@ h3{
   margin-bottom:30px;;
 
 }
+a{
+       list-style: none;
+        color: white;
+        text-decoration:none;
+}
 
 @media screen and (max-width:768px) {
   main {

@@ -2,11 +2,11 @@ import React from 'react';
 import { useTranslation } from "react-i18next";
 // import photos from './photoGallery';
 // import { i18n } from "./App.js"; 
-import "./style/Gallery.css";
+import "../style/Gallery.css";
 
 
 
- const images = require.context("./locales/gallery", true);
+ const images = require.context("../locales/gallery", true);
  const imageList = images.keys().map((image) => images(image));
 
 function Gallery() {

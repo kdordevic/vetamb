@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
-import "./style/Services.css";
+import "../style/Services.css";
 
 function Services() {
     const { t } = useTranslation();

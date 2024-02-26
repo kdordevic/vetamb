@@ -14,7 +14,7 @@ import {
   ButtonBack,
   ButtonNext,
 } from "pure-react-carousel";
-import  "./style/Practice.css";
+import  "../style/Practice.css";
 import "pure-react-carousel/dist/react-carousel.es.css";
 
 

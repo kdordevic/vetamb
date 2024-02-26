@@ -1,11 +1,11 @@
 import React from "react";
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import translationEN from "./locales/en/translation.json";
-import translationSR from "./locales/sr/translation.json";
-import './style/App.css';
+import translationEN from "../locales/en/translation.json";
+import translationSR from "../locales/sr/translation.json";
+import '../style/App.css';
+import Vet from './Vet.js';
 
-import Vet from './Vet.js'
 
 function App() {
   const resources = {
@@ -28,7 +28,7 @@ function App() {
   });
   return (
     <div className="App">
-      <Vet/>
+      <Vet/> 
     </div>
   );
 }
