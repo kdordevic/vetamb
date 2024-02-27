@@ -17,10 +17,10 @@ const LanguageSwitcher = () => {
       onChange={handleLanguageChange}
       className="lang"
     >
-      <option value="sr">
+      <option value="sr">SR 
           <ReactCountryFlag countryCode="RS" />
       </option>
-      <option value="en">
+      <option value="en">EN 
           <ReactCountryFlag countryCode="GB" />
       </option>
     </select>

@@ -1,28 +1,28 @@
 .homepage{
     text-align: center;
-    background-image: url('../locales/photos/jamie-street-wcO2PWLuQ3U-unsplash.jpg');
+    background-image: url('../locales/photos/kolaz.jpg');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     position:relative ;
    height: 105vh;
+   /* color:#907e72; */
 }
-.container{
+/* .container{
     background-color: rgba(0, 0, 0,0.5);
      height: 105vh;
-}
+} */
 .homepage h1{
 
 padding-bottom: 0vh;
 padding-top: 12vh;
-top: 7vhvh;
 }
 .homepage h2{
     font-weight: 400;
     font-size: 50px;
     text-transform: uppercase;
-    position: relative;
-    top: 5vhvh;
+
+
 }
 .circle {
     margin: auto;
@@ -39,12 +39,12 @@ top: 7vhvh;
 }
 .social{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
   position: sticky;
-  margin-left:85vw;
- padding-left: 20px;
+  margin-left:80vw;
   top:50px;
-  background-color:rgb(0, 0, 0,0.3)
+  height: 150px;
+  /* background-color:rgb(0, 0, 0,0.3) */
 }
 .social-icon{
     border: none;
@@ -59,15 +59,19 @@ top: 7vhvh;
     display: flex;
     flex-direction: row;
     margin: auto;
+    background-color:rgb(144, 126, 114,0.5);
 }
 .contact-home p{
-    padding: 30px;
+    padding: 20px;
      margin: auto;
 }
     @media screen and (max-width:768px) {
     
 .homepage h1{
     top: 0vh;
+    }
+    .social{
+        margin-right: 80vw;
     }
  .homepage h2{
     top:0vh
@@ -101,6 +105,7 @@ top: 7vhvh;
     }
 .social{
     top:120px;
+    flex-direction: column;
     
 }
 

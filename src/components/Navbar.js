@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import "../style/Vet.css";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { useTranslation } from "react-i18next";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPaw } from "@fortawesome/free-solid-svg-icons";
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
 export default function Navbar() {
   const { t } = useTranslation();
@@ -19,14 +22,21 @@ export default function Navbar() {
       </div>
       <nav className="nav">
         <ul className="main-nav" onClick={menuToogle}>
-        <Link to="/">{t("Homepage")}</Link>
-        <Link to="/about">{t("About")}</Link>
-        <Link to="/services">{t("Services")}</Link>
-        <Link to="/practice">{t("Practice")}</Link>
-        <Link to="/contact">{t("Contact")}</Link>
-        <Link to="/gallery">{t("Gallery")}</Link>
-        <Link to="/questions">{t("Questions")}</Link>
-        <LanguageSwitcher />   
+          <div className="logo">
+            <Link to="/" className="logo-nav">
+              <FontAwesomeIcon className="icon-nav" icon={faPaw} />
+            </Link>
+          </div>
+          <div>
+            <Link to="/">{t("Homepage")}</Link>
+            <Link to="/about">{t("About")}</Link>
+            <Link to="/services">{t("Services")}</Link>
+            <Link to="/practice">{t("Practice")}</Link>
+            <Link to="/contact">{t("Contact")}</Link>
+            <Link to="/gallery">{t("Gallery")}</Link>
+            <Link to="/questions">{t("Questions")}</Link>
+            <LanguageSwitcher />
+          </div>
         </ul>
       </nav>
     </div>

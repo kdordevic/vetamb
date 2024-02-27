@@ -30,9 +30,9 @@ h3{
 
 }
 a{
-       list-style: none;
-        color: white;
-        text-decoration:none;
+      list-style: none;
+      color: white;
+      text-decoration:none;
 }
 
 @media screen and (max-width:768px) {
