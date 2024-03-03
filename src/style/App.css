@@ -3,10 +3,7 @@ main{
     /* background-color: #646464; */
     background-color: #636159;
     position:relative;
-
-  
-
-    
+ 
 }
 h1{
   font-weight: 200;
@@ -18,8 +15,8 @@ h1{
 
 }
 p{
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  /* padding-bottom: 20px;
+  margin-bottom: 20px; */
   text-align: justify;
 }
 h3{
@@ -33,6 +30,19 @@ a{
       list-style: none;
       color: white;
       text-decoration:none;
+}
+.not-found{
+background-color: rgb(85, 78, 67);
+text-align: center;
+
+}
+.graphic{
+  /* background-image:url('../locales/photos/pexels-sam-lion-5731874.jpg'); */
+  width:250px;
+  height:250px;
+  background-size: cover;
+  background-position: center;
+  /* background-color: tomato; */
 }
 
 @media screen and (max-width:768px) {

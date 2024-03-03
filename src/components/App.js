@@ -8,6 +8,8 @@ import Vet from './Vet.js';
 
 
 function App() {
+  
+
   const resources = {
     en: {
       translation: translationEN,

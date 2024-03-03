@@ -3,7 +3,10 @@
   padding-bottom: 20px;
 }
 .contact-info{
-padding: 50px;
+/* padding-left: 50px;
+padding-right: 50px; */
+width: 90%;
+margin: auto;
 }
 .form{
 display: flex;
@@ -23,21 +26,34 @@ input{
 height: 30px;
 border-bottom: 0.5px solid white;
 }
-
-/* form :first-child{ */
-/* border-top-left-radius:15px;border-top-right-radius:15px */
-/* } */
+form :first-child{
+border-radius: 20px 20px 0px 0px;
+}
+.contact .social{
+  position: unset;
+  height: 100%;
+  padding-bottom: 20px;
+  margin-top: -60px;
+  margin-right: 300px;
+  /* background-color:rgb(0, 0, 0,0.3) */
+}
 textarea{
 margin-top: -0.25px;
 /* border-bottom-left-radius:15px;
 border-bottom-right-radius:15px; */
 height: 298px;
 resize: none;
+border-radius: 0 0 20px 20px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
 }
-.form form{
+form{
 display: flex;
 flex-direction: column;
 width: 100%;
+
+
+
 }
 form button{
   background-color: transparent;
@@ -51,6 +67,10 @@ form button{
 }
 .map-form{
   display: flex;
+}
+.mapboxgl-map{
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .marker{
  background-image: url('../locales/photos/mapbox-icon.png');
@@ -72,14 +92,16 @@ form button{
   padding-left: 20px;
    padding: 10px 50px 40px 20px;
   z-index: 0;
-
 }
+ 
 @media screen and (max-width:768px) {
-    
+ 
+.contact-info{
+  /* padding-left: 40px;
+  padding-right: 40px; */
+}
   .map-form{
   flex-direction: column;
-
-  
 }
   .map{
   width: 90%;
@@ -93,12 +115,31 @@ form button{
   margin:auto;
   margin-bottom: 60px;
 }
+.contact .social{
+  margin-top: -60px; 
+  padding-bottom: 20px;
+  margin-left:73vw;
+
+}
+
    
   }
 @media screen and (max-width:480px) {
   .contact{
     top:-60px
   }
+  .contact h1{
+    padding-bottom: 20px;
+  }
+  .contact .social{
+  flex-direction: row;
+  margin: auto;
+  margin-left:120px;
+  padding-top: 10px; 
+  padding-bottom: 30px;
+
+
+    }
 }
 
 

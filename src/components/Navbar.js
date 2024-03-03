@@ -20,14 +20,14 @@ export default function Navbar() {
         <div className="menu-line-2"></div>
         <div className="menu-line-3"></div>
       </div>
-      <nav className="nav">
+      <nav className="nav" onClick={menuToogle}>
         <ul className="main-nav" onClick={menuToogle}>
           <div className="logo">
             <Link to="/" className="logo-nav">
               <FontAwesomeIcon className="icon-nav" icon={faPaw} />
             </Link>
           </div>
-          <div>
+          <div className="links">
             <Link to="/">{t("Homepage")}</Link>
             <Link to="/about">{t("About")}</Link>
             <Link to="/services">{t("Services")}</Link>

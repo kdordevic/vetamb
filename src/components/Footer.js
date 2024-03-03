@@ -41,7 +41,7 @@ function Footer() {
       </div>
       <div className="policy">
         <a href="./privacy">{t("privacy")}</a>
-        <span className="copy"> &copy; Lovevet.rs 2024</span>
+        <span className="copy"> &copy; Lovepet.rs 2024</span>
       </div>
     </footer>
   );

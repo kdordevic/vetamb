@@ -8,6 +8,7 @@ import Homepage from "./Homepage.js";
 import Questions from "./Questions.js";
 import Services from "./Services.js";
 import Footer from "./Footer.js";
+import NotFound from "./NotFound.js";
 import "../style/Vet.css";
 // import "@fortawesome/fontawesome-svg-core/styles.css";
 import Navbar from "./Navbar";
@@ -28,9 +29,10 @@ function Vet() {
               <Route path="/contact" element={<Contact />}></Route>
               <Route path="/gallery" element={<Gallery />}></Route>
               <Route path="/privacy" element={<Privacy />}></Route>
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </div>
-         <Footer/>
+          <Footer />
         </Router>
       </div>
     );

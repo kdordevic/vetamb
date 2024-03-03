@@ -17,7 +17,7 @@ const Map = () => {
 const markerCoordinates = [44.76532887627308, 20.480645967692666];
 
     return (
-      <ReactMapGL
+      <ReactMapGL 
         {...viewport}
         mapboxAccessToken={
           "pk.eyJ1IjoiY2FjaXRhayIsImEiOiJjbHNuZzFkMDUwM2trMmtxcTRzYjl6aXFkIn0.dQP81MhYjJ3q1wUbm3soKA"

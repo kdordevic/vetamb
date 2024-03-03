@@ -6,7 +6,10 @@ function About() {
   const { t } = useTranslation();
     return (
       <main className="about">
-        <div className="photo-about"></div>
+        <div className="photo-about">
+          <div className="photo-about-1"></div>
+          <div className="photo-about-2"></div>
+        </div>
         <div className="text-about">
           <h1>{t("o nama")}</h1>
           <p>
@@ -49,6 +52,7 @@ function About() {
             <br />
             molestiae nemo nam, magnam nesciunt. Adipisci.
           </p>
+          <div className="photo-about-3"></div>
         </div>
       </main>
     );
