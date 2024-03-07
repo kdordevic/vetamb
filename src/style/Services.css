@@ -1,51 +1,63 @@
 .services{
     display: flex;
+     flex-direction: column;
+     overflow-x: hidden;
 }
 .services h1{
    top: 10px;
-   padding-bottom: 20px;
-   margin-top:-50px
-
+   padding-bottom: 40px;
+   /* margin-top:-50px */
+}
+.services section{
+    display: flex;
 }
 .services-photo{
     width: 100%;
-    background-image: url('../locales/photos/priscilla-du-preez-2hc6ocDAsNY-unsplash.jpg');
+   
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-left: 50px;
+}
+.first-photo{
+ background-image: url('../locales/photos/priscilla-du-preez-2hc6ocDAsNY-unsplash.jpg');
+}
+.second-photo{
+     background-image: url('../locales/photos/hedgehog.jpg');
+}
+.third-photo{
+     background-image: url('../locales/photos/erik-jan-leusink-uamiRCpAmrU-unsplash.jpg');
 }
 .services-text{
-    width: 80%;
-    padding: 50px;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: right;
+    padding-right: 50px;
 }
 @media screen and (max-width:768px) {
     
-    .services {
-        flex-direction: column;
-        top: -60px;
-    }
     .services-text{
         text-align: center;
         margin: auto;
     }
-    .services-photo{
-        height: 500px;
-    }
-    .services {
-    top:0px
-    }
+   
   
     
 } 
 @media screen and (max-width:480px) {
-   .photo-about{
+   .services-photo{
         height: 400px;
     }
     .services {
-    top:-40px
+    top:-40px;
     } 
-    
+    .services section{
+  flex-direction: column;
+}
+.second-photo{
+    display: none;
+}
   }
 
 

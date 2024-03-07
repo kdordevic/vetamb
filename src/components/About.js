@@ -1,11 +1,18 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import "../style/About.css";
+import { motion } from "framer-motion";
+
 
 function About() {
   const { t } = useTranslation();
     return (
-      <main className="about">
+      <motion.main
+        className="about"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+      >
         <div className="photo-about">
           <div className="photo-about-1"></div>
           <div className="photo-about-2"></div>
@@ -52,9 +59,23 @@ function About() {
             <br />
             molestiae nemo nam, magnam nesciunt. Adipisci.
           </p>
-          <div className="photo-about-3"></div>
+          {/* <div className="photo-about-3"></div> */}
+          <motion.div
+            className="photo-about-3"
+            initial={{
+              y: 300
+            }}
+            whileInView={{
+              y: 0,
+              transition: {
+                type: "spring",
+                bounce: 0.2,
+                duration: 0.8,
+              },
+            }}
+          />
         </div>
-      </main>
+      </motion.main>
     );
 }
 

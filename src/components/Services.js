@@ -1,13 +1,33 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import "../style/Services.css";
+import { motion } from "framer-motion";
 
 function Services() {
     const { t } = useTranslation();
-    return (
-      <main className="services">
-        <div className="services-text">
-          <h1>{t("usluge naslov")}</h1>
+  return (
+    <motion.main
+      className="services"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+    >
+      <h1>{t("usluge naslov")}</h1>
+      <section>
+        <motion.div
+          className="services-text"
+          initial={{
+            y: -300,
+          }}
+          whileInView={{
+            y: 0,
+            transition: {
+              type: "spring",
+              bounce: 0.2,
+              duration: 1,
+            },
+          }}
+        >
           <h4>{t("usluga 1")}</h4>
           <h4>{t("usluga 2")}</h4>
           <h4>{t("usluga 1")}</h4>
@@ -18,11 +38,106 @@ function Services() {
           <h4>{t("usluga 2")}</h4>
           <h4>{t("usluga 1")}</h4>
           <h4>{t("usluga 2")}</h4>
-        </div>
-        <div className="services-photo"></div>
-        
-      </main>
-    );
+        </motion.div>
+        <motion.div
+          className="services-photo first-photo"
+          initial={{
+            x: 300,
+          }}
+          whileInView={{
+            x: 0,
+            transition: {
+              type: "spring",
+              bounce: 0.2,
+              duration: 1,
+            },
+          }}
+        ></motion.div>
+      </section>
+      <section>
+        <motion.div
+          className="services-photo second-photo"
+          initial={{
+            x: -300,
+          }}
+          whileInView={{
+            x: 0,
+            transition: {
+              type: "spring",
+              bounce: 0.2,
+              duration: 1,
+            },
+          }}
+        ></motion.div>
+        <motion.div
+          className="services-text"
+          initial={{
+            x: 300,
+          }}
+          whileInView={{
+            x: 0,
+            transition: {
+              type: "spring",
+              bounce: 0.2,
+              duration: 1,
+            },
+          }}
+        >
+          <h4>{t("usluga 1")}</h4>
+          <h4>{t("usluga 2")}</h4>
+          <h4>{t("usluga 1")}</h4>
+          <h4>{t("usluga 2")}</h4>
+          <h4>{t("usluga 1")}</h4>
+          <h4>{t("usluga 2")}</h4>
+          <h4>{t("usluga 1")}</h4>
+          <h4>{t("usluga 2")}</h4>
+          <h4>{t("usluga 1")}</h4>
+          <h4>{t("usluga 2")}</h4>
+        </motion.div>
+      </section>
+      <section>
+        <motion.div
+          className="services-text"
+          initial={{
+            y: 300,
+          }}
+          whileInView={{
+            y: 0,
+            transition: {
+              type: "spring",
+              bounce: 0.2,
+              duration: 1,
+            },
+          }}
+        >
+          <h4>{t("usluga 1")}</h4>
+          <h4>{t("usluga 2")}</h4>
+          <h4>{t("usluga 1")}</h4>
+          <h4>{t("usluga 2")}</h4>
+          <h4>{t("usluga 1")}</h4>
+          <h4>{t("usluga 2")}</h4>
+          <h4>{t("usluga 1")}</h4>
+          <h4>{t("usluga 2")}</h4>
+          <h4>{t("usluga 1")}</h4>
+          <h4>{t("usluga 2")}</h4>
+        </motion.div>
+        <motion.div
+          className="services-photo third-photo"
+          initial={{
+            x: 300,
+          }}
+          whileInView={{
+            x: 0,
+            transition: {
+              type: "spring",
+              bounce: 0.2,
+              duration: 1,
+            },
+          }}
+        ></motion.div>
+      </section>
+    </motion.main>
+  );
 }
 
 export default Services

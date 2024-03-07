@@ -12,7 +12,7 @@ const photos = [
   {
     id: 3,
     photo: "././photos/srecko.jpg",
-    title: "photo title 3",
+    title: "Srećko",
   },
   {
     id: 4,

@@ -1,6 +1,8 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import "../style/Footer.css";
+// import { motion } from "framer-motion";
+//  import Animation from "./Animation.js";
 
 function Footer() {
   const { t } = useTranslation();
@@ -38,6 +40,11 @@ function Footer() {
             <h5>{t("footer4")}</h5>
           </div>
         </div>
+      </div>
+      <div className="svg-img">
+        {/* <img src="././svg/dog.svg" alt="svg" /> */}
+
+         {/* <Animation />  */}
       </div>
       <div className="policy">
         <a href="./privacy">{t("privacy")}</a>

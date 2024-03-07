@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaw } from "@fortawesome/free-solid-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import { motion } from "framer-motion";
 
 export default function Navbar() {
   const { t } = useTranslation();
@@ -20,7 +21,13 @@ export default function Navbar() {
         <div className="menu-line-2"></div>
         <div className="menu-line-3"></div>
       </div>
-      <nav className="nav" onClick={menuToogle}>
+      <motion.nav
+        className="nav"
+        onClick={menuToogle}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+      >
         <ul className="main-nav" onClick={menuToogle}>
           <div className="logo">
             <Link to="/" className="logo-nav">
@@ -31,14 +38,15 @@ export default function Navbar() {
             <Link to="/">{t("Homepage")}</Link>
             <Link to="/about">{t("About")}</Link>
             <Link to="/services">{t("Services")}</Link>
-            <Link to="/practice">{t("Practice")}</Link>
-            <Link to="/contact">{t("Contact")}</Link>
-            <Link to="/gallery">{t("Gallery")}</Link>
             <Link to="/questions">{t("Questions")}</Link>
+            <Link to="/practice">{t("Practice")}</Link>
+            <Link to="/gallery">{t("Gallery")}</Link>
+            <Link to="/contact">{t("Contact")}</Link>
+
             <LanguageSwitcher />
           </div>
         </ul>
-      </nav>
+      </motion.nav>
     </div>
   );
 }

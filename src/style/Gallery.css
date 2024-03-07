@@ -16,13 +16,14 @@ margin: auto;
     text-align: center;
     line-height: 500px;
     color: transparent;
+    border: 6px solid  rgb(140, 132, 109);
 
 }
 
 .photo-gallery{
     display: flex;
     flex-wrap: wrap;
-    padding:20px;
+    padding-bottom:30px;
      margin: auto;
 }
 
@@ -35,12 +36,10 @@ margin: auto;
 .pet-name{
     background-color:transparent;
     height: 100%;
-    border-radius: 20px;
-    font-size: 25px;
-    text-transform: uppercase;
+    border-radius: 15px;
+    font-size: 20px;
     margin-top: 0px;
     top: 20px;
-    /* background-color: rgb(136, 176, 75,0.5); */
 }
 .pet-name:hover{
     background-color: rgba(51, 40, 25, 0.5);
@@ -69,8 +68,8 @@ margin: auto;
 }
 
 @media screen and (max-width:768px) {
-    /* .photo{
-        width: 500px;
-        height: 500px;
-    } */
+    .gallery h1{
+        padding-top: 100px;
+  
+}
 }

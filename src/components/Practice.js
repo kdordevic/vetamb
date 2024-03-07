@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css";
-
+import { motion } from "framer-motion";
 import {
   CarouselProvider,
   Slider,
@@ -25,6 +25,7 @@ function Practice() {
     const { id } = article;
     const translatedTitle = i18n.t(article.title);
     const translatedText = i18n.t(article.text);
+    
 
     return (
       <section key={id}>
@@ -64,11 +65,16 @@ function Practice() {
   });
   const { t } = useTranslation();
    return (
-      <main className="practice">
+     <motion.main
+       className="practice"
+       initial={{ opacity: 0 }}
+       whileInView={{ opacity: 1 }}
+       viewport={{ once: true }}
+     >
        <h1>{t("praksa tekst")}</h1>
-        { example }
-      </main>
-    );
+       {example}
+     </motion.main>
+   );
 }
 
 export default Practice

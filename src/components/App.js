@@ -7,6 +7,7 @@ import '../style/App.css';
 import Vet from './Vet.js';
 
 
+
 function App() {
   
 
@@ -30,7 +31,7 @@ function App() {
   });
   return (
     <div className="App">
-      <Vet/> 
+     <Vet/>  
     </div>
   );
 }

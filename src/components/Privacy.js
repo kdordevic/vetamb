@@ -1,11 +1,17 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import "../style/Privacy.css";
+import { motion } from "framer-motion";
 
 function Privacy() {
     const { t } = useTranslation();
   return (
-    <main className="privacy">
+    <motion.main
+      className="privacy"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+    >
       <div>
         <h1>{t("privacy")}</h1>
         <p>
@@ -15,8 +21,8 @@ function Privacy() {
           razumeli način na koji postupamo sa vašim podacima.
         </p>
         <p>
-          1. Prikupljanje informacija: Naš veb sajt koristi Google Analytics kako
-          bismo prikupili anonimne statističke podatke o posetiocima,
+          1. Prikupljanje informacija: Naš veb sajt koristi Google Analytics
+          kako bismo prikupili anonimne statističke podatke o posetiocima,
           uključujući IP adrese, vrstu uređaja, vreme provedeno na sajtu i
           pregledane stranice. Ovi podaci se koriste isključivo u svrhu analize
           posetilaca i unapređenja korisničkog iskustva našeg sajta. Takođe,
@@ -53,10 +59,9 @@ function Privacy() {
         <p className="last-p">
           6. Promene u politici privatnosti: Ova politika privatnosti može biti
           ažurirana s vremena na vreme. Svaka izmena će biti objavljena na ovoj
-          stranici, a datum izmene će biti naglašen na vrhu dokumenta. 
-         Za sva pitanja ili zahtev za ostvarivanje vaših prava u vezi
-          sa zaštitom podataka, možete nas kontaktirati putem sledeće e-mail
-          adrese:
+          stranici, a datum izmene će biti naglašen na vrhu dokumenta. Za sva
+          pitanja ili zahtev za ostvarivanje vaših prava u vezi sa zaštitom
+          podataka, možete nas kontaktirati putem sledeće e-mail adrese:
         </p>
       </div>
       <div className="deco-right">
@@ -66,7 +71,7 @@ function Privacy() {
           <div className="deco3"></div>
         </div>
       </div>
-    </main>
+    </motion.main>
   );
 }
 

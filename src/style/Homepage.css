@@ -1,11 +1,14 @@
 .homepage{
     text-align: center;
     background-image: url('../locales/photos/kolaz.jpg');
-    background-position: center;
+    background-position: top;
     background-attachment: fixed;
     background-size: cover;
     position:relative ;
-   height: 105vh;
+    /* top: -50px; */
+
+   /* height: 105vh; */
+
    /* color:#907e72; */
 }
 .container{
@@ -43,7 +46,7 @@ padding-top: 12vh;
     display: flex;
   position: sticky;
   margin-left:80vw;
-  top:50px;
+  top:70px;
   height: 150px;
   /* background-color:rgb(0, 0, 0,0.3) */
 }
@@ -73,6 +76,7 @@ padding-top: 12vh;
 }
 .social{
         margin-right: 80vw;
+        top:100px;
     }
  .homepage h2{
     top:0vh;
@@ -94,11 +98,9 @@ padding-top: 12vh;
 
     .homepage{
         top: -40px;
-        /* top:0px */
+
     }
-    .homepage h1{
   
-    }
  .homepage h2{
 margin-top:10px;
     }

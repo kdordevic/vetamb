@@ -1,7 +1,6 @@
 .menu{
     position:sticky;
     top: 50px;
-    margin-left: 80vw;
     z-index: 2;
     display:none;
 }
@@ -24,6 +23,13 @@ ul{
     
 }
 
+.links{
+ justify-content: stretch;
+}
+/* span{
+ padding-left: 0px;
+} */
+
 .nav{
     background-color: #88B04B;
     top: 0px;
@@ -38,7 +44,12 @@ ul{
 .nav  a{
         margin-right: 20px;
         text-transform: uppercase;
+    
     }
+ .nav a:hover {
+     font-weight:600 ;
+      margin-right: 18px;
+ }   
 
 .lang{
     color:white;
@@ -70,25 +81,43 @@ font-size: 20px;
 .big-screen-nav{
 display: inline;
 }
+ .nav a:hover {
+     font-weight:600 ;
+     
+ } 
+ .menu{
+        display:flex;
+        flex-direction: column;
+        margin-left: 85vw;
+    }
+    .big-screen-nav .nav{
+        display: none;     
+    }
     .nav{
         height: 100%;
         flex-direction: column;
         padding-left: 0;
         padding-top: 10px;
         padding-bottom: 10px;
-        position:relative;
+        /* position:relative; */
         
       
     }
+      .nav a:hover {
+     font-weight:600 ;
+     margin:auto;
+
+ } 
     .nav  a{       
         display: block; 
         margin: auto;             
     }
+  
     ul{
        margin: auto;
         text-align: center;
         text-align:right;
-        margin-right: 30px;
+        /* margin-right: 30px; */
     }
     .lang{
         margin: auto;
@@ -120,6 +149,7 @@ padding: 0;
   .menu{
         display:flex;
         flex-direction: column;
+         margin-left: 80vw;
     }
     .big-screen-nav .nav{
         display: none;     
@@ -131,6 +161,11 @@ padding: 0;
         position: fixed; 
         right: 0px;
     }
+       .nav a:hover {
+     font-weight:600 ;
+       margin-top: 30px;
+
+ } 
      .nav  a{  
 
         margin-top: 30px;
@@ -157,6 +192,10 @@ padding: 0;
   .nav .logo-nav{
     width: 60px;
     height:60px;
+    margin:auto; 
+}
+ .nav .logo-nav:hover{
+  
     margin:auto; 
 }
 .icon-nav{

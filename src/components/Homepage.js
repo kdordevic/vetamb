@@ -9,6 +9,7 @@ import {
   faSquareInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import { motion } from "framer-motion";
 const openInNewTab = (url) => {
   window.open(url, "_blank", "noreferrer");
 };
@@ -16,7 +17,12 @@ const openInNewTab = (url) => {
 function Homepage() {
     const { t } = useTranslation();
     return (
-      <main className="homepage">
+      <motion.main
+        className="homepage"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+      >
         <div className="container">
           <div className="social">
             <button
@@ -56,7 +62,7 @@ function Homepage() {
             <p>{t("e-mail")}</p>
           </section>
         </div>
-      </main>
+      </motion.main>
     );
 }
 

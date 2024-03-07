@@ -10,7 +10,6 @@ import Services from "./Services.js";
 import Footer from "./Footer.js";
 import NotFound from "./NotFound.js";
 import "../style/Vet.css";
-// import "@fortawesome/fontawesome-svg-core/styles.css";
 import Navbar from "./Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
