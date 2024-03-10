@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a84689b1.css",
-    "main.js": "/static/js/main.6a33fbc8.js",
+    "main.css": "/static/css/main.ac7bf1c5.css",
+    "main.js": "/static/js/main.10db6006.js",
     "static/js/912.d6fab4d4.chunk.js": "/static/js/912.d6fab4d4.chunk.js",
     "static/media/priscilla-du-preez-pv1qaGYYbuU-unsplash.jpg": "/static/media/priscilla-du-preez-pv1qaGYYbuU-unsplash.d67e9270691501b36a3d.jpg",
     "static/media/hedgehog.jpg": "/static/media/hedgehog.b6fad62d677ba45de6e3.jpg",
@@ -13,12 +13,12 @@
     "static/media/kolaz.jpg": "/static/media/kolaz.4d8a4334f8d266ce56ba.jpg",
     "static/media/Jelena.JPG": "/static/media/Jelena.9a22bcdca8a5a88305d3.JPG",
     "index.html": "/index.html",
-    "main.a84689b1.css.map": "/static/css/main.a84689b1.css.map",
-    "main.6a33fbc8.js.map": "/static/js/main.6a33fbc8.js.map",
+    "main.ac7bf1c5.css.map": "/static/css/main.ac7bf1c5.css.map",
+    "main.10db6006.js.map": "/static/js/main.10db6006.js.map",
     "912.d6fab4d4.chunk.js.map": "/static/js/912.d6fab4d4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a84689b1.css",
-    "static/js/main.6a33fbc8.js"
+    "static/css/main.ac7bf1c5.css",
+    "static/js/main.10db6006.js"
   ]
 }
