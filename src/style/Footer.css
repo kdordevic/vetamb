@@ -4,6 +4,7 @@ footer{
     /* position:sticky; */
     margin: 0;
      background-color: #88B04B; 
+   
 
 }
 footer button{
@@ -39,7 +40,7 @@ footer button{
 .footer-info{
     display: flex;  
   justify-content: space-evenly;
-       padding-bottom: 30px;
+       padding-bottom: 70px;
 }
 .footer-info div{  
    margin:auto; 

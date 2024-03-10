@@ -14,6 +14,10 @@ export default function Navbar() {
     const menuToogle = () => {
         setToogle(!toogle);
     }
+   const handleLanguageSwitcherClick = (e) => {
+     // Handle the click event for LanguageSwitcher
+     e.stopPropagation();
+   };
   return (
     <div className={toogle ? "big-screen-nav" : "small-screen-nav"}>
       <div className={toogle ? "menu" : "no-menu"} onClick={menuToogle}>
@@ -28,7 +32,7 @@ export default function Navbar() {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
       >
-        <ul className="main-nav" onClick={menuToogle}>
+        <ul className="main-nav">
           <div className="logo">
             <Link to="/" className="logo-nav">
               <FontAwesomeIcon className="icon-nav" icon={faPaw} />
@@ -42,7 +46,7 @@ export default function Navbar() {
             <Link to="/practice">{t("Practice")}</Link>
             <Link to="/gallery">{t("Gallery")}</Link>
             <Link to="/contact">{t("Contact")}</Link>
-            <LanguageSwitcher />
+              <LanguageSwitcher onClick={handleLanguageSwitcherClick} />
           </div>
         </ul>
       </motion.nav>
