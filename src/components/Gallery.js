@@ -45,8 +45,9 @@ function Gallery() {
 
     return (
       <div className="photo-gallery" key={id}>
-        <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }} 
-        
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.9 }}
           className="photo"
           style={{
             backgroundImage: `url(${photo})`,
@@ -58,7 +59,8 @@ function Gallery() {
             style={customStyles}
             contentLabel="Example Modal"
           >
-            <div 
+            <div
+              onClick={() => closeModal(index)}
               className="modal"
               style={{
                 backgroundImage: `url(${photo})`,

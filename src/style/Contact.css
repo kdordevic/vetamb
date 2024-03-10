@@ -118,7 +118,7 @@ form button{
 .contact .social{
   margin-top: -60px; 
   padding-bottom: 20px;
-  margin-left:73vw;
+  margin-left:70vw;
 
 }
 
@@ -134,7 +134,7 @@ form button{
   .contact .social{
   flex-direction: row;
   margin: auto;
-  margin-left:120px;
+  /* margin-left:100px; */
   padding-top: 10px; 
   padding-bottom: 30px;
 

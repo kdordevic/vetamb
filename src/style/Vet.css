@@ -166,16 +166,17 @@ padding: 0;
        margin-top: 30px;
 
  } 
-     .nav  a{  
 
-        margin-top: 30px;
+.nav  a{  
+
+        margin-top: 25px;
         border-bottom: 0.5px solid white;
         width: 250px;
     }
     .lang{
         padding-left: 10px;
-          margin:auto;
-          margin-top: 20px;
+        margin:auto;
+        margin-top: 15px;
         font-size: 25px;
         border-bottom: 0.5px solid white;
         width: 250px;
@@ -183,16 +184,20 @@ padding: 0;
     }
     ul{
         text-align: center;
-        margin:auto;
         flex-direction: column;
     }
   main{
       top:-60px
   }
+  .logo{
+      padding-left: 0px;
+      padding-top: 0px;
+  }
   .nav .logo-nav{
     width: 60px;
     height:60px;
     margin:auto; 
+   
 }
  .nav .logo-nav:hover{
   

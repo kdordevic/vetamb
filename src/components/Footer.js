@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "../style/Footer.css";
 // import { motion } from "framer-motion";
@@ -12,7 +13,7 @@ function Footer() {
         <p>{t("footer question")}</p>
         {
           <button>
-            <a href="./contact">{t("Contact")}</a>
+            <Link to="/contact">{t("Contact")}</Link>
           </button>
         }
       </div>
@@ -44,10 +45,11 @@ function Footer() {
       <div className="svg-img">
         {/* <img src="././svg/dog.svg" alt="svg" /> */}
 
-         {/* <Animation />  */}
+        {/* <Animation />  */}
       </div>
       <div className="policy">
-        <a href="./privacy">{t("privacy")}</a>
+        {/* <a href="./privacy">{t("privacy")}</a> */}
+        <Link to="./privacy">{t("privacy")}</Link>
         <span className="copy"> &copy; Lovepet.rs 2024</span>
       </div>
     </footer>

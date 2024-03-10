@@ -26,14 +26,6 @@ function About() {
             dignissimos molestiae nemo nam, magnam nesciunt. Adipisci.Lorem
             ipsum, dolor sit amet consectetur adipisicing elit. Distinctio
             quasi, labore est vitae
-            <br />
-            quos odit itaque exercitationem soluta magni dolorem veniam qui
-            praesentium dignissimos molestiae nemo nam, magnam nesciunt.
-            Adipisci.Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Distinctio quasi, labore est vitae quos odit itaque exercitationem
-            soluta magni dolorem veniam qui praesentium dignissimos molestiae
-            nemo
-            <br />
             nam, magnam nesciunt. Adipisci.Lorem ipsum, dolor sit amet
             consectetur adipisicing elit. Distinctio quasi, labore est vitae
             quos odit itaque exercitationem soluta magni dolorem veniam qui
@@ -71,6 +63,7 @@ function About() {
                 type: "spring",
                 bounce: 0.2,
                 duration: 0.8,
+                repeat:5
               },
             }}
           />

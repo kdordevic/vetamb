@@ -42,7 +42,6 @@ export default function Navbar() {
             <Link to="/practice">{t("Practice")}</Link>
             <Link to="/gallery">{t("Gallery")}</Link>
             <Link to="/contact">{t("Contact")}</Link>
-
             <LanguageSwitcher />
           </div>
         </ul>

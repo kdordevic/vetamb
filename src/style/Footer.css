@@ -17,14 +17,13 @@ footer button{
 }
 .call-us{
      background-color: #333129;
-    display: flex;
+     display: flex;
      height: 60px;
+     margin: auto;
     justify-content: space-evenly;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-.call-us p {
-      padding-left: 50px;
-}
+
 .policy{
   background-color: rgb(95, 117, 61);;
    height: 60px;
@@ -100,10 +99,12 @@ footer{
       flex-direction: column;
       height: fit-content;
      text-align: center;
-     padding-top: 10px;
-
-   
+     padding-top: 10px;  
   }
+   .call-us p  {
+   padding-left:20px;  
+    padding-right:20px; 
+ } 
   footer button{
       margin: auto;
     margin-top: 0px;

@@ -70,7 +70,9 @@ padding-top: 12vh;
      margin: auto;
 }
     @media screen and (max-width:768px) {
-    
+  .homepage{
+          background-attachment: scroll;
+  }  
 .homepage h1{
     top: 0vh;
 }
