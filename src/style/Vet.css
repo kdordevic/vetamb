@@ -1,3 +1,4 @@
+
 .menu{
     position:sticky;
     top: 50px;
@@ -20,15 +21,11 @@ ul{
     justify-content: space-between;
     width: 100%;
     margin: 10px;
-    
 }
 
 .links{
  justify-content: stretch;
 }
-/* span{
- padding-left: 0px;
-} */
 
 .nav{
     background-color: #88B04B;
@@ -99,7 +96,9 @@ display: inline;
         padding-left: 0;
         padding-top: 10px;
         padding-bottom: 10px;
+          /* animation: slide-in 0.5s forwards; */
         /* position:relative; */
+
         
       
     }
@@ -156,19 +155,19 @@ padding: 0;
     }
     .small-screen-nav .nav{
         height: 100%;
-        width: 75%;
+        width: 85%;
         font-size: 25px; 
         position: fixed; 
         right: 0px;
     }
        .nav a:hover {
      font-weight:600 ;
-       margin-top: 30px;
-
+       margin-top: 25px;
  } 
+ 
+
 
 .nav  a{  
-
         margin-top: 25px;
         border-bottom: 0.5px solid white;
         width: 250px;
@@ -206,5 +205,8 @@ padding: 0;
 .icon-nav{
 padding: 5px;
 font-size: 40px;
+}
+.nav{
+    padding-right: 0px;
 }
 }  

@@ -18,6 +18,22 @@ export default function Navbar() {
      // Handle the click event for LanguageSwitcher
      e.stopPropagation();
    };
+   // Define animation variants
+  // const navVariants = {
+  //   hidden: {
+  //     opacity: 0,
+  //     x: "-100%",
+  //   },
+  //   visible: {
+  //     opacity: 1,
+  //     x: 0,
+  //     transition: {
+  //       duration: 0.5,
+  //     },
+  //   },
+  // };
+
+  
   return (
     <div className={toogle ? "big-screen-nav" : "small-screen-nav"}>
       <div className={toogle ? "menu" : "no-menu"} onClick={menuToogle}>
@@ -28,8 +44,8 @@ export default function Navbar() {
       <motion.nav
         className="nav"
         onClick={menuToogle}
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        initial={{ opacity: 0, translateY: "-10px" }}
+        whileInView={{ opacity: 1, translateY: "0px" }}
         viewport={{ once: true }}
       >
         <ul className="main-nav">
@@ -46,9 +62,9 @@ export default function Navbar() {
             <Link to="/practice">{t("Practice")}</Link>
             <Link to="/gallery">{t("Gallery")}</Link>
             <Link to="/contact">{t("Contact")}</Link>
-            <div onClick={handleLanguageSwitcherClick}>
+            <span onClick={handleLanguageSwitcherClick}>
               <LanguageSwitcher />
-            </div>
+            </span>
           </div>
         </ul>
       </motion.nav>

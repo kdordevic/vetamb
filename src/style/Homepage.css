@@ -1,30 +1,84 @@
 .homepage{
     text-align: center;
-    background-image: url('../locales/photos/kolaz.jpg');
-    background-position: top;
-    background-attachment: fixed;
-    background-size: cover;
-    position:relative ;
-    /* top: -50px; */
+     background-image: url("../locales/photos/—Pngtree—dense dog paw prints red_1794921.png");
+  background-blend-mode: overlay;
 
-   /* height: 105vh; */
-   /* color:#907e72; */
+    background-size: cover; 
+    position:relative ;
+    background-position: top;
+    /* background-color: rgb(219, 208, 181); */
+    background-color: rgb(230, 222, 203);
+    padding-bottom: 30px;
+    overflow-x: auto;
+ 
 }
-.container{
-    background-color: rgba(0, 0, 0,0.2);
-     /* height: 105vh; */
-       /* background-color:rgb(144, 126, 114,0.2); */
+
+.slides{
+    position:absolute;
+    top: 0px;
+    padding-top: 0px;
+    background-color: transparent;
+    height: 800px;
+}
+.sticky{
+    /* background-color: rgb(230, 222, 203); */
+    display: flex;
+    top:300px;
+    position:sticky;
+}
+
+.home-slide{
+
+    width: 650px;
+    display: flex;
+    height: 350px;
+    margin: 10px 10px 10px 0px;
+   padding: 10px;
+   background-size: cover;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.home-slide:hover{
+   background-size:700px
+}
+.slide-one{
+    background-image: url('../locales/photos/tim-umphreys-M-svG1XYiHs-unsplash.jpg');
+}
+.slide-two{
+    background-image: url('../locales/photos/yoonjae-baik-FXr_SnSAuOc-unsplash.jpg');
+}
+.slide-three{
+    background-image: url('../locales/photos/jametlene-reskp-VDrErQEF9e4-unsplash.jpg');
+}
+.slide-four{
+    background-image: url('../locales/photos/krista-mangulsone-9gz3wfHr65U-unsplash.jpg');
+}
+.slide-five{
+    background-image: url('../locales/photos/krystian-tambur-FT9SsFEXqF4-unsplash.jpg');
+}
+.slide-six{
+    background-image: url('../locales/photos/hannah-grace-fk4tiMlDFF0-unsplash.jpg');
+}
+.slide-seven{
+    background-image: url('../locales/photos/jesse-schoff-Ph2KtIqKs7c-unsplash.jpg');
+}
+.heading-home{
+margin-top:150px
 
 }
 .homepage h1{
 
-padding-bottom: 0vh;
-padding-top: 12vh;
+/* padding-bottom: 0vh; */
+padding-top: 10vh;
 }
-.homepage h2{
+.homepage h2{  
     font-weight: 400;
     font-size: 50px;
+    font-weight: 800;
     text-transform: uppercase;
+    margin-top: 10px;
+    padding-bottom: 10px;
+     position: relative;
+
 
 
 }
@@ -42,7 +96,7 @@ padding-top: 12vh;
     font-size: 70px;
 }
 .social{
-    display: flex;
+display: flex;
   position: sticky;
   margin-left:80vw;
   top:70px;
@@ -62,17 +116,38 @@ padding-top: 12vh;
     display: flex;
     flex-direction: row;
     margin: auto;
-    padding-bottom: 10px;
-    background-color:rgb(144, 126, 114,0.5);
+    margin-top: 300px;
+    position: sticky;
+    /* background-color:rgb(144, 126, 114,0.5); */
+    background-color: rgb(58, 47, 37,0.5);
 }
 .contact-home p{
     padding: 20px;
      margin: auto;
 }
+.deco-1 ,.deco-2, .deco-3,.deco-4{
+height: 400px;
+width: 100%;
+}
+.deco-1{
+    background-color: tomato;
+}
+.deco-2{
+    background-color: rgb(240, 237, 222);
+}
+.deco-3{
+    background-color: rgb(58, 47, 37);
+}
+
+
     @media screen and (max-width:768px) {
   .homepage{
-          background-attachment: scroll;
+          /* background-attachment: scroll; */
+          height: unset;
   }  
+  .container{
+       height: unset;
+  }
 .homepage h1{
     top: 0vh;
 }
@@ -85,13 +160,18 @@ padding-top: 12vh;
      
     }
     .circle{
-    top:0vh;
+    top:40px;
     }
     .contact-home{
     flex-direction: column;
+
 }
 .contact-home p{
     padding: 10px;
+}
+.home-slide{
+    
+    width: 500px;
 }
     
 } 
@@ -106,14 +186,16 @@ padding-top: 12vh;
  .homepage h2{
 margin-top:10px;
     }
-    .circle{
-    top:-10vh;
-    }
+  
 .social{
     top:120px;
     flex-direction: column;
     
 }
 
+.home-slide{
+    
+    width:550px;
+}
     
 }

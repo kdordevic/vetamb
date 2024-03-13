@@ -1,59 +1,74 @@
 .about{
-
     display: flex;
-    height: 100%;
+     flex-direction: column;
+     overflow-x: hidden;
 }
-.about h1{
-    top: 10px;
-    padding-bottom: 20px;
-    margin-top:-50px
-
+.about section{
+    display: flex;
 }
 .photo-about{
     width: 100%;
-    /* display: flex;
-    flex-direction: column; */
-    background-image: url('../locales/photos/karsten-winegeart-loJL4ijUobg-unsplash.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-left: 50px;
+    width: 100%;
+    min-height: 500px;
+
 }
-
-
-.photo-about-3{
-    height: 300px;
-    width: 300px;
-    margin: auto;
-    background-image: url('../locales/photos/Jelena.JPG');
-    background-position: center;
-    background-size: cover;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    border-radius: 20px;
-    margin-top: 30px;
-
+.about .first-photo{
+ background-image: url('../locales/photos/karsten-winegeart-loJL4ijUobg-unsplash.jpg');
+}
+.about .second-photo{
+background-image: url('../locales/photos/Jelena.JPG');
+background-position: top;
 }
 
 .text-about{
-    padding: 5vw;
-    text-align: left;
-    width: 80%;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    
 }
- @media screen and (max-width:768px) {
+.first-text p, .about h1{
+    text-align: left;
+    padding-left: 50px;
+}
+.second-text p{
+    text-align: right;
+    padding-left: 50px;
+    padding-right: 0px;
+}
+@media screen and (max-width:768px) {
     
-    .about {
-        flex-direction: column;
-    }
-    .photo-about{
+   .text-about{
+    width: 95%;
+}
+.first-text p{
+    text-align: justify;
+    padding-left: 50px;
+}
+.second-text p{
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 0px;
+}
+     .photo-about{
         height: 400px;
-        
     }
-    .text-about{
-          width: 90%;
-    }
-    
+    .about {
+    top:-40px;
+    } 
+    .about section{
+  flex-direction: column;
+}
+
 } 
 @media screen and (max-width:480px) {
    .photo-about{
         height: 400px;
     }
-}
+  }
+
+

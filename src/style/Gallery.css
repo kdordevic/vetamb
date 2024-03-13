@@ -16,7 +16,8 @@ margin: auto;
     text-align: center;
     line-height: 500px;
     color: transparent;
-    border: 6px solid  rgb(140, 132, 109);
+    /* border: 6px solid  rgb(140, 132, 109); */
+     border:6px solid #928f84;
 
 }
 
@@ -40,6 +41,7 @@ margin: auto;
     font-size: 20px;
     margin-top: 0px;
     top: 20px;
+    font-weight: 400;
 }
 .pet-name:hover{
     background-color: rgba(51, 40, 25, 0.5);

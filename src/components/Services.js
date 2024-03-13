@@ -17,14 +17,14 @@ function Services() {
         <motion.div
           className="services-text"
           initial={{
-            y: -300,
+            x: 300,
           }}
           whileInView={{
-            y: 0,
+            x: 0,
             transition: {
               type: "spring",
               bounce: 0.2,
-              duration: 1,
+              duration: 1.2,
             },
           }}
         >
@@ -42,7 +42,7 @@ function Services() {
         <motion.div
           className="services-photo first-photo"
           initial={{
-            x: 300,
+            x: -300,
           }}
           whileInView={{
             x: 0,
@@ -58,20 +58,6 @@ function Services() {
         <motion.div
           className="services-photo second-photo"
           initial={{
-            x: -300,
-          }}
-          whileInView={{
-            x: 0,
-            transition: {
-              type: "spring",
-              bounce: 0.2,
-              duration: 1,
-            },
-          }}
-        ></motion.div>
-        <motion.div
-          className="services-text"
-          initial={{
             x: 300,
           }}
           whileInView={{
@@ -79,7 +65,21 @@ function Services() {
             transition: {
               type: "spring",
               bounce: 0.2,
-              duration: 1,
+              duration: 1.6,
+            },
+          }}
+        ></motion.div>
+        <motion.div
+          className="services-text middle-text"
+          initial={{
+            x: -300,
+          }}
+          whileInView={{
+            x: 0,
+            transition: {
+              type: "spring",
+              bounce: 0.2,
+              duration: 0.8,
             },
           }}
         >
@@ -99,10 +99,10 @@ function Services() {
         <motion.div
           className="services-text"
           initial={{
-            y: 300,
+            x: 300,
           }}
           whileInView={{
-            y: 0,
+            x: 0,
             transition: {
               type: "spring",
               bounce: 0.2,
@@ -124,7 +124,7 @@ function Services() {
         <motion.div
           className="services-photo third-photo"
           initial={{
-            x: 300,
+            x: -300,
           }}
           whileInView={{
             x: 0,
