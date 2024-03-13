@@ -61,25 +61,25 @@ function Homepage() {
           <div ref={targetRef} className="slides">
             <div className="sticky">
               <motion.div style={{ x }} className="home-slide slide-one">
-                1
+                
               </motion.div>
               <motion.div style={{ x }} className="home-slide slide-two">
-                2
+                
               </motion.div>
               <motion.div style={{ x }} className="home-slide slide-three">
-                3
+                
               </motion.div>
               <motion.div style={{ x }} className="home-slide slide-four">
-                4
+                
               </motion.div>
               <motion.div style={{ x }} className="home-slide slide-five">
-                5
+                
               </motion.div>
               <motion.div style={{ x }} className="home-slide slide-six">
-                6
+                
               </motion.div>
               <motion.div style={{ x }} className="home-slide slide-seven">
-                6
+                
               </motion.div>
             </div>
           </div>
