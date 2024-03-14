@@ -92,6 +92,7 @@ function Homepage() {
             <h1>{t("homepage tekst")}</h1>
             <h2>{t("homepage tekst1")}</h2>
           </div>
+          
           <section className="contact-home">
             <p>{t("adresa")}</p>
             <p>{t("telefon")}</p>

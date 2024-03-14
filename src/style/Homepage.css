@@ -9,8 +9,9 @@
     /* background-color: rgb(219, 208, 181); */
     background-color: rgb(230, 222, 203);
     padding-bottom: 30px;
-    overflow-x: auto;
- 
+}
+.container{
+    position: relative;
 }
 
 .slides{
@@ -18,12 +19,12 @@
     top: 0px;
     padding-top: 0px;
     background-color: transparent;
-    height: 800px;
+    height: 850px;
 }
 .sticky{
     /* background-color: rgb(230, 222, 203); */
     display: flex;
-    top:300px;
+    top:250px;
     position:sticky;
 }
 
@@ -35,10 +36,15 @@
     margin: 10px 10px 10px 0px;
    padding: 10px;
    background-size: cover;
+   background-position: center;
    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+   
+   
 }
 .home-slide:hover{
-   background-size:700px
+   background-size:700px;
+  
+   
 }
 .slide-one{
     background-image: url('../locales/photos/tim-umphreys-M-svG1XYiHs-unsplash.jpg');
@@ -62,25 +68,25 @@
     background-image: url('../locales/photos/jesse-schoff-Ph2KtIqKs7c-unsplash.jpg');
 }
 .heading-home{
-margin-top:150px
+
+position: sticky;
+top:240px;
+display: flex;
+flex-direction: column;
 
 }
 .homepage h1{
 
 /* padding-bottom: 0vh; */
-padding-top: 10vh;
+padding-top: 50px;
 }
 .homepage h2{  
-    font-weight: 400;
-    font-size: 50px;
+
+    font-size: 80px;
     font-weight: 800;
     text-transform: uppercase;
     margin-top: 10px;
     padding-bottom: 10px;
-     position: relative;
-
-
-
 }
 .circle {
     margin: auto;
@@ -89,8 +95,9 @@ padding-top: 10vh;
     height: 100px;
     border-radius: 50%;
     width: 100px;
+    top:40px;
     position: relative;
-    top: 5vh;
+    /* margin-bottom: 30px; */
     }
 .icon{
     font-size: 70px;
@@ -141,24 +148,19 @@ width: 100%;
 
 
     @media screen and (max-width:768px) {
-  .homepage{
-          /* background-attachment: scroll; */
-          height: unset;
-  }  
-  .container{
-       height: unset;
-  }
-.homepage h1{
+  
+ 
+/* .homepage h1{
     top: 0vh;
-}
+} */
 .social{
         margin-right: 80vw;
         top:100px;
     }
- .homepage h2{
+ /* .homepage h2{
     top:0vh;
      
-    }
+    } */
     .circle{
     top:40px;
     }
@@ -173,7 +175,22 @@ width: 100%;
     
     width: 500px;
 }
-    
+   .heading-home {
+      top:230px
+  } 
+ 
+.homepage h1{
+font-size: 22px;
+padding-top: 40px;
+}
+.homepage h2{  
+    font-size: 60px;
+    margin-top: 0px;
+}
+    .contact-home {
+margin-top:380px
+
+}  
 } 
 
 @media screen and (max-width:480px) {
@@ -193,9 +210,10 @@ margin-top:10px;
     
 }
 
-.home-slide{
-    
+.home-slide{ 
     width:550px;
 }
-    
+   
+ 
+
 }
