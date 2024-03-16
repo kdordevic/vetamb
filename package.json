@@ -21,6 +21,7 @@
     "react-dom": "^18.2.0",
     "react-fontawesome": "^1.7.1",
     "react-i18next": "^14.0.5",
+    "react-intersection-observer": "^9.8.1",
     "react-map-gl": "^7.1.7",
     "react-modal": "^3.16.1",
     "react-router-dom": "^6.22.1",
@@ -55,7 +56,5 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-  }
+  "license": "ISC"
 }

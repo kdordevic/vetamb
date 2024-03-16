@@ -6,12 +6,35 @@
     background-size: cover; 
     position:relative ;
     background-position: top;
-    /* background-color: rgb(219, 208, 181); */
     background-color: rgb(230, 222, 203);
     padding-bottom: 30px;
+    overflow: hidden;
+    z-index: -2;
 }
 .container{
     position: relative;
+}
+
+.vertical-slider{
+    width: 120px;
+    left:50px;
+    top:-200px;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+.vertical-slide{
+    width: 150px;
+    display: flex;
+    height: 150px;
+    margin: 0px 0px 10px 0px;
+   padding: 10px;
+   background-size: cover;
+   background-position: center;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-image: url('../locales/photos/krystian-tambur-FT9SsFEXqF4-unsplash.jpg');
+    transform: "translate(-50%, -50%)"
 }
 
 .slides{
@@ -22,17 +45,16 @@
     height: 850px;
 }
 .sticky{
-    /* background-color: rgb(230, 222, 203); */
     display: flex;
-    top:250px;
+    top:500px;
     position:sticky;
 }
 
 .home-slide{
 
-    width: 650px;
+    width: 150px;
     display: flex;
-    height: 350px;
+    height: 150px;
     margin: 10px 10px 10px 0px;
    padding: 10px;
    background-size: cover;
@@ -42,7 +64,7 @@
    
 }
 .home-slide:hover{
-   background-size:700px;
+   background-size:300px;
   
    
 }
@@ -70,15 +92,13 @@
 .heading-home{
 
 position: sticky;
-top:240px;
+top:20px;
 display: flex;
 flex-direction: column;
-
 }
 .homepage h1{
 
-/* padding-bottom: 0vh; */
-padding-top: 50px;
+padding-top: 0px;
 }
 .homepage h2{  
 
@@ -87,6 +107,7 @@ padding-top: 50px;
     text-transform: uppercase;
     margin-top: 10px;
     padding-bottom: 10px;
+    color: tomato;
 }
 .circle {
     margin: auto;
@@ -95,9 +116,8 @@ padding-top: 50px;
     height: 100px;
     border-radius: 50%;
     width: 100px;
-    top:40px;
+    top:-10px;
     position: relative;
-    /* margin-bottom: 30px; */
     }
 .icon{
     font-size: 70px;
@@ -123,14 +143,14 @@ display: flex;
     display: flex;
     flex-direction: row;
     margin: auto;
-    margin-top: 300px;
+    margin-top: 150px;
     position: sticky;
     /* background-color:rgb(144, 126, 114,0.5); */
     background-color: rgb(58, 47, 37,0.5);
 }
 .contact-home p{
     padding: 20px;
-     margin: auto;
+    margin: auto;
 }
 .deco-1 ,.deco-2, .deco-3,.deco-4{
 height: 400px;
@@ -148,19 +168,11 @@ width: 100%;
 
 
     @media screen and (max-width:768px) {
-  
- 
-/* .homepage h1{
-    top: 0vh;
-} */
+
 .social{
-        margin-right: 80vw;
+        margin-right: 70%;
         top:100px;
     }
- /* .homepage h2{
-    top:0vh;
-     
-    } */
     .circle{
     top:40px;
     }
@@ -173,7 +185,7 @@ width: 100%;
 }
 .home-slide{
     
-    width: 500px;
+    /* width: 500px; */
 }
    .heading-home {
       top:230px
@@ -197,23 +209,21 @@ margin-top:380px
 
     .homepage{
         top: -40px;
-
     }
-  
  .homepage h2{
 margin-top:10px;
     }
-  
 .social{
     top:120px;
     flex-direction: column;
-    
+
 }
 
-.home-slide{ 
-    width:550px;
-}
-   
- 
-
+.home-slide,.vertical-slide{ 
+     width:100px; 
+     height: 100px;
+} 
+ .heading-home{
+     top:0px
+ }
 }

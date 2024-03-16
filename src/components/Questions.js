@@ -15,6 +15,7 @@ function Questions() {
 
     return (
       <motion.section
+      
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.9 }}
         key={id}
