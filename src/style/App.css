@@ -4,7 +4,14 @@ main{
     background-color: #636159;
     position:relative;
      top: -50px;
-        margin-bottom: -50px;
+    margin-bottom: -50px;
+    background-image: url("../locales/photos/paws.png");
+    background-size: cover;
+    background-position: center;
+  background-blend-mode: soft-light;
+  overflow: hidden;
+
+
         /* overflow-x: hidden; */
 }
 h1{

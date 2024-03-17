@@ -1,56 +1,93 @@
 .homepage{
     text-align: center;
-     background-image: url("../locales/photos/—Pngtree—dense dog paw prints red_1794921.png");
-  background-blend-mode: overlay;
-
-    background-size: cover; 
     position:relative ;
-    background-position: top;
-    background-color: rgb(230, 222, 203);
-    padding-bottom: 30px;
-    overflow: hidden;
     z-index: -2;
+   
 }
 .container{
     position: relative;
+     margin-bottom: 100px;
+
+
 }
 
-.vertical-slider{
-    width: 120px;
-    left:50px;
-    top:-200px;
+.vertical-slider {
+
+    width: 25vw;
     z-index: -1;
     display: flex;
     flex-direction: column;
     position: fixed;
+    background-color: rgb(255, 255, 255);
+    
+  
+
+  
+}
+.v-s-one{
+ /* left:30px;    */
+  top:-400px;
+  padding-left: 1.6vw; 
+
+  
+}
+.v-s-two{
+    left:25%;
+    top:-300px;
+        padding-left: 1.2vw; 
+}
+.v-s-three{
+    left:50%;
+     top:-450px;
+          padding-left: 0.8vw; 
+     
+}
+.v-s-four{
+    left:75%;
+     top:-300px;
+          padding-left: 0.4vw;
+   
 }
 .vertical-slide{
-    width: 150px;
+    width:23vw;
+    /* width:250px; */
     display: flex;
-    height: 150px;
-    margin: 0px 0px 10px 0px;
-   padding: 10px;
+    min-height: 150px;
+    margin: 0px 0px 1.6vw 0px;
    background-size: cover;
-   background-position: center;
+   background-position: right;
    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     background-image: url('../locales/photos/krystian-tambur-FT9SsFEXqF4-unsplash.jpg');
-    transform: "translate(-50%, -50%)"
+    transform: "translate(-50%, -50%)";
+    border-radius: 15px;
+   
+
+    
+}
+.vertical-slide:nth-child(2){
+    height: 250px;
+}
+.vertical-slide:nth-child(3){
+    height: 200px;
+}
+.vertical-slide:nth-child(4){
+    height: 300px;
 }
 
-.slides{
+/* .slides{
     position:absolute;
     top: 0px;
     padding-top: 0px;
     background-color: transparent;
     height: 850px;
-}
-.sticky{
+} */
+/* .sticky{
     display: flex;
     top:500px;
     position:sticky;
-}
+} */
 
-.home-slide{
+/* .home-slide{
 
     width: 150px;
     display: flex;
@@ -62,13 +99,12 @@
    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
    
    
-}
-.home-slide:hover{
+} */
+/* .home-slide:hover{
    background-size:300px;
-  
-   
-}
-.slide-one{
+} */
+
+/* .slide-one{
     background-image: url('../locales/photos/tim-umphreys-M-svG1XYiHs-unsplash.jpg');
 }
 .slide-two{
@@ -88,13 +124,15 @@
 }
 .slide-seven{
     background-image: url('../locales/photos/jesse-schoff-Ph2KtIqKs7c-unsplash.jpg');
-}
+} */
 .heading-home{
-
-position: sticky;
+padding-top: 30px;
+margin-top: 100px;
 top:20px;
 display: flex;
 flex-direction: column;
+background-color: rgb(58, 47, 37,0.2);
+z-index: 0;
 }
 .homepage h1{
 
@@ -127,7 +165,8 @@ display: flex;
   position: sticky;
   margin-left:80vw;
   top:70px;
-  height: 150px;
+  /* height: 150px; */
+  z-index: 2;
   /* background-color:rgb(0, 0, 0,0.3) */
 }
 .social-icon{
@@ -146,24 +185,65 @@ display: flex;
     margin-top: 150px;
     position: sticky;
     /* background-color:rgb(144, 126, 114,0.5); */
-    background-color: rgb(58, 47, 37,0.5);
+    background-color: rgb(58, 47, 37,0.7);
 }
 .contact-home p{
     padding: 20px;
     margin: auto;
 }
-.deco-1 ,.deco-2, .deco-3,.deco-4{
-height: 400px;
+.deco-1,.deco-2{
+height: 650px;
 width: 100%;
+display: flex;
 }
 .deco-1{
-    background-color: tomato;
+   
+background-color: tomato;
 }
 .deco-2{
     background-color: rgb(240, 237, 222);
+    color: rgb(58, 47, 37);
+    background-image: url("../locales/photos/paws1.png");
+    background-size: cover;
+    background-position: center;
+  background-blend-mode: overlay;
 }
-.deco-3{
-    background-color: rgb(58, 47, 37);
+.deco-1-text,.deco-2-text{
+    width: 50%;
+    margin: auto;
+    margin-top: 200px;
+    font-size: 60px;
+}
+.deco-2-text h4{
+
+}
+.deco-1-img,.deco-2-img{
+    width: 600px;
+    border-radius: 600px;
+    height: 600px;
+    background-size: cover;
+    margin:auto
+}
+.deco-2-img{
+margin-left:50px
+}
+.deco-1-img{
+    margin-right:50px
+}
+
+@media screen and (max-width:900px) {
+.deco-1-img,.deco-2-img{
+    width: 500px;
+    border-radius: 500px;
+    height: 450px;
+}
+.deco-1,.deco-2{
+height: 600px;
+}
+.deco-1-text,.deco-2-text{
+    width: 40%;
+    margin-top: 160px;
+}
 }
 
 
@@ -171,7 +251,7 @@ width: 100%;
 
 .social{
         margin-right: 70%;
-        top:100px;
+        top:150px;
     }
     .circle{
     top:40px;
@@ -202,7 +282,27 @@ padding-top: 40px;
     .contact-home {
 margin-top:380px
 
-}  
+} 
+.deco-1,.deco-2{
+    flex-direction: column;
+}
+.deco-1-img,.deco-2-img{
+    width: 400px;
+    border-radius: 400px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.deco-1-text,.deco-2-text{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+} 
+.deco-1,.deco-2{
+height:fit-content;
+}
+ 
 } 
 
 @media screen and (max-width:480px) {
@@ -226,4 +326,19 @@ margin-top:10px;
  .heading-home{
      top:0px
  }
+ .v-s-three,.v-s-four, .v-s-three .vertical-slide,.v-s-four .vertical-slide{
+height: 0;
+width: 0;
+}
+.v-s-two{
+    left:50%;
+
+}
+.v-s-one, .v-s-two{
+    width: 50vw;
+}
+ .v-s-one .vertical-slide,.v-s-two .vertical-slide{
+    width: 48vw;
+ }
+
 }
