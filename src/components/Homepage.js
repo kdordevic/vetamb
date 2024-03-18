@@ -102,6 +102,12 @@ function Homepage() {
               <div
                 className="vertical-slide"
                 style={{
+                  backgroundImage: `url("././photos/yoonjae-baik-FXr_SnSAuOc-unsplash.jpg")`,
+                }}
+              ></div>
+              <div
+                className="vertical-slide"
+                style={{
                   backgroundImage: `url("././photos/aboodi-vesakaran-LmZsF4tnUR0-unsplash.jpg")`,
                 }}
               ></div>
@@ -154,6 +160,7 @@ function Homepage() {
                   backgroundPosition: "center",
                 }}
               ></div>
+              <div className="vertical-slide"></div>
               <div className="vertical-slide"></div>
               <div className="vertical-slide"></div>
               <div className="vertical-slide"></div>
@@ -313,13 +320,14 @@ function Homepage() {
               borderRadius: "0px",
             }}
             whileInView={{
-              borderRadius: "600px",
+              borderRadius: "550px",
               transition: {
                 duration: 1,
               },
             }}
             style={{
               backgroundImage: `url("././photos/aboodi-vesakaran-LmZsF4tnUR0-unsplash.jpg")`,
+              backgroundPosition: "center",
             }}
           ></motion.div>
         </div>
@@ -327,7 +335,8 @@ function Homepage() {
           <motion.div
             className="deco-2-img"
             style={{
-              backgroundImage: `url("././photos/aboodi-vesakaran-LmZsF4tnUR0-unsplash.jpg")`,
+              backgroundImage: `url("././photos/christine-sook-T6IvCq0OQKk-unsplash.jpg")`,
+              backgroundPosition: "top",
             }}
             initial={{
               borderRadius: "0px",

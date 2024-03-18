@@ -13,6 +13,7 @@ function About() {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
       >
+        <div className="main-photo about-main-photo"></div>
         <section>
           <motion.div
             initial={{
