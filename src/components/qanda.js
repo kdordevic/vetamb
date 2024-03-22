@@ -21,7 +21,7 @@ const qanda = [
     id: 4,
     question: "pitanje 4",
     answer: "odgovor 4",
-    photo: "././photos/olga-andreyanova-pgrJI-Rijgk-unsplash.jpg",
+    photo: "././photos/paul-hanaoka-w2DsS-ZAP4U-unsplash.jpg",
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ const qanda = [
     id: 7,
     question: "pitanje 7",
     answer: "odgovor 7",
-    photo: "././photos/paul-hanaoka-w2DsS-ZAP4U-unsplash.jpg",
+    photo: "././photos/olga-andreyanova-pgrJI-Rijgk-unsplash.jpg",
   },
   {
     id: 8,

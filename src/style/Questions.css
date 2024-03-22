@@ -52,8 +52,6 @@ hr{
 }
 .questions-photo{
     width: 100%;
-    background-image: url('../locales/photos/paul-hanaoka-w2DsS-ZAP4U-unsplash.jpg');
-    /* background-attachment: scroll; */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

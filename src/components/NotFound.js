@@ -11,7 +11,9 @@ function NotFound() {
         viewport={{ once: true }}
       >
         <h1> 404 Page not found</h1>
-        <div className="graphic"> </div>
+        <div className="not-found-img">
+        </div>
+        
       </motion.main>
     );
 }

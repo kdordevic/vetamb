@@ -2,12 +2,11 @@
     text-align: center;
     position:relative ;
     z-index: -2;
-   
 }
 .container{
     position: relative;
-     margin-bottom: 100px;
-     height: 100vh;
+    margin-bottom: 100px;
+    height: 130vh;
 }
 
 .vertical-slider {
@@ -18,45 +17,37 @@
     flex-direction: column;
     position: fixed;
     background-color: rgb(255, 255, 255);
-    
-  
-
-  
 }
 .v-s-one{
- /* left:30px;    */
   top:-580px;
   padding-left: 1.6vw; 
 
-  
 }
 .v-s-two{
     left:25%;
-    top:-300px;
+    top:-340px;
         padding-left: 1.2vw; 
 }
 .v-s-three{
     left:50%;
-     top:-500px;
-          padding-left: 0.8vw; 
-     
+    top:-500px;
+    padding-left: 0.8vw; 
+
 }
 .v-s-four{
     left:75%;
-     top:-300px;
-          padding-left: 0.4vw;
-   
+    top:-300px;
+    padding-left: 0.4vw;
 }
 .vertical-slide{
     width:23vw;
-    /* width:250px; */
     display: flex;
     min-height: 150px;
     margin: 0px 0px 1.6vw 0px;
    background-size: cover;
    background-position: right;
    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    background-image: url('../locales/photos/krystian-tambur-FT9SsFEXqF4-unsplash.jpg');
+    background-color: #8e8671; 
     transform: "translate(-50%, -50%)";
     border-radius: 15px;
    
@@ -126,25 +117,30 @@
 } */
 .heading-home{
 padding-top: 30px;
-margin-top: 200px;
-top:20px;
+margin-top: 210px;
+/* top:20px; */
 display: flex;
 flex-direction: column;
 background-color: rgb(58, 47, 37,0.2);
 z-index: 0;
+position: sticky;
+
 }
 .homepage h1{
 
-padding-top: 0px;
+padding-top: 30px;
+padding-bottom: 30px;
 }
 .homepage h2{  
 
-    font-size: 80px;
+    font-size: 90px;
     font-weight: 800;
     text-transform: uppercase;
     margin-top: 10px;
-    padding-bottom: 10px;
-    color: tomato;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+     color: tomato; 
+    
 }
 .circle {
     margin: auto;
@@ -197,7 +193,8 @@ display: flex;
 }
 .deco-1{
    
-background-color: tomato;
+ background-color: tomato; 
+
 }
 .deco-2{
     background-color: rgb(240, 237, 222);
@@ -230,6 +227,17 @@ margin-left:50px
 }
 
 @media screen and (max-width:900px) {
+   
+.deco-1-img,.deco-2-img{
+    width: 500px;
+    border-radius: 500px;
+    height: 500px;
+}
+@media screen and (min-height:1000px) {
+     .container{
+            height: 100vh;
+        }
+    }
 .deco-1-img,.deco-2-img{
     width: 500px;
     border-radius: 500px;
@@ -246,6 +254,7 @@ height: 600px;
 
 
     @media screen and (max-width:768px) {
+       
 
 .social{
         margin-right: 70%;
@@ -282,8 +291,9 @@ margin-top:380px
 
 } 
  .v-s-four,.v-s-four .vertical-slide{
-height: 0;
-width: 0;
+/* height: 0;
+width: 0; */
+display: none;
 }
 .v-s-two{
     left:33.3%;
@@ -324,7 +334,7 @@ height:fit-content;
     .homepage{
         top: -40px;
     }
- .homepage h2{
+ .homepage h1{
 margin-top:10px;
     }
 .social{
@@ -338,11 +348,12 @@ margin-top:10px;
      height: 100px;
 }  */
  .heading-home{
-     top:0px
+   margin-top: 150px;
  }
  .v-s-three,.v-s-four, .v-s-three .vertical-slide,.v-s-four .vertical-slide{
-height: 0;
-width: 0;
+/* height: 0;
+width: 0; */
+display: none;
 }
 .v-s-two{
     left:50%;

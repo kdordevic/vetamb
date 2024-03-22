@@ -15,12 +15,7 @@
     width: 100%;
     min-height: 500px;
 }
-/* .main-photo{
-    width: 100%;
-    height: 100vh;
-    background-image: url("../locales/photos/jesse-schoff-Ph2KtIqKs7c-unsplash.jpg");
-    background-size: cover;
-} */
+
 .about .first-photo{
  background-image: url('../locales/photos/karsten-winegeart-loJL4ijUobg-unsplash.jpg');
 }
@@ -62,9 +57,7 @@ background-position: top;
      .photo-about{
         height: 400px;
     }
-    .about {
-    top:-40px;
-    } 
+ 
     .about section{
   flex-direction: column;
 }

@@ -23,9 +23,9 @@ ul{
     margin: 10px;
 }
 
-.links{
+/* .links{
  justify-content: stretch;
-}
+} */
 
 .nav{
     background-color: #88B04B;
@@ -49,13 +49,22 @@ ul{
  }   
 
 .lang{
-    color:white;
-    text-transform: uppercase;
-    cursor: pointer;
-    background-color:transparent;
-    border: none;
-    font-size: 16px;
-    padding-top: 10px;
+    display: inline;
+}
+.lang-sr,.lang-en{
+     display: inline;
+}
+.lang-sr .en{
+    display: none;
+}
+.lang-sr .sr{
+    display: inline;
+}
+.lang-en .sr{
+    display: none;
+}
+.lang-en .en{
+    display: inline;
 }
 .logo{
     padding-left: 20px;
@@ -73,6 +82,7 @@ ul{
 padding: 2px;
 font-size: 20px;
 }
+
 
 @media screen and (max-width:786px) {
 .big-screen-nav{
@@ -168,18 +178,19 @@ padding: 0;
 
 
 .nav  a{  
-        margin-top: 25px;
+        margin-top: 20px;
         border-bottom: 0.5px solid white;
         width: 250px;
     }
     .lang{
         padding-left: 10px;
-        margin:auto;
         margin-top: 15px;
         font-size: 25px;
         border-bottom: 0.5px solid white;
         width: 250px;
+        display: flex;
         text-align: center;
+        justify-content: center;
     }
     ul{
         text-align: center;

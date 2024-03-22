@@ -60,9 +60,6 @@
    .services-photo{
         height: 400px;
     }
-    .services {
-    top:-40px;
-    } 
     .services section{
   flex-direction: column;
 }

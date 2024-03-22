@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1da8bc68.css",
-    "main.js": "/static/js/main.044622ee.js",
+    "main.css": "/static/css/main.792ae6a7.css",
+    "main.js": "/static/js/main.8b282b04.js",
     "static/js/912.d6fab4d4.chunk.js": "/static/js/912.d6fab4d4.chunk.js",
     "static/media/priscilla-du-preez-pv1qaGYYbuU-unsplash.jpg": "/static/media/priscilla-du-preez-pv1qaGYYbuU-unsplash.d67e9270691501b36a3d.jpg",
     "static/media/hedgehog.jpg": "/static/media/hedgehog.b6fad62d677ba45de6e3.jpg",
@@ -15,12 +15,12 @@
     "static/media/erik-jan-leusink-uamiRCpAmrU-unsplash.jpg": "/static/media/erik-jan-leusink-uamiRCpAmrU-unsplash.d40a7afa57bfc5940711.jpg",
     "static/media/Jelena.JPG": "/static/media/Jelena.9a22bcdca8a5a88305d3.JPG",
     "index.html": "/index.html",
-    "main.1da8bc68.css.map": "/static/css/main.1da8bc68.css.map",
-    "main.044622ee.js.map": "/static/js/main.044622ee.js.map",
+    "main.792ae6a7.css.map": "/static/css/main.792ae6a7.css.map",
+    "main.8b282b04.js.map": "/static/js/main.8b282b04.js.map",
     "912.d6fab4d4.chunk.js.map": "/static/js/912.d6fab4d4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1da8bc68.css",
-    "static/js/main.044622ee.js"
+    "static/css/main.792ae6a7.css",
+    "static/js/main.8b282b04.js"
   ]
 }
