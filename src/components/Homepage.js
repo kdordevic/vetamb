@@ -70,7 +70,7 @@ function Homepage() {
               <div
                 className="vertical-slide"
                 style={{
-                  backgroundImage: `url("././photos/")`,
+                  backgroundImage: `url("././photos/hannah-grace-fk4tiMlDFF0-unsplash.jpg")`,
                   backgroundPosition: "center",
                 }}
               ></div>
@@ -105,19 +105,21 @@ function Homepage() {
                 className="vertical-slide"
                 style={{
                   backgroundImage: `url("././photos/pexels-daka-12238273.jpg")`,
+                  backgroundPosition: "bottom",
+                }}
+              ></div>
+              <div
+                className="vertical-slide"
+                style={{
+                  backgroundImage: `url("././photos/pexels-steshka-willems-1591939.jpg")`,
                   backgroundPosition: "center",
                 }}
               ></div>
               <div
                 className="vertical-slide"
                 style={{
-                  backgroundImage: `url("././photos/")`,
-                }}
-              ></div>
-              <div
-                className="vertical-slide"
-                style={{
-                  backgroundImage: `url("././photos/")`,
+                  backgroundImage: `url("././photos/hannah-grace-fk4tiMlDFF0-unsplash.jpg")`,
+                  backgroundPosition: "center",
                 }}
               ></div>
             </motion.div>
@@ -135,7 +137,7 @@ function Homepage() {
               <div
                 className="vertical-slide"
                 style={{
-                  backgroundImage: `url("././photos/")`,
+                  backgroundImage: `url("././photos/pexels-pixabay-208773.jpg")`,
                 }}
               ></div>
               <div
@@ -167,8 +169,20 @@ function Homepage() {
                   backgroundPosition: "top",
                 }}
               ></div>
-              <div className="vertical-slide"></div>
-              <div className="vertical-slide"></div>
+              <div
+                className="vertical-slide"
+                style={{
+                  backgroundImage: `url("././photos/ejsoq-ZFid7KPqPbo-unsplash.jpg")`,
+                  backgroundPosition: "top",
+                }}
+              ></div>
+              <div
+                className="vertical-slide"
+                style={{
+                  backgroundImage: `url("././photos/andriyko-podilnyk-0R7_yBljvgg-unsplash.jpg")`,
+                  backgroundPosition: "top",
+                }}
+              ></div>
             </motion.div>
             <motion.div
               animate={controls}
@@ -219,13 +233,14 @@ function Homepage() {
               <div
                 className="vertical-slide"
                 style={{
-                  backgroundImage: `url("././photos/")`,
+                  backgroundImage: `url("././photos/lydia-tan-f5KQq4Wfxg8-unsplash.jpg")`,
+                  backgroundPosition: "center",
                 }}
               ></div>
               <div
                 className="vertical-slide"
                 style={{
-                  backgroundImage: `url("././photos/")`,
+                  backgroundImage: `url("././photos/luiza-sayfullina-9giow4jXrzM-unsplash.jpg")`,
                 }}
               ></div>
               <div
@@ -275,19 +290,19 @@ function Homepage() {
               <div
                 className="vertical-slide"
                 style={{
-                  backgroundImage: `url("././photos/")`,
+                  backgroundImage: `url("././photos/pexels-valeria-boltneva-1805164.jpg")`,
                 }}
               ></div>
               <div
                 className="vertical-slide"
                 style={{
-                  backgroundImage: `url("././photos/")`,
+                  backgroundImage: `url("././photos/olga-andreyanova-pgrJI-Rijgk-unsplash.jpg")`,
                 }}
               ></div>
               <div
                 className="vertical-slide"
                 style={{
-                  backgroundImage: `url("././photos/")`,
+                  backgroundImage: `url("././photos/olga-andreyanova-pgrJI-Rijgk-unsplash.jpg")`,
                 }}
               ></div>
             </motion.div>

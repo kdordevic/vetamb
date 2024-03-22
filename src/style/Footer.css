@@ -104,8 +104,9 @@ footer{
   .call-us{
       flex-direction: column;
       height: fit-content;
-     text-align: center;
+     /* text-align: center; */
      padding-top: 10px;  
+    align-items: center;
   }
    .call-us p  {
    padding-left:20px;  

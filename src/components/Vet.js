@@ -9,7 +9,7 @@ import Questions from "./Questions.js";
 import Services from "./Services.js";
 import Footer from "./Footer.js";
 import NotFound from "./NotFound.js";
-import "../style/Vet.css";
+import "../style/Nav.css";
 import Navbar from "./Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 

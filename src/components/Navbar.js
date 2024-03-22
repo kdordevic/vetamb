@@ -1,6 +1,6 @@
 import { React ,useState} from "react";
 import { Link } from "react-router-dom";
-import "../style/Vet.css";
+import "../style/Nav.css";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
