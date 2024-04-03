@@ -1,5 +1,5 @@
 import React from 'react';
-import articles from './articles.js';
+import articles from '../files/articles.js';
 import { useTranslation } from "react-i18next";
 import { i18n } from "./App.js"; 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -16,6 +16,7 @@ import {
 } from "pure-react-carousel";
 import  "../style/Practice.css";
 import "pure-react-carousel/dist/react-carousel.es.css";
+import Paw from "./Paw.js";
 
 
 function Practice() {
@@ -71,7 +72,7 @@ function Practice() {
        whileInView={{ opacity: 1 }}
        viewport={{ once: true }}
      >
-       <h1>{t("praksa tekst")}</h1>
+       <h1>{t("praksa tekst")}<Paw/></h1>
        {example}
      </motion.main>
    );

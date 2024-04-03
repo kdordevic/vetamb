@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import "../style/Nav.css";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { useTranslation } from "react-i18next";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPaw } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faPaw } from "@fortawesome/free-solid-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { motion } from "framer-motion";
 
@@ -15,25 +15,9 @@ export default function Navbar() {
         setToogle(!toogle);
     }
    const handleLanguageSwitcherClick = (e) => {
-     // Handle the click event for LanguageSwitcher
      e.stopPropagation();
    };
-   // Define animation variants
-  // const navVariants = {
-  //   hidden: {
-  //     opacity: 0,
-  //     x: "-100%",
-  //   },
-  //   visible: {
-  //     opacity: 1,
-  //     x: 0,
-  //     transition: {
-  //       duration: 0.5,
-  //     },
-  //   },
-  // };
 
-  
   return (
     <div className={toogle ? "big-screen-nav" : "small-screen-nav"}>
       <div className={toogle ? "menu" : "no-menu"} onClick={menuToogle}>
@@ -49,9 +33,9 @@ export default function Navbar() {
         viewport={{ once: true }}
       >
         <ul className="main-nav">
-          <div className="logo">
-            <Link to="/" className="logo-nav">
-              <FontAwesomeIcon className="icon-nav" icon={faPaw} />
+          <div className="logo-container">
+            <Link to="/" className="logo-nav logo">
+              {/* <FontAwesomeIcon className="icon-nav" icon={faPaw} /> */}
             </Link>
           </div>
           <div className="links">
@@ -59,8 +43,8 @@ export default function Navbar() {
             <Link to="/about">{t("About")}</Link>
             <Link to="/services">{t("Services")}</Link>
             <Link to="/questions">{t("Questions")}</Link>
-            <Link to="/practice">{t("Practice")}</Link>
             <Link to="/gallery">{t("Gallery")}</Link>
+            <Link to="/practice">{t("Practice")}</Link>
             <Link to="/contact">{t("Contact")}</Link>
             <span onClick={handleLanguageSwitcherClick}>
               <LanguageSwitcher />

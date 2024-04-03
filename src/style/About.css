@@ -67,6 +67,12 @@ background-position: top;
    .photo-about{
         height: 400px;
     }
+
+.text-about{
+    width: 95%;  
+     margin-left: -12px;
   }
+ 
+}
 
 

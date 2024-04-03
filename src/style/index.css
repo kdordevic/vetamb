@@ -1,11 +1,21 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('..//fonts/Poppins/Poppins-Light.ttf') format('truetype'); 
+
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('..//fonts/Nunito/Nunito-VariableFont_wght.ttf') format('truetype'); 
+}
+
 body {
   margin: 0;
   box-sizing: border-box;
-  font-family:'open sans'; 
-  /* background-color: #88B04B; */
+  font-family: "Poppins";
   background-color: #636159;
   color: white;
-
+  z-index: -1;
 }
+
 
 

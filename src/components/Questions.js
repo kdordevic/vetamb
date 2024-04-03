@@ -1,9 +1,10 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
-import qanda from "./qanda.js";
+import qanda from "../files/qanda.js";
 import { i18n } from "./App.js"; 
 import "../style/Questions.css";
 import { motion } from "framer-motion";
+import Paw from "./Paw.js";
 
 function Questions() {
 
@@ -44,7 +45,7 @@ function Questions() {
       >
         {/* <div className="questions-photo"></div> */}
         <div className="questions-text">
-          <h1>{t("pitanja naslov")}</h1>
+          <h1>{t("pitanja naslov")}<Paw/></h1>
           <div className="faq">{example}</div>
         </div>
       </motion.main>

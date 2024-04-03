@@ -1,7 +1,9 @@
 .gallery{
 margin: auto;
- top: -50px;
-    margin-bottom: -50px;
+top: -50px;
+margin-bottom: -50px;
+background-color: rgb(219, 208, 181);
+color:rgb(66, 56, 46,0.7);
 
 }
 .gallery h1{
@@ -39,7 +41,7 @@ margin: auto;
 .pet-name{
     background-color:transparent;
     height: 100%;
-    border-radius: 15px;
+    border-radius: 14px;
     font-size: 20px;
     margin-top: 0px;
     top: 20px;

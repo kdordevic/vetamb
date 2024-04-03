@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from "react-i18next";
 import "../style/Services.css";
 import { motion } from "framer-motion";
+import Paw from "./Paw.js";
 
 function Services() {
     const { t } = useTranslation();
@@ -12,7 +13,7 @@ function Services() {
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
     >
-      <h1>{t("usluge naslov")}</h1>
+      <h1>{t("usluge naslov")}<Paw/></h1>
       <section>
         <motion.div
           className="services-text"

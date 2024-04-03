@@ -3,7 +3,11 @@ footer{
     /* height: 400px; */
     /* position:sticky; */
     margin: 0;
-     background-color: #88B04B; 
+     /* background-color: #88B04B;  */
+    background-color:  rgb(136, 176, 75);
+ text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+ z-index: 1;
+ 
  
 
 }
@@ -19,12 +23,13 @@ footer button{
 }
 .call-us{
      /* background-color: #333129; */
-     background-color: rgb(58, 47, 37);
+     background-color: rgb(66, 56, 46);
      display: flex;
      height: 60px;
      margin: auto;
     justify-content: space-evenly;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+   
 }
 
 .policy{
@@ -34,10 +39,12 @@ footer button{
    cursor: pointer;
    text-align: center;
    line-height: 60px;
-   color: rgb(58, 47, 37);
+   color:  rgb(66, 56, 46);
+   
 }
 .policy a{
      color: rgb(58, 47, 37);
+      text-shadow: none;
 }
  footer span{
     padding-left: 20px;
@@ -59,15 +66,24 @@ footer button{
 font-size: 15px;
 }
 
-.footer-groups{
+.footer-groups {
     display: flex;
     width: 100%;
+     padding-top: 30px;
+     padding-left: 40px;
+   
 }
 
 .footer-1{
     padding-left:80px;
     padding-right: 20px;
+   background-image: url("../logo/logo-white-text-shadow.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   height: 80px;
+   width: 50px;
 }
+
 .footer-4{
     padding-right:80px;
     padding-left: 20px;
@@ -77,13 +93,25 @@ font-size: 15px;
 
 
 @media screen and (max-width:768px) {
+      .footer-groups{
+    flex-direction: column;
+     padding-left: 0px;
+   
+}
     
  
 .footer-1{
     padding-left:0px;
+    padding-right: 20px;
+   /* height: 17vh;
+   width: 17vh; */
+
 }
 .footer-4{
     padding-right:0px;
+}
+.footer-groups:nth-child(1){
+    padding-left: 10px;
 }
 
 }

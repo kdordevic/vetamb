@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import photos from "./photoGallery";
+import photos from "../files/photoGallery";
 import { i18n } from "./App.js";
 import "../style/Gallery.css";
 import Modal from "react-modal";
 import { motion } from "framer-motion";
+import Paw from "./Paw.js";
 
 Modal.setAppElement("#root");
 
@@ -88,7 +89,7 @@ function Gallery() {
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
     >
-      <h1>{t("galerija naslov")}</h1>
+      <h1>{t("galerija naslov")}<Paw/></h1>
       <div className="wrap">{allPhotos}</div>
     </motion.main>
   );

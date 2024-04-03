@@ -2,7 +2,7 @@ main{
     text-align: center;
     /* background-color: #636159; */
      /* background-color: #474540; */
-      background-color: #332f25; 
+    background-color: #332f25; 
     position:relative;
     top: -50px;
     margin-bottom: -50px;
@@ -12,19 +12,24 @@ main{
     background-position: center;
   background-blend-mode: soft-light;
   overflow: hidden;
-
-
-        /* overflow-x: hidden; */
+overflow-x: hidden;
+z-index: 0;
 }
 h1{
-  font-family: Poppins;
+  font-family:"Nunito";
   font-weight: 300;
   font-size: 30px;
   /* text-transform: uppercase; */
   position: relative;
   margin: 0;
   padding-top: 70px;
-
+}
+.paw{
+  color:tomato;
+}
+.paw svg{
+  transform: rotate(45deg);
+  font-size: 24px;
 }
 p{
   text-align: justify;
@@ -52,6 +57,10 @@ a{
   margin-top: 50px;
   margin-right: 50px;
   /* background-color: tomato; */
+}
+button{
+  cursor: pointer;
+  pointer-events: auto;
 }
 
 

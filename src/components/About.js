@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from "react-i18next";
 import "../style/About.css";
 import { motion } from "framer-motion";
+import Paw from "./Paw.js";
 
 
 function About() {
@@ -42,7 +43,7 @@ function About() {
             }}
             className="text-about first-text"
           >
-            <h1>{t("o nama")}</h1>
+            <h1>{t("o nama")}<Paw/></h1>
             <p>
               {t("tekst o nama")} Lorem ipsum, dolor sit amet consectetur
               adipisicing elit. Distinctio quasi, labore est vitae quos odit

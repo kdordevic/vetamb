@@ -12,12 +12,14 @@ import NotFound from "./NotFound.js";
 import "../style/Nav.css";
 import Navbar from "./Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop.js";
 
 function Vet() {
     return (
       <div>
         <Router>
           <div className="App">
+            <ScrollToTop />
             <Navbar />
             <Routes>
               <Route path="/" element={<Homepage />}></Route>

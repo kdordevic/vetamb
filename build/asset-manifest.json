@@ -1,26 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.792ae6a7.css",
-    "main.js": "/static/js/main.8b282b04.js",
+    "main.css": "/static/css/main.b15112f9.css",
+    "main.js": "/static/js/main.92bb83dc.js",
     "static/js/912.d6fab4d4.chunk.js": "/static/js/912.d6fab4d4.chunk.js",
     "static/media/priscilla-du-preez-pv1qaGYYbuU-unsplash.jpg": "/static/media/priscilla-du-preez-pv1qaGYYbuU-unsplash.d67e9270691501b36a3d.jpg",
     "static/media/hedgehog.jpg": "/static/media/hedgehog.b6fad62d677ba45de6e3.jpg",
-    "static/media/paws.png": "/static/media/paws.4e06da9531d0d0753373.png",
+    "static/media/paws2.png": "/static/media/paws2.c18e3cb08c31ba62b74a.png",
+    "static/media/interior.JPG": "/static/media/interior.22b56dd7f1987c4b849e.JPG",
     "static/media/paws1.png": "/static/media/paws1.2b2e33199f89edbb0a8d.png",
-    "static/media/krystian-tambur-FT9SsFEXqF4-unsplash.jpg": "/static/media/krystian-tambur-FT9SsFEXqF4-unsplash.25d3928e8e4ab091e9c2.jpg",
+    "static/media/interior2.JPG": "/static/media/interior2.7565c6fc087b21d7f03f.JPG",
     "static/media/priscilla-du-preez-2hc6ocDAsNY-unsplash.jpg": "/static/media/priscilla-du-preez-2hc6ocDAsNY-unsplash.b489eb210b5a707a3993.jpg",
-    "static/media/paul-hanaoka-w2DsS-ZAP4U-unsplash.jpg": "/static/media/paul-hanaoka-w2DsS-ZAP4U-unsplash.69a4e96eaf9f06e0a44f.jpg",
     "static/media/karsten-winegeart-loJL4ijUobg-unsplash.jpg": "/static/media/karsten-winegeart-loJL4ijUobg-unsplash.f79511a15fd093b9476e.jpg",
     "static/media/priscilla-du-preez-pWQ4TlnCFqY-unsplash.jpg": "/static/media/priscilla-du-preez-pWQ4TlnCFqY-unsplash.811a12b17bfd604603fe.jpg",
     "static/media/erik-jan-leusink-uamiRCpAmrU-unsplash.jpg": "/static/media/erik-jan-leusink-uamiRCpAmrU-unsplash.d40a7afa57bfc5940711.jpg",
+    "static/media/Nunito-VariableFont_wght.ttf": "/static/media/Nunito-VariableFont_wght.c0f0807a40aebdc41b40.ttf",
+    "static/media/interior4.jpg": "/static/media/interior4.f49fdbc97b7ba0d68b67.jpg",
     "static/media/Jelena.JPG": "/static/media/Jelena.9a22bcdca8a5a88305d3.JPG",
+    "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/logo-white-shadow.png": "/static/media/logo-white-shadow.e08765a40f5e892004ff.png",
+    "static/media/logo-green-shadow.png": "/static/media/logo-green-shadow.f3df5ab7cb877bfbfe55.png",
+    "static/media/logo-white-text-shadow.png": "/static/media/logo-white-text-shadow.221d25d0daa2b34f7787.png",
+    "static/media/white-cat.png": "/static/media/white-cat.38e160b2c9968e53ee16.png",
     "index.html": "/index.html",
-    "main.792ae6a7.css.map": "/static/css/main.792ae6a7.css.map",
-    "main.8b282b04.js.map": "/static/js/main.8b282b04.js.map",
+    "main.b15112f9.css.map": "/static/css/main.b15112f9.css.map",
+    "main.92bb83dc.js.map": "/static/js/main.92bb83dc.js.map",
     "912.d6fab4d4.chunk.js.map": "/static/js/912.d6fab4d4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.792ae6a7.css",
-    "static/js/main.8b282b04.js"
+    "static/css/main.b15112f9.css",
+    "static/js/main.92bb83dc.js"
   ]
 }

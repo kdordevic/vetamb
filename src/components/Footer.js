@@ -18,9 +18,10 @@ function Footer() {
         }
       </div>
       <div className="footer-info">
+        
         <div className="footer-groups one">
           <div className="footer-1">
-            <h5>{t("footer1")}</h5>
+            {/* <h5>{t("footer1")}</h5> */}
           </div>
           <div className="footer-2">
             <h5>{t("footer2")}</h5>
