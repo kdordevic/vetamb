@@ -6,9 +6,7 @@ import translationSR from "../locales/sr/translation.json";
 import '../style/App.css';
 import Vet from './Vet.js';
 
-
 function App() {
-  
 
   const resources = {
     en: {

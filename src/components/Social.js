@@ -12,8 +12,7 @@ const openInNewTab = (url) => {
 
 function Social() {
   return (
-
-       <div className="social">
+      <div className="social">
             <button
               className="social-icon"
               role="link"

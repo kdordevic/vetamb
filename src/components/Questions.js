@@ -7,16 +7,13 @@ import { motion } from "framer-motion";
 import Paw from "./Paw.js";
 
 function Questions() {
-
   const example = qanda.map((article) => {
-    const { id ,photo} = article;
-    const translatedQ = i18n.t(article.question);
-    const translatedA = i18n.t(article.answer);
-   
+  const { id ,photo} = article;
+  const translatedQ = i18n.t(article.question);
+  const translatedA = i18n.t(article.answer);
 
     return (
       <motion.section
-      
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.9 }}
         key={id}
@@ -43,7 +40,6 @@ function Questions() {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
       >
-        {/* <div className="questions-photo"></div> */}
         <div className="questions-text">
           <h1>{t("pitanja naslov")}<Paw/></h1>
           <div className="faq">{example}</div>

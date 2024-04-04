@@ -1,24 +1,25 @@
 .contact{
-  background-color: rgb(219, 208, 181);
-  color:rgb(66, 56, 46,0.7);
+    background-color: rgb(219, 208, 181);
+    color:rgb(102, 88, 73);
 }
 .contact h1{
-  top: 10px;
-  padding-bottom: 20px;
+    top: 10px;
+    padding-bottom: 20px;
 }
-
+.mailto{
+    color:rgb(102, 88, 73);
+}
 .contact-interior{
-
-  margin:30px 30px 40px 30px;
-  display: flex; 
-  justify-content: space-evenly;
+    margin:30px 30px 40px 30px;
+    display: flex; 
+    justify-content: space-evenly;
 }
 .contact-interior-1,.contact-interior-2,.contact-interior-3{
-  width: 30%;
-  height:300px;
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    width: 30%;
+    height:300px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .contact-interior-1{
   background-image: url("../locales/photos/interior2.JPG");
@@ -36,118 +37,103 @@
   background-position: center;
 }
 .contact-info{
-/* padding-left: 50px;
-padding-right: 50px; */
-width: 90%;
-margin: auto;
+    width: 90%;
+    margin: auto;
 }
 .form{
-display: flex;
-flex-direction: column;
-width: 100%;
-padding: 10px 20px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 20px 50px 50px;
 }
 form ::placeholder{
-color: white;
+    color: white;
 }
 input,textarea{
-/* background-color:rgba(255, 255, 255,0.2); */
-background-color: rgb(66, 56, 46,0.5); 
-border: 0;
+    background-color: rgb(66, 56, 46,0.5); 
+    border: 0;
 
 }
 input{
-height: 30px;
-border-bottom: 0.5px solid white;
+    height: 30px;
+    border-bottom: 0.5px solid white;
 }
 form :first-child{
-border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
 }
 .contact .social{
-  height: 100%;
-  position: sticky;
-  padding-bottom: 10px;
-  margin-top: -60px;
-  margin-left:70%;
-  z-index: 0;
+    height: 100%;
+    position: sticky;
+    padding-bottom: 10px;
+    margin-top: -60px;
+    margin-left:70%;
+    z-index: 0;
 }
 .contact .social button{
-  color:rgb(66, 56, 46,0.7);
+    color:rgb(66, 56, 46,0.7);
 }
 textarea{
-margin-top: -0.25px;
-height: 298px;
-resize: none;
-border-radius: 0 0 20px 20px;
-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-
+    margin-top: -0.25px;
+    height: 298px;
+    resize: none;
+    border-radius: 0 0 20px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 form{
-display: flex;
-flex-direction: column;
-width: 100%;
-
-
-
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 form button{
-  background-color: transparent;
-  color: white;
-  border:2px solid white;
-  border-radius: 15px;
-  width: 180px;
-  height: 50px;
-  margin: auto;
-  margin-top: -80px;
+    background-color: transparent;
+    color: white;
+    border:2px solid white;
+    border-radius: 15px;
+    width: 180px;
+    height: 50px;
+    margin: auto;
+    margin-top: -80px;
 }
 .map-form{
-  display: flex;
+    display: flex;
 }
 .mapboxgl-map{
-  border-radius: 20px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .marker{
- background-color: #ff6347;
-  border-radius: 50%;
-  width: 28px;
-  height: 28px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 20px;
-  
+    background-color: #ff6347;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
 }
 .map{
-  width: 100%;
-  height: 400px;
-  padding: 50px;
-  padding-left: 20px;
-   padding: 10px 50px 40px 20px;
-  z-index: 0;
+    width: 100%;
+    height: 400px;
+    padding: 50px;
+    padding-left: 20px;
+    padding: 10px 50px 40px 20px;
+    z-index: 0;
 }
- 
 @media screen and (max-width:768px) {
- 
-.contact-info{
-  /* padding-left: 40px;
-  padding-right: 40px; */
-}
 .contact-interior{
-  margin:20px 20px 50px 20px;
+    margin:20px 20px 50px 20px;
 }
 .contact-interior-1,.contact-interior-2,.contact-interior-3{
-  height:200px;
+    height:200px;
 }
-  .map-form{
-  flex-direction: column;
+.map-form{
+    flex-direction: column;
 }
-  .map{
+.map{
   width: 90%;
   margin: auto;
-  /* padding: 0; */
-   height: 500px;
+  height: 500px;
 } 
 .form{
   width: 90%;
@@ -159,29 +145,25 @@ form button{
   margin-top: -60px; 
   padding-bottom: 20px;
   margin-left:70vw;
-
 }
-
-   
   }
 @media screen and (max-width:480px) {
-  .contact{
+.contact{
     top:-60px
-  }
-  .contact h1{
+}
+.contact h1{
     padding-bottom: 20px;
-  }
-  .contact .social{
+}
+.contact .social{
   flex-direction: row;
   margin: auto;
-  /* margin-left:100px; */
   padding-top: 10px; 
   padding-bottom: 30px;
-    }
-    .contact-interior{
-      flex-direction: column;
-     align-items: center;
-     margin: 0px;
+}
+.contact-interior{
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
 }
 .contact-interior-1,.contact-interior-2,.contact-interior-3{
   height:300px;

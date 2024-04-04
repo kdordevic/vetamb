@@ -1,14 +1,13 @@
 .services{
     display: flex;
-     flex-direction: column;
-     overflow-x: hidden;
-      background-color: rgb(219, 208, 181);
-  color:rgb(66, 56, 46,0.7);
+    flex-direction: column;
+    overflow-x: hidden;
+    background-color: rgb(219, 208, 181);
+    color:rgb(102, 88, 73);
 }
 .services h1{
    top: 10px;
    padding-bottom: 40px;
-   /* margin-top:-50px */
 }
 .services section{
     display: flex;
@@ -21,13 +20,13 @@
     padding-left: 50px;
 }
 .first-photo{
- background-image: url('../locales/photos/priscilla-du-preez-2hc6ocDAsNY-unsplash.jpg');
+    background-image: url('../locales/photos/priscilla-du-preez-2hc6ocDAsNY-unsplash.jpg');
 }
 .second-photo{
-     background-image: url('../locales/photos/hedgehog.jpg');
+    background-image: url('../locales/photos/hedgehog.jpg');
 }
 .third-photo{
-     background-image: url('../locales/photos/erik-jan-leusink-uamiRCpAmrU-unsplash.jpg');
+    background-image: url('../locales/photos/erik-jan-leusink-uamiRCpAmrU-unsplash.jpg');
 }
 .services-text{
     width: 100%;
@@ -38,36 +37,34 @@
 }
 .middle-text{
     text-align: left;
-     padding-left: 50px;
-      padding-right: 0px;
+    padding-left: 50px;
+    padding-right: 0px;
 }
-/* @media screen and (max-width:768px) {
-    
-    .services-text{
-        text-align: center;
-        margin: auto;
-    }
-   
-  
-    
-}  */
 @media screen and (max-width:768px) {
-     .services-text{
-        text-align: center;
-        margin: auto;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-   .services-photo{
-        height: 400px;
-    }
-    .services section{
-  flex-direction: column;
+.services-text{
+    text-align: center;
+    margin: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.services-photo{
+    height: 400px;
+}
+.services section{
+    flex-direction: column;
+}
+.services-text{
+    padding-top: 0px;
+}
+.services-text:nth-child(2){
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: -20px;
 }
 .services.second-photo{
     display: none;
 }
-  }
+}
 
 
 

@@ -3,7 +3,6 @@
     padding-bottom: 40px;
     padding-left: 50px;
     text-align: left; 
-    
 }
 .privacy p{
     text-align: justify;
@@ -13,21 +12,17 @@
     padding-left:50px;
     padding-top: 30px;
     background-color: rgb(230, 218, 181,0.5);
-    
 }
 .last-p{
-     border-bottom: 3px solid white;
-     padding-bottom: 50px;
+    border-bottom: 3px solid white;
+    padding-bottom: 50px;
 }
 .deco-right{
     width: 30vw;
     display: flex;
     flex-direction: column;
-    /* padding-bottom: 50px; */
     padding-top: 40px;
     margin-left:-100px;
-    /* margin-bottom: 50px; */
-
 }
 .photos{
     height: 70vh;
@@ -36,42 +31,33 @@
     width: 50%;
     height: 33.3%;
     background-size: cover;
-     background-position: center;
-     margin-left:25%;
-     border-left: 3px solid white;
-     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-   
+    background-position: center;
+    margin-left:25%;
+    border-left: 3px solid white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .deco1{
-   background-image: url('../locales/photos/priscilla-du-preez-2hc6ocDAsNY-unsplash.jpg');
-    
-    
+    background-image: url('../locales/photos/priscilla-du-preez-2hc6ocDAsNY-unsplash.jpg');
 }
 .deco2{
     background-image: url('../locales/photos/priscilla-du-preez-pv1qaGYYbuU-unsplash.jpg');
-  
 }
 .deco3{
-    background-image: url('../locales/photos/priscilla-du-preez-pWQ4TlnCFqY-unsplash.jpg');
-    
+    background-image: url('../locales/photos/priscilla-du-preez-pWQ4TlnCFqY-unsplash.jpg'); 
 }
-
-
 .privacy{
     display: flex;
 }
 @media screen and (max-width:768px) {
- 
-    .privacy p{
-padding: 10px;
+.privacy p{
+    padding: 10px;
     width: 90vw;
-    /* border: none; */
 }
 .deco-right{
-width: 90vw;
-height: 500px;
-padding: 10px;
-margin:auto;
+    width: 90vw;
+    height: 500px;
+    padding: 10px;
+    margin:auto;
 } 
 .deco1, .deco2 ,.deco3{
     border: none;
@@ -82,7 +68,6 @@ margin:auto;
 }
 @media screen and (max-width:480px) {
 
-    
 }
 
 

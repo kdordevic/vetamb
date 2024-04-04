@@ -1,13 +1,9 @@
 .questions{
-
     display: flex;
-
 }
 .questions section{
     width: 310px;
     height: 550px;
-    /* background-color: rgb(230, 218, 181,0.5); */
-    /* background-color: rgb(140, 132, 109); */
     background-color:rgba(255, 255, 255,0.2);
     border-radius: 15px;
     margin: auto;
@@ -20,7 +16,6 @@
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    
 }
 .questions p{
     font-size: 13px;
@@ -32,7 +27,6 @@ hr{
     width: 80%;
     color: white;
 }
-
 .faq-photo{
     background-size: cover;
     background-position: center;
@@ -46,9 +40,7 @@ hr{
 .questions h1{
     top: 10px;
     padding-bottom: 20px;
-   /* margin-top:-50px; */
     margin-bottom: 50px;
-
 }
 .questions-photo{
     width: 100%;
@@ -58,18 +50,14 @@ hr{
 }
 
  @media screen and (max-width:768px) {
-    
-    .questions {
-        flex-direction: column;
-        top: -60px;
-        background-position: bottom;
-    }
-    .questions h1{
-        margin-top: 50px;
-    }
-   
-    
+.questions {
+    flex-direction: column;
+    top: -60px;
+    background-position: bottom;
+}
+.questions h1{
+    margin-top: 50px;
+}
 } 
 @media screen and (max-width:480px) {
-   
 }

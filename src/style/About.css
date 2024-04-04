@@ -1,7 +1,7 @@
 .about{
     display: flex;
-     flex-direction: column;
-     overflow-x: hidden;
+    flex-direction: column;
+    overflow-x: hidden;
 }
 .about section{
     display: flex;
@@ -15,21 +15,18 @@
     width: 100%;
     min-height: 500px;
 }
-
 .about .first-photo{
- background-image: url('../locales/photos/karsten-winegeart-loJL4ijUobg-unsplash.jpg');
+    background-image: url('../locales/photos/karsten-winegeart-loJL4ijUobg-unsplash.jpg');
 }
 .about .second-photo{
-background-image: url('../locales/photos/Jelena.JPG');
-background-position: top;
+    background-image: url('../locales/photos/Jelena.JPG');
+    background-position: top;
 }
-
 .text-about{
     width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 50px;
-    
 }
 .first-text p, .about h1{
     text-align: left;
@@ -42,8 +39,10 @@ background-position: top;
 }
 @media screen and (max-width:768px) {
     
-   .text-about{
+.text-about{
     width: 95%;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .first-text p{
     text-align: justify;
@@ -53,26 +52,24 @@ background-position: top;
     text-align: justify;
     padding-left: 50px;
     padding-right: 0px;
+    padding-bottom:20px
+  
 }
-     .photo-about{
-        height: 400px;
-    }
- 
-    .about section{
-  flex-direction: column;
+.photo-about{
+    height: 400px;
 }
-
+.about section{
+    flex-direction: column;
+}
 } 
 @media screen and (max-width:480px) {
-   .photo-about{
-        height: 400px;
-    }
-
+.photo-about{
+    height: 400px;
+}
 .text-about{
     width: 95%;  
-     margin-left: -12px;
-  }
- 
+    margin-left: -12px;
+}
 }
 
 

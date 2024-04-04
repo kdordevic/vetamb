@@ -20,14 +20,12 @@ import Paw from "./Paw.js";
 
 
 function Practice() {
-  // articles = JSON.parse(articles);
-  const example = articles.map((article) => {
-   
-    const { id } = article;
-    const translatedTitle = i18n.t(article.title);
-    const translatedText = i18n.t(article.text);
-    
 
+  const example = articles.map((article) => {
+  const { id } = article;
+  const translatedTitle = i18n.t(article.title);
+  const translatedText = i18n.t(article.text);
+    
     return (
       <section key={id}>
         <div className="rectangle"></div>

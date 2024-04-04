@@ -3,7 +3,6 @@
     background-color: rgb(85, 78, 67);
 text-align: center;
 }
-
 @media screen and (max-width:480px) {
 .not-found h1{
     padding-top: 150px;

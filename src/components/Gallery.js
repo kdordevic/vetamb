@@ -20,7 +20,6 @@ function Gallery() {
       width: "600px",
       padding: '0px',
       borderRadius:"20px"
-
     },
   };
 
@@ -79,8 +78,6 @@ function Gallery() {
       </div>
     );
   });
-
-
 
   return (
     <motion.main

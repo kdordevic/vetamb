@@ -1,84 +1,71 @@
 main{
     text-align: center;
-    /* background-color: #636159; */
-     /* background-color: #474540; */
     background-color: #332f25; 
     position:relative;
     top: -50px;
     margin-bottom: -50px;
-    /* background-image: url("../locales/photos/paws.png"); */
     background-image: url("../locales/photos/paws2.png");
     background-size: cover;
     background-position: center;
-  background-blend-mode: soft-light;
-  overflow: hidden;
-overflow-x: hidden;
-z-index: 0;
+    background-blend-mode: soft-light;
+    overflow: hidden;
+    overflow-x: hidden;
+    z-index: 0;
 }
 h1{
-  font-family:"Nunito";
-  font-weight: 300;
-  font-size: 30px;
-  /* text-transform: uppercase; */
-  position: relative;
-  margin: 0;
-  padding-top: 70px;
+    font-family:"Nunito";
+    font-weight: 300;
+    font-size: 30px;
+    position: relative;
+    margin: 0;
+    padding-top: 70px;
 }
 .paw{
-  color:tomato;
+    color:tomato;
 }
 .paw svg{
-  transform: rotate(45deg);
-  font-size: 24px;
+    transform: rotate(45deg);
+    font-size: 24px;
 }
 p{
-  text-align: justify;
-  font-weight: 400;
+    text-align: justify;
+    font-weight: 400;
 }
 h3{
-  font-weight: 200;
-  font-size: 22px;
-  margin:auto;
-  margin-bottom:30px;;
-
+    font-weight: 200;
+    font-size: 22px;
+    margin:auto;
+    margin-bottom:30px;;
 }
 a{
-      list-style: none;
-      color: white;
-      text-decoration:none;
+    list-style: none;
+    color: white;
+    text-decoration:none;
 }
-
 .not-found-img{
-  background-image:url('../locales/photos/white-cat.png'); 
-  height:300px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
-  margin-top: 50px;
-  margin-right: 50px;
-  /* background-color: tomato; */
+    background-image:url('../locales/photos/white-cat.png'); 
+    height:300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 50px;
+    margin-right: 50px;
 }
 button{
-  cursor: pointer;
-  pointer-events: auto;
+    cursor: pointer;
+    pointer-events: auto;
 }
-
-
 
 @media screen and (max-width:768px) {
-  main {
-      flex-direction: column;
-    
-
-      
-    }
+main {
+    flex-direction: column;
+}
 }
 @media screen and (max-width:480px) {
-
 h1{
-   padding-top: 100px;
+    padding-top: 100px;
 }
 .not-found-img{
-  height:240px;
+    height:240px;
 }
 }

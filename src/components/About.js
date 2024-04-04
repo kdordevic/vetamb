@@ -4,7 +4,6 @@ import "../style/About.css";
 import { motion } from "framer-motion";
 import Paw from "./Paw.js";
 
-
 function About() {
   const { t } = useTranslation();
     return (
@@ -43,31 +42,13 @@ function About() {
             }}
             className="text-about first-text"
           >
-            <h1>{t("o nama")}<Paw/></h1>
-            <p>
-              {t("tekst o nama")} Lorem ipsum, dolor sit amet consectetur
-              adipisicing elit. Distinctio quasi, labore est vitae quos odit
-              itaque exercitationem soluta magni dolorem veniam qui praesentium
-              molestiae nemo nam, magnam nesciunt. Adipisci.Distinctio quasi,
-              labore est vitae quos odit itaque exercitationem soluta magni
-              dolorem veniam qui praesentium dignissimos molestiae nemo nam,
-              magnam nesciunt. Adipisci.Lorem ipsum, dolor sit amet consectetur
-              adipisicing elit. Distinctio quasi, labore est vitae
-              <br />
-              quos odit itaque exercitationem soluta magni dolorem veniam qui
-              praesentium dignissimos molestiae nemo nam, magnam nesciunt.
-              Adipisci.Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Distinctio quasi, labore est vitae quos odit itaque exercitationem
-              soluta magni dolorem veniam qui praesentium dignissimos molestiae
-              nemo
-              <br />
-              nam, magnam nesciunt. Adipisci.Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Distinctio quasi, labore est vitae
-              quos odit itaque exercitationem soluta magni dolorem veniam qui
-              praesentium dignissimos
-              <br />
-              molestiae nemo nam, magnam nesciunt. Adipisci.
-            </p>
+            <h1>
+              {t("o nama")}
+              <Paw />
+            </h1>
+            <p>{t("tekst o nama 1")}</p>
+            <p>{t("tekst o nama 2")}</p>
+            <p>{t("tekst o nama 3")}</p>
           </motion.div>
         </section>
         <section>
@@ -85,23 +66,9 @@ function About() {
             }}
             className="text-about second-text"
           >
-            <p>
-              {t("tekst o nama")} Lorem ipsum, dolor sit amet consectetur
-              adipisicing elit. Distinctio quasi, labore est vitae quos odit
-              itaque exercitationem soluta magni dolorem veniam qui praesentium
-              dignissimos molestiae nemo nam, magnam nesciunt. Adipisci.Lorem
-              ipsum, dolor sit amet consectetur adipisicing elit. Distinctio
-              quasi, labore est vitae nam, magnam nesciunt. Adipisci.Lorem
-              ipsum, dolor sit amet consectetur adipisicing elit. Distinctio
-              quasi, labore est vitae quos odit itaque exercitationem soluta
-              magni dolorem veniam qui praesentium dignissimos
-              <br />
-              molestiae nemo nam, magnam nesciunt. Adipisci.Distinctio quasi,
-              labore est vitae quos odit itaque exercitationem soluta magni
-              dolorem veniam qui praesentium dignissimos molestiae nemo nam,
-              magnam nesciunt. Adipisci.Lorem ipsum, dolor sit amet consectetur
-              adipisicing elit. Distinctio quasi, labore est vitae
-            </p>
+            <p>{t("tekst o nama 4")}</p>
+            <p>{t("tekst o nama 5")}</p>
+            <p>{t("tekst o nama 6")}</p>
           </motion.div>
 
           <motion.div

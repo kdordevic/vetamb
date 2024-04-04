@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import "../style/NotFound.css";
+import Paw from "./Paw.js";
 
 function NotFound() {
     return (
@@ -10,7 +11,7 @@ function NotFound() {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
       >
-        <h1> 404 Page not found</h1>
+        <h1> 404 Page not found <Paw/></h1>
         <div className="not-found-img">
         </div>
         

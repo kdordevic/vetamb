@@ -4,27 +4,25 @@ import { useTranslation } from "react-i18next";
 
 function ContactUs() {
     const { t } = useTranslation();
-     const form = useRef();
+    const form = useRef();
 
-     const sendEmail = (e) => {
-       e.preventDefault();
+    const sendEmail = (e) => {
+      e.preventDefault();
 
-       emailjs
-         .sendForm("service_f3s28zg", "template_61acl4d", form.current, {
-           publicKey: "a6Dz9LDS2hh4atzKh",
-         })
-         .then(
-           () => {
-                 console.log("SUCCESS!");
-                 alert(t("success"));
-           },
-           (error) => {
-             console.log("FAILED...", error.text);
-           }
-         );
-     };
-
-
+      emailjs
+        .sendForm("service_f3s28zg", "template_61acl4d", form.current, {
+          publicKey: "a6Dz9LDS2hh4atzKh",
+        })
+        .then(
+          () => {
+                console.log("SUCCESS!");
+                alert(t("success"));
+          },
+          (error) => {
+            console.log("FAILED...", error.text);
+          }
+        );
+    };
   return (
     <div className="form">
       <form ref={form} onSubmit={sendEmail}>
@@ -50,5 +48,4 @@ function ContactUs() {
     </div>
   );
 }
-
-export default ContactUs
+export default ContactUs;

@@ -14,6 +14,7 @@ function Privacy() {
     >
       <div>
         <h1>{t("privacy")}</h1>
+        <p> Poslednja izmena 03.04.2024god.</p>
         <p>
           Ova politika privatnosti ima za cilj da vam pruži informacije o tome
           kako prikupljamo, koristimo i štitimo vaše lične podatke dok koristite
@@ -26,13 +27,13 @@ function Privacy() {
           uključujući IP adrese, vrstu uređaja, vreme provedeno na sajtu i
           pregledane stranice. Ovi podaci se koriste isključivo u svrhu analize
           posetilaca i unapređenja korisničkog iskustva našeg sajta. Takođe,
-          prikupljamo određene osnovne informacije putem kontakt forme na našem
+          prikupljamo određene osnovne informacije putem kontakt formulara na našem
           sajtu u svrhu poslovne saradnje. Ove informacije mogu uključivati vaše
           ime, e-mail adresu i poruku koju nam šaljete.
         </p>
         <p>
           2. Upotreba informacija: Vaše lične podatke prikupljene putem kontakt
-          forme i koristimo isključivo u svrhu odgovora na vaše upite i
+          formulara koristimo isključivo u svrhu odgovora na vaše upite i
           ostvarivanja poslovne saradnje. Vaši podaci neće biti prodavani,
           iznajmljivani ili deljeni sa trećim licima bez vaše saglasnosti.
           Podaci prikupljeni putem Google Analytics-a koriste se za analizu
@@ -53,15 +54,14 @@ function Privacy() {
         <p>
           5. Prava korisnika: Imate pravo da zatražite informacije o ličnim
           podacima koje čuvamo o vama, da ih ispravite ili izbrišete, kao i da
-          se usprotivite obradi tih podataka. Takođe, imate pravo na prenos
-          podataka.
+          se usprotivite obradi tih podataka.
         </p>
         <p className="last-p">
           6. Promene u politici privatnosti: Ova politika privatnosti može biti
           ažurirana s vremena na vreme. Svaka izmena će biti objavljena na ovoj
           stranici, a datum izmene će biti naglašen na vrhu dokumenta. Za sva
           pitanja ili zahtev za ostvarivanje vaših prava u vezi sa zaštitom
-          podataka, možete nas kontaktirati putem sledeće e-mail adrese:
+          podataka, možete nas kontaktirati putem sledeće e-mail adrese: lovepet@lovepet.rs
         </p>
       </div>
       <div className="deco-right">

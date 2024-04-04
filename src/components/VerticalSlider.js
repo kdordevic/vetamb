@@ -6,12 +6,12 @@ function VerticalSlider() {
      const controls = useAnimation();
     const controls1 = useAnimation();
 
-    useEffect(() => {
+  useEffect(() => {
       const handleScroll = () => {
         setScrollY(window.scrollY);
       };
 
-      window.addEventListener("scroll", handleScroll);
+  window.addEventListener("scroll", handleScroll);
 
       return () => {
         window.removeEventListener("scroll", handleScroll);

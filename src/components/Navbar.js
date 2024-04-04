@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 import "../style/Nav.css";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { useTranslation } from "react-i18next";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faPaw } from "@fortawesome/free-solid-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { motion } from "framer-motion";
 
@@ -14,9 +12,9 @@ export default function Navbar() {
     const menuToogle = () => {
         setToogle(!toogle);
     }
-   const handleLanguageSwitcherClick = (e) => {
-     e.stopPropagation();
-   };
+  const handleLanguageSwitcherClick = (e) => {
+    e.stopPropagation();
+  };
 
   return (
     <div className={toogle ? "big-screen-nav" : "small-screen-nav"}>
@@ -42,9 +40,9 @@ export default function Navbar() {
             <Link to="/">{t("Homepage")}</Link>
             <Link to="/about">{t("About")}</Link>
             <Link to="/services">{t("Services")}</Link>
-            <Link to="/questions">{t("Questions")}</Link>
-            <Link to="/gallery">{t("Gallery")}</Link>
-            <Link to="/practice">{t("Practice")}</Link>
+            {/* <Link to="/questions">{t("Questions")}</Link> */}
+            {/* <Link to="/gallery">{t("Gallery")}</Link> */}
+            {/* <Link to="/practice">{t("Practice")}</Link> */}
             <Link to="/contact">{t("Contact")}</Link>
             <span onClick={handleLanguageSwitcherClick}>
               <LanguageSwitcher />

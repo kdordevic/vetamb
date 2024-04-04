@@ -13,7 +13,10 @@ function Services() {
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
     >
-      <h1>{t("usluge naslov")}<Paw/></h1>
+      <h1>
+        {t("usluge naslov")}
+        <Paw />
+      </h1>
       <section>
         <motion.div
           className="services-text"
@@ -31,14 +34,14 @@ function Services() {
         >
           <h4>{t("usluga 1")}</h4>
           <h4>{t("usluga 2")}</h4>
-          <h4>{t("usluga 1")}</h4>
-          <h4>{t("usluga 2")}</h4>
-          <h4>{t("usluga 1")}</h4>
-          <h4>{t("usluga 2")}</h4>
-          <h4>{t("usluga 1")}</h4>
-          <h4>{t("usluga 2")}</h4>
-          <h4>{t("usluga 1")}</h4>
-          <h4>{t("usluga 2")}</h4>
+          <h4>{t("usluga 3")}</h4>
+          <h4>{t("usluga 4")}</h4>
+          <h4>{t("usluga 5")}</h4>
+          <h4>{t("usluga 6")}</h4>
+          <h4>{t("usluga 7")}</h4>
+          <h4>{t("usluga 8")}</h4>
+          <h4>{t("usluga 9")}</h4>
+          <h4>{t("usluga 10")}</h4>
         </motion.div>
         <motion.div
           className="services-photo first-photo"
@@ -84,16 +87,16 @@ function Services() {
             },
           }}
         >
-          <h4>{t("usluga 1")}</h4>
-          <h4>{t("usluga 2")}</h4>
-          <h4>{t("usluga 1")}</h4>
-          <h4>{t("usluga 2")}</h4>
-          <h4>{t("usluga 1")}</h4>
-          <h4>{t("usluga 2")}</h4>
-          <h4>{t("usluga 1")}</h4>
-          <h4>{t("usluga 2")}</h4>
-          <h4>{t("usluga 1")}</h4>
-          <h4>{t("usluga 2")}</h4>
+          <h4>{t("usluga 11")}</h4>
+          <h4>{t("usluga 12")}</h4>
+          <h4>{t("usluga 13")}</h4>
+          <h4>{t("usluga 14")}</h4>
+          <h4>{t("usluga 15")}</h4>
+          <h4>{t("usluga 16")}</h4>
+          <h4>{t("usluga 17")}</h4>
+          <h4>{t("usluga 18")}</h4>
+          <h4>{t("usluga 19")}</h4>
+          <h4>{t("usluga 20")}</h4>
         </motion.div>
       </section>
       <section>
@@ -111,16 +114,16 @@ function Services() {
             },
           }}
         >
-          <h4>{t("usluga 1")}</h4>
-          <h4>{t("usluga 2")}</h4>
-          <h4>{t("usluga 1")}</h4>
-          <h4>{t("usluga 2")}</h4>
-          <h4>{t("usluga 1")}</h4>
-          <h4>{t("usluga 2")}</h4>
-          <h4>{t("usluga 1")}</h4>
-          <h4>{t("usluga 2")}</h4>
-          <h4>{t("usluga 1")}</h4>
-          <h4>{t("usluga 2")}</h4>
+          <h4>{t("usluga 21")}</h4>
+          <h4>{t("usluga 22")}</h4>
+          <h4>{t("usluga 23")}</h4>
+          <h4>{t("usluga 24")}</h4>
+          <h4>{t("usluga 25")}</h4>
+          <h4>{t("usluga 26")}</h4>
+          <h4>{t("usluga 27")}</h4>
+          <h4>{t("usluga 28")}</h4>
+          <h4>{t("usluga 29")}</h4>
+          <h4>{t("usluga 30")}</h4>
         </motion.div>
         <motion.div
           className="services-photo third-photo"

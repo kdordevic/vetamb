@@ -19,37 +19,15 @@ function Contact() {
         viewport={{ once: true }}
       >
         <h1>
-          {t("contact title")}{" "}
-          <Paw/>
+          {t("contact title")} <Paw />
         </h1>
         <section className="contact-info">
           <p>{t("formular tekst")}</p>
           <p>{t("adresa")}</p>
           <p>{t("telefon")}</p>
+          <a href="mailto:lovepet@lovepet.rs" className="mailto">
           <p>{t("e-mail")}</p>
-          {/* <div className="social soc-cont">
-            <button
-              className="social-icon"
-              role="link"
-              onClick={() => openInNewTab("https://instagram.com")}
-            >
-              <FontAwesomeIcon icon={faSquareInstagram} />
-            </button>
-            <button
-              className="social-icon"
-              role="link"
-              onClick={() => openInNewTab("https://facebook.com")}
-            >
-              <FontAwesomeIcon icon={faSquareFacebook} />
-            </button>
-            <button
-              className="social-icon"
-              role="link"
-              onClick={() => openInNewTab("https://linkedin.com")}
-            >
-              <FontAwesomeIcon icon={faLinkedin} />
-            </button>
-          </div> */}
+          </a>
           <Social />
         </section>
         <div className="contact-interior">
@@ -66,5 +44,4 @@ function Contact() {
       </motion.main>
     );
 }
-
 export default Contact

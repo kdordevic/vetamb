@@ -7,11 +7,10 @@ import Social from "./Social.js"
 
 function Homepage() {
   
-
-    const { t } = useTranslation();
+  const { t } = useTranslation();
   return (
     <div>
-      <Social/>
+      <Social />
       <motion.main
         className="homepage"
         initial={{ opacity: 0 }}
@@ -96,13 +95,13 @@ function Homepage() {
           >
             <h3>{t("telefon")}</h3>
             <h4>Čekamo vas!!</h4>
-            <h3>{t("e-mail")}</h3>
+            <a href="mailto:lovepet@lovepet.rs" className="mailto">
+              <h3>{t("e-mail")}</h3>
+            </a>
           </motion.div>
         </div>
-        {/* <div className="deco-3"></div>  */}
       </motion.main>
     </div>
   );
 }
-
 export default Homepage
