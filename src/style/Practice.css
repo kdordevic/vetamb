@@ -49,10 +49,10 @@ h3:after {
     border-radius:5px;
     background-color:rgba(250, 250, 250,0.2);
 }
-.slideshow :nth-child( 1 of button) {
+.slideshow button :nth-child(1) {
     right: 39vw;
 }
-.slideshow :nth-child(2 of button) {
+.slideshow button :nth-child(2) {
     left: 39vw;
 }
 @media screen and (max-width:768px) {
@@ -101,7 +101,7 @@ h3:after {
 }
 .practice h3{
     width: 340px;
-     margin-top:-20px;
+    margin-top:-20px;
 }
 .rectangle{
     top:350px 
