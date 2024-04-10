@@ -3,11 +3,12 @@
     flex-direction: column;
     overflow-x: hidden;
     background-color: rgb(219, 208, 181);
-    color:rgb(102, 88, 73);
+    /* color:rgb(102, 88, 73); */
+    color:#404041 ;
 }
 .services h1{
-   top: 10px;
-   padding-bottom: 40px;
+    top: 10px;
+    padding-bottom: 40px;
 }
 .services section{
     display: flex;

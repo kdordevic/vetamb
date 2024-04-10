@@ -69,6 +69,7 @@ function About() {
             <p>{t("tekst o nama 4")}</p>
             <p>{t("tekst o nama 5")}</p>
             <p>{t("tekst o nama 6")}</p>
+            {/* <div className="logo-deco"></div> */}
           </motion.div>
 
           <motion.div

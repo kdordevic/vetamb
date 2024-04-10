@@ -2,10 +2,13 @@
     text-align: center;
     z-index: -1;
     position:relative ;
+    overflow-x: hidden;
+    overflow: hidden;
 }
 .container{
     margin-bottom: 100px;
     height: 130vh;
+    
 }
 .vertical-slider {
     width: 25vw;
@@ -14,6 +17,7 @@
     position: fixed;
     z-index: -1;
     background-color: rgb(241, 234, 215);
+    
 }
 .v-s-one{
     top:-580px;
@@ -83,13 +87,14 @@ text-shadow: 3px 5px 11px rgba(0,0,0,0.60);
     text-shadow: 3px 5px 11px rgba(0,0,0,0.60);
 }
 .logo1{
-    background-image: url("../logo/logo-green-shadow.png");
-    background-size: cover;
+    /* background-image: url("../logo/logo-green-shadow.png"); */
+    background-image: url("../logo/logo-zeleno-beli.png");
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     margin: auto;
     height: 200px;
-    width: 200px;
+    width: 300px;
     position: relative;
 }
 .icon{
@@ -117,14 +122,18 @@ height: 650px;
 width: 100%;
 display: flex;
 }
-    .deco-1{
+.deco-1{
     text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
     background-color: tomato; 
 }
 .deco-2{
     background-color: rgb(240, 237, 222);
-    color:rgb(102, 88, 73);
+      /* background-color: rgb(219, 208, 181); */
+
+    /* color:rgb(102, 88, 73); */
+     color:#404041 ;
     background-image: url("../locales/photos/paws1.png");
+    /* background-image: url("../locales/photos/paws2.png"); */
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
@@ -132,7 +141,7 @@ display: flex;
 .deco-1-text,.deco-2-text{
     width: 50%;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 150px;
     font-size: 60px;
 }
 .homepage h4{
@@ -178,13 +187,14 @@ height: 600px;
 
 @media screen and (max-width:768px) {
 .social{
-    margin-right: 70%;
-    top:150px;
+   
+    margin-left:70vw;
+    top:120px;
 }
-    .circle{
+    /* .circle{
     top:40px;
-}
-    .contact-home{
+} */
+.contact-home{
     flex-direction: column;
 }
 .contact-home p{
@@ -221,6 +231,7 @@ display: none;
 }
 .deco-1,.deco-2{
     flex-direction: column;
+     text-shadow: none;
 }
 .deco-1-img,.deco-2-img{
     width: 400px;
@@ -252,7 +263,11 @@ display: none;
     margin-bottom:40px
 }
 } 
-
+@media screen and (max-height:450px ) {
+.heading-home{
+    margin-top: 20px;
+}
+}
 @media screen and (max-width:480px) {
 .homepage{
     top: -40px;
@@ -261,11 +276,12 @@ display: none;
     margin-top:10px;
 }
 .social{
-    top:120px;
+    top:100px;
     flex-direction: column;
+    margin-left:80vw;
 }
 .heading-home{
-    margin-top: 150px;
+    margin-top: 45px;
 }
 .v-s-three,.v-s-four, .v-s-three .vertical-slide,.v-s-four .vertical-slide{
     display: none;

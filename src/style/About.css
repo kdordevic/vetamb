@@ -37,6 +37,18 @@
     padding-left: 50px;
     padding-right: 0px;
 }
+.logo-deco{
+width: 70px;
+height: 70px;
+/* background-color: blueviolet; */
+background-image: url("../logo/logo-original.png");
+background-size: contain;
+background-repeat: no-repeat;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
 @media screen and (max-width:768px) {
     
 .text-about{

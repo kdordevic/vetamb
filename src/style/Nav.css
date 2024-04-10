@@ -1,4 +1,3 @@
-
 .menu{
     position:sticky;
     top: 50px;
@@ -23,9 +22,10 @@ ul{
     margin: 10px;
 }
 .nav{
-    background-color: rgb(136, 176, 75);
+    /* background-color: rgb(136, 176, 75); */
+    /* background-color: #b0d361; */
+    background-color: #a7c75b;
     top: 0px;
-    /* height: 60px; */
     display: flex;
     position:sticky;
     padding-right: 20px;
@@ -67,8 +67,9 @@ ul{
     margin:0px;
     padding-left: 40px;
     padding-bottom: 6px;
-    padding-top: 6px;
-    background-image: url("../logo/logo-white-shadow.png");
+    padding-top: 2px;
+    /* background-image: url("../logo/logo-white-shadow.png"); */
+    background-image: url("../logo/logo-belo-sivi.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -118,12 +119,13 @@ ul{
     background-repeat: no-repeat;
     height:60px; 
     margin-left:30px ;
-    margin-top: 40%;
-    background-image: url("../logo/logo-white-text-shadow.png");
+    margin-top: 20%;
+    /* background-image: url("../logo/logo-white-text-shadow.png"); */
+     background-image: url("../logo/logo-belo-sivi.png");
 }
 .nav .logo-nav:hover{
     margin-left:30px ;
-    margin-top: 40%;
+    margin-top: 20%;
 }
 .icon-nav{
 padding: 5px;
@@ -181,9 +183,10 @@ main{
 .logo{
     padding-left: 0px;
     padding-top: 0px;
+ 
 }
 .nav .logo-nav{
-    width: 70px;
+    width: 120px;
     height:70px;
     margin:auto;
     border: none;

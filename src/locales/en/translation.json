@@ -16,7 +16,7 @@
   "contact title": "Contact us",
   "adresa": "Our practice is located in Bilecka Street, 67,local 07, 11010 Voždovac, Belgrade",
   "telefon": "Contact phone: +381-11-xxxx-xxx, +381-11-xxxx-xxx",
-  "e-mail": "E-mail: lovepet@lovepet.rs",
+  "e-mail": "E-mail: info@lovepet.rs",
   "formular tekst": "For all your questions, you can contact us by phone, e-mail, social networks or via the attached form, and you can also come to our ambulance.",
   "full name": "Name and surname",
   "your e-mail": "Your e-mail address",
@@ -28,7 +28,7 @@
   "footer3": "laboratory",
   "footer4": "",
   "footer question": "Have you already booked an appointment for your pet?",
-  "galerija naslov": "Here you can view a photo gallery of your pets",
+  "galerija naslov": "Here you can view a photo gallery of our clinic",
   "photo title 1": "name of your pet 1 ",
   "photo title 2": "name of your pet 2 ",
   "homepage tekst": "Veterinary clinic",
@@ -77,5 +77,6 @@
   "article text 1": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, illum saepe nam aliquam dolorem nobis voluptate ipsam provident deleniti laboriosam quasi rem tempore quis incidunt rerum nostrum autem temporibus accusantium quo. Placeat, dicta corporis. Cumque voluptate odit quo? Repellat magnam repellendus nam recusandae autem veritatis quas, debitis alias obcaecati quia?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, illum saepe nam aliquam dolorem nobis voluptate ipsam provident deleniti laboriosam quasi rem tempore quis incidunt rerum nostrum autem temporibus accusantium quo. Placeat, dicta corporis. Cumque voluptate odit quo? Repellat magnam repellendus nam recusandae autem veritatis quas, debitis alias obcaecati quia?",
   "article text 2": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, illum saepe nam aliquam dolorem nobis voluptate ipsam provident deleniti laboriosam quasi rem tempore quis incidunt rerum nostrum autem temporibus accusantium quo. Placeat, dicta corporis. Cumque voluptate odit quo? Repellat magnam repellendus nam recusandae autem veritatis quas, debitis alias obcaecati quia?",
   "article text 3": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, illum saepe nam aliquam dolorem nobis voluptate ipsam provident deleniti laboriosam quasi rem tempore quis incidunt rerum nostrum autem temporibus accusantium quo. Placeat, dicta corporis.Cumque voluptate odit quo? Repellat magnam repellendus nam recusandae autem veritatis quas, debitis alias obcaecati quia?",
-  "privacy": "Privacy policy"
+  "privacy": "Privacy policy",
+  "radno vreme": "Working hours: Weekdays: 9h-12h and 16h-19h, Saturday: 10-13h"
 }

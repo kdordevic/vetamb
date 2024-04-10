@@ -97,6 +97,7 @@ function Services() {
           <h4>{t("usluga 18")}</h4>
           <h4>{t("usluga 19")}</h4>
           <h4>{t("usluga 20")}</h4>
+          {/* <div className="logo-deco"></div> */}
         </motion.div>
       </section>
       <section>

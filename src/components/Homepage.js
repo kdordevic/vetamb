@@ -22,7 +22,7 @@ function Homepage() {
 
           <div className="heading-home">
             <div className="logo1"></div>
-            <h2>{t("homepage tekst1")}</h2>
+            {/* <h2>{t("homepage tekst1")}</h2> */}
             <h1>{t("homepage tekst")}</h1>
           </div>
           <section className="contact-home"></section>
@@ -44,6 +44,7 @@ function Homepage() {
           >
             <h3>{t("adresa")}</h3>
             <h4>Dobrodošli!</h4>
+            <h3>{t("radno vreme")}</h3>
           </motion.div>
           <motion.div
             className="deco-1-img"

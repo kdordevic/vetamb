@@ -70,6 +70,7 @@ function Gallery() {
             >
               <button onClick={() => closeModal(index)}>X</button>
             </div>
+            <div className="photo-name-modal">{translatedTitle}</div>
           </Modal>
           <h5 onClick={() => openModal(index)} className="pet-name">
             {translatedTitle}

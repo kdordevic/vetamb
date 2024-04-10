@@ -1,6 +1,10 @@
+        /* Boje:
+Logo zeleni: #b0d361
+Natpis LOVE PET: #404041 */
 main{
     text-align: center;
-    background-color: #332f25; 
+    /* background-color: #332f25;  */
+     background-color: #312e26; 
     position:relative;
     top: -50px;
     margin-bottom: -50px;
