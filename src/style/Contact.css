@@ -7,9 +7,10 @@
     top: 10px;
     padding-bottom: 20px;
 }
-.mailto{
+.mailto, .tel{
     color:rgb(102, 88, 73);
-      color:#404041 ;
+    color:#404041 ;
+    
 }
 .contact-interior{
     margin:30px 30px 40px 30px;

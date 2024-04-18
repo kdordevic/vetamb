@@ -210,7 +210,7 @@ function VerticalSlider() {
         <div
           className="vertical-slide"
           style={{
-            backgroundImage: `url("././photos/")`,
+            backgroundImage: `url("././photos/hannah-grace-fk4tiMlDFF0-unsplash.jpg")`,
           }}
         ></div>
       </motion.div>

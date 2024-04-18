@@ -25,9 +25,11 @@ function Contact() {
           <p>{t("formular tekst")}</p>
           <p>{t("radno vreme")}</p>
           <p>{t("adresa")}</p>
-          <p>{t("telefon")}</p>
+          {/* <p>{t("telefon")}</p> */}
+          <a href="tel:+381606666381" className="tel">
+            <p>{t("telefon")}</p></a>
           <a href="mailto:info@lovepet.rs" className="mailto">
-          <p>{t("e-mail")}</p>
+            <p>{t("e-mail")}</p>
           </a>
           <Social />
         </section>

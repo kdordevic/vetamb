@@ -4,6 +4,7 @@ footer{
     /* background-color:  rgb(136, 176, 75); */
     /* background-color: #b0d361; */
     background-color: #a7c75b;
+    
     text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
     z-index: 1;
     overflow: hidden;
