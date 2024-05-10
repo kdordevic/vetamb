@@ -17,31 +17,29 @@ function Footer() {
         }
       </div>
       <div className="footer-info">
-        
         <div className="footer-groups one">
-          <div className="footer-1">
-          </div>
+          <div className="footer-1"></div>
           <div className="footer-2">
             <h5>{t("footer2")}</h5>
-            <p>Ambulanta 1: Adresa: Telefon:</p>
-            <p>Ambulanta 2: Adresa: Telefon:</p>
-            <p>Ambulanta 3: Adresa: Telefon:</p>
+            <p>{t("footer-radno-vreme")}</p>
+            <p>{t("footer-radno-vreme-1")}</p>
           </div>
         </div>
         <div className="footer-groups two">
           <div className="footer-3">
             <h5>{t("footer3")}</h5>
-            <p>Lab 1: Adresa: Telefon:</p>
-            <p>Lab 2: Adresa: Telefon:</p>
-            <p>Lab 3: Adresa: Telefon:</p>
+            <p>{t("footer-adresa")}</p>
+            <p>{t("footer-adresa-1")}</p>
           </div>
           <div className="footer-4">
-            <h5>{t("footer4")}<Paw/></h5>
+            <h5>
+              {t("footer4")}
+              <Paw />
+            </h5>
           </div>
         </div>
       </div>
-      <div className="svg-img">
-      </div>
+      <div className="svg-img"></div>
       <div className="policy">
         <Link to="./privacy">{t("privacy")}</Link>
         <span className="copy"> &copy; Lovepet.rs 2024</span>

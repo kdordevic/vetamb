@@ -50,6 +50,7 @@ footer span{
     display: flex;  
     justify-content: space-evenly;
     padding-bottom: 70px;
+
 }
 .footer-info div{  
     margin:auto; 
@@ -58,6 +59,7 @@ footer span{
     font-size: 13px;
     padding: 0;
     margin: 0;
+  
 
 }
 .footer-info  h5{
@@ -114,9 +116,13 @@ footer span{
 @media screen and (max-width:480px) {
 .footer-info{
     flex-direction:column;
+     
 }
 footer{
     text-align: center; 
+}
+footer p {
+     text-align: center;
 }
 .call-us{
     flex-direction: column;

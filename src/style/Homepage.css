@@ -87,7 +87,6 @@ text-shadow: 3px 5px 11px rgba(0,0,0,0.60);
     text-shadow: 3px 5px 11px rgba(0,0,0,0.60);
 }
 .logo1{
-    /* background-image: url("../logo/logo-green-shadow.png"); */
     background-image: url("../logo/logo-zeleno-beli.png");
     background-size: contain;
     background-position: center;
@@ -181,7 +180,7 @@ height: 600px;
 }
 .deco-1-text,.deco-2-text{
     width: 40%;
-    margin-top: 160px;
+    margin-top: 20px;
 }
 }
 

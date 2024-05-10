@@ -42,9 +42,9 @@ function Homepage() {
             }}
             className="deco-1-text"
           >
-            <h3>{t("adresa")}</h3>
-            <h4>Dobrodošli!</h4>
-            <h3>{t("radno vreme")}</h3>
+            <h3>{t("naslovna-tekst")}</h3>
+            <h4>{t("naslovna-dobrodosli")}</h4>
+            <h3>{t("naslovna-tekst-1")}</h3>
           </motion.div>
           <motion.div
             className="deco-1-img"
@@ -95,7 +95,7 @@ function Homepage() {
             }}
           >
             <h3>{t("telefon")}</h3>
-            <h4>Čekamo vas!!</h4>
+            <h4>{t("naslovna-cekamo")}</h4>
             <a href="mailto:lovepet@lovepet.rs" className="mailto">
               <h3>{t("e-mail")}</h3>
             </a>
