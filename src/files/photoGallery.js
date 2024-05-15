@@ -58,12 +58,12 @@ const photos = [
 
   {
     id: 12,
-    photo: "././photos/gallery/dog.jpg",
+    photo: "././photos/gallery/dog.JPG",
     title: "Paja",
   },
   {
     id: 13,
-    photo: "././photos/gallery/kittens.jpg",
+    photo: "././photos/gallery/kittens.JPG",
     title: "",
   },
   {

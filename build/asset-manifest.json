@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a282fbab.css",
-    "main.js": "/static/js/main.67a77d1c.js",
+    "main.css": "/static/css/main.4d3023ef.css",
+    "main.js": "/static/js/main.8d1a41da.js",
     "static/js/879.4ecae95b.chunk.js": "/static/js/879.4ecae95b.chunk.js",
     "static/media/priscilla-du-preez-pv1qaGYYbuU-unsplash.jpg": "/static/media/priscilla-du-preez-pv1qaGYYbuU-unsplash.d67e9270691501b36a3d.jpg",
     "static/media/hedgehog.jpg": "/static/media/hedgehog.b6fad62d677ba45de6e3.jpg",
@@ -22,12 +22,12 @@
     "static/media/logo-zeleno-beli.png": "/static/media/logo-zeleno-beli.2f4ae1b75bc6f840177b.png",
     "static/media/logo-belo-sivi.png": "/static/media/logo-belo-sivi.43630f1ddc92ad3a58f2.png",
     "index.html": "/index.html",
-    "main.a282fbab.css.map": "/static/css/main.a282fbab.css.map",
-    "main.67a77d1c.js.map": "/static/js/main.67a77d1c.js.map",
+    "main.4d3023ef.css.map": "/static/css/main.4d3023ef.css.map",
+    "main.8d1a41da.js.map": "/static/js/main.8d1a41da.js.map",
     "879.4ecae95b.chunk.js.map": "/static/js/879.4ecae95b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a282fbab.css",
-    "static/js/main.67a77d1c.js"
+    "static/css/main.4d3023ef.css",
+    "static/js/main.8d1a41da.js"
   ]
 }
