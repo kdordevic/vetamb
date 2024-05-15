@@ -58,7 +58,7 @@ function Homepage() {
               },
             }}
             style={{
-              backgroundImage: `url("././photos/interior3.JPG")`,
+              backgroundImage: `url("././photos/gallery/enterijer-6.JPG")`,
               backgroundPosition: "center",
             }}
           ></motion.div>

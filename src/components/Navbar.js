@@ -41,7 +41,7 @@ export default function Navbar() {
             <Link to="/about">{t("About")}</Link>
             <Link to="/services">{t("Services")}</Link>
             {/* <Link to="/questions">{t("Questions")}</Link> */}
-            {/* <Link to="/gallery">{t("Gallery")}</Link> */}
+            <Link to="/gallery">{t("Gallery")}</Link>
             {/* <Link to="/practice">{t("Practice")}</Link> */}
             <Link to="/contact">{t("Contact")}</Link>
             <span onClick={handleLanguageSwitcherClick}>

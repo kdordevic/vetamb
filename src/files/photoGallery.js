@@ -1,63 +1,86 @@
 const photos = [
   {
     id: 1,
+    photo: "././photos/gallery/pas-4.jpg",
+    title: "",
+  },
+  {
+    id: 2,
+    photo: "././photos/gallery/eksterijer-1.jpg",
+    title: "",
+  },
+  {
+    id: 3,
+    photo: "././photos/gallery/ulaz.jpg",
+    title: "",
+  },
+
+  {
+    id: 4,
+    photo: "././photos/gallery/pas-2.jpg",
+    title: "",
+  },
+  {
+    id: 5,
+    photo: "././photos/gallery/salter-1.jpg",
+    title: "",
+  },
+  {
+    id: 6,
     photo: "././photos/gallery/1-papagaj.jpg",
     title: "Žuća",
   },
   {
-    id: 2,
+    id: 7,
+    photo: "././photos/gallery/kutija.jpg",
+    title: "",
+  },
+  {
+    id: 8,
+    photo: "././photos/gallery/maca.jpg",
+    title: "",
+  },
+  {
+    id: 9,
+    photo: "././photos/gallery/Bela.jpg",
+    title: "Bela",
+  },
+  {
+    id: 10,
+    photo: "././photos/gallery/enterijer-9.jpg",
+    title: " ",
+  },
+  {
+    id: 11,
+    photo: "././photos/gallery/crno-beli-pas.jpg",
+    title: " ",
+  },
+
+  {
+    id: 12,
     photo: "././photos/gallery/dog.jpg",
     title: "Paja",
   },
   {
-    id: 3,
-    photo: "././photos/gallery/srecko.jpg",
-    title: "Srećko",
-  },
-  {
-    id: 4,
+    id: 13,
     photo: "././photos/gallery/kittens.jpg",
-    title: "Bebe",
+    title: "",
   },
   {
-    id: 5,
-    photo: "././photos/gallery/",
-    title: "photo title 5",
+    id: 14,
+    photo: "././photos/gallery/ambulanta.jpg",
+    title: " ",
   },
   {
-    id: 6,
-    photo: "././photos/gallery/",
-    title: "photo title 6",
+    id: 15,
+    photo: "././photos/gallery/enterijer-3.jpg",
+    title: " ",
   },
   {
-    id: 7,
-    photo: "././photos/gallery/",
-    title: "photo title 7",
-  },
-  {
-    id: 8,
-    photo: "././photos/gallery/",
-    title: "photo title 8",
-  },
-  {
-    id: 9,
-    photo: "././photos/gallery/",
-    title: "photo title 9",
-  },
-  {
-    id: 10,
-    photo: "././photos/gallery/",
-    title: "photo title 10",
-  },
-  {
-    id: 11,
-    photo: "././photos/gallery/",
-    title: "photo title 11",
-  },
-  {
-    id: 12,
-    photo: "././photos/gallery/",
-    title: "photo title 12",
-  },
+    id: 16,
+    photo: "././photos/gallery/srecko.jpg",
+    title: "Srećko ",
+  }
+ 
 ];
 export default photos;

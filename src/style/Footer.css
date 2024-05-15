@@ -56,14 +56,15 @@ footer span{
     margin:auto; 
 }
 .footer-info p{
-    font-size: 13px;
+    font-size: 15px;
     padding: 0;
     margin: 0;
   
 
 }
 .footer-info  h5{
-    font-size: 15px;
+    font-size: 17px;
+    font-family: "Nunito";
 }
 .footer-groups {
     display: flex;
@@ -88,6 +89,7 @@ footer span{
 }
 .footer-4 svg{
     color: white;
+  
 }
 
 @media screen and (max-width:768px) {

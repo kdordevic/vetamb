@@ -137,11 +137,15 @@ display: flex;
     background-position: center;
     background-blend-mode: overlay;
 }
+
 .deco-1-text,.deco-2-text{
     width: 50%;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 120px;
     font-size: 60px;
+}
+.deco-2-text {
+  margin-top: 140px;
 }
 .homepage h4{
 font-family: Nunito;
@@ -182,6 +186,9 @@ height: 600px;
     width: 40%;
     margin-top: 20px;
 }
+.deco-2-text{
+     margin-top: 70px;
+};
 }
 
 @media screen and (max-width:768px) {
@@ -245,7 +252,9 @@ display: none;
     margin: auto;
     margin-top: 50px;
 } 
+
 .deco-2-text{
+ 
     margin-bottom: 40px;
 }
 .deco-1-img{
