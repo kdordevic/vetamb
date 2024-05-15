@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.b15a65b0.css",
-    "main.js": "/static/js/main.ba204a49.js",
+    "main.css": "/static/css/main.a282fbab.css",
+    "main.js": "/static/js/main.67a77d1c.js",
     "static/js/879.4ecae95b.chunk.js": "/static/js/879.4ecae95b.chunk.js",
     "static/media/priscilla-du-preez-pv1qaGYYbuU-unsplash.jpg": "/static/media/priscilla-du-preez-pv1qaGYYbuU-unsplash.d67e9270691501b36a3d.jpg",
     "static/media/hedgehog.jpg": "/static/media/hedgehog.b6fad62d677ba45de6e3.jpg",
     "static/media/paws2.png": "/static/media/paws2.c18e3cb08c31ba62b74a.png",
-    "static/media/interior.JPG": "/static/media/interior.22b56dd7f1987c4b849e.JPG",
     "static/media/paws1.png": "/static/media/paws1.2b2e33199f89edbb0a8d.png",
-    "static/media/interior2.JPG": "/static/media/interior2.7565c6fc087b21d7f03f.JPG",
     "static/media/priscilla-du-preez-2hc6ocDAsNY-unsplash.jpg": "/static/media/priscilla-du-preez-2hc6ocDAsNY-unsplash.b489eb210b5a707a3993.jpg",
     "static/media/karsten-winegeart-loJL4ijUobg-unsplash.jpg": "/static/media/karsten-winegeart-loJL4ijUobg-unsplash.f79511a15fd093b9476e.jpg",
     "static/media/priscilla-du-preez-pWQ4TlnCFqY-unsplash.jpg": "/static/media/priscilla-du-preez-pWQ4TlnCFqY-unsplash.811a12b17bfd604603fe.jpg",
     "static/media/erik-jan-leusink-uamiRCpAmrU-unsplash.jpg": "/static/media/erik-jan-leusink-uamiRCpAmrU-unsplash.d40a7afa57bfc5940711.jpg",
+    "static/media/cekaonica-4.jpg": "/static/media/cekaonica-4.98ef4899eb3253d1297d.jpg",
+    "static/media/salter-1.jpg": "/static/media/salter-1.83e4c48da7821482f73f.jpg",
     "static/media/Nunito-VariableFont_wght.ttf": "/static/media/Nunito-VariableFont_wght.c0f0807a40aebdc41b40.ttf",
-    "static/media/interior4.jpg": "/static/media/interior4.f49fdbc97b7ba0d68b67.jpg",
+    "static/media/eksterijer-3.jpg": "/static/media/eksterijer-3.33060bff27b7b101f7fa.jpg",
     "static/media/Jelena.JPG": "/static/media/Jelena.9a22bcdca8a5a88305d3.JPG",
     "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
     "static/media/white-cat.png": "/static/media/white-cat.38e160b2c9968e53ee16.png",
@@ -22,12 +22,12 @@
     "static/media/logo-zeleno-beli.png": "/static/media/logo-zeleno-beli.2f4ae1b75bc6f840177b.png",
     "static/media/logo-belo-sivi.png": "/static/media/logo-belo-sivi.43630f1ddc92ad3a58f2.png",
     "index.html": "/index.html",
-    "main.b15a65b0.css.map": "/static/css/main.b15a65b0.css.map",
-    "main.ba204a49.js.map": "/static/js/main.ba204a49.js.map",
+    "main.a282fbab.css.map": "/static/css/main.a282fbab.css.map",
+    "main.67a77d1c.js.map": "/static/js/main.67a77d1c.js.map",
     "879.4ecae95b.chunk.js.map": "/static/js/879.4ecae95b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b15a65b0.css",
-    "static/js/main.ba204a49.js"
+    "static/css/main.a282fbab.css",
+    "static/js/main.67a77d1c.js"
   ]
 }
