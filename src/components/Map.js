@@ -13,7 +13,7 @@ const Map = () => {
       longitude: 20.480645967692666, // Initial longitude
       zoom: 15, // Initial zoom level
     });
-const markerCoordinates = [44.76532887627308, 20.480645967692666];
+const markerCoordinates = [44.76466, 20.48095];
 
     return (
       <ReactMapGL 

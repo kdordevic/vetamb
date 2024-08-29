@@ -12,30 +12,38 @@ const openInNewTab = (url) => {
 
 function Social() {
   return (
-      <div className="social">
-            <button
-              className="social-icon"
-              role="link"
-              onClick={() => openInNewTab("https://instagram.com")}
-            >
-              <FontAwesomeIcon icon={faSquareInstagram} />
-            </button>
-            <button
-              className="social-icon"
-              role="link"
-              onClick={() => openInNewTab("https://facebook.com")}
-            >
-              <FontAwesomeIcon icon={faSquareFacebook} />
-            </button>
-            <button
-              className="social-icon"
-              role="link"
-              onClick={() => openInNewTab("https://linkedin.com")}
-            >
-              <FontAwesomeIcon icon={faLinkedin} />
-            </button>
+    <div className="social">
+      <button
+        className="social-icon"
+        role="link"
+        onClick={() =>
+          openInNewTab(
+            "https://www.instagram.com/love_pet_ordinacija?igsh=Zmg5MGN6czU5eGZj&utm_source=qr"
+          )
+        }
+      >
+        <FontAwesomeIcon icon={faSquareInstagram} />
+      </button>
+      <button
+        className="social-icon"
+        role="link"
+        onClick={() =>
+          openInNewTab(
+            "https://www.facebook.com/share/C3pzwKwbRPs9ihFL/?mibextid=LQQJ4d"
+          )
+        }
+      >
+        <FontAwesomeIcon icon={faSquareFacebook} />
+      </button>
+      <button
+        className="social-icon"
+        role="link"
+        onClick={() => openInNewTab("https://linkedin.com")}
+      >
+        <FontAwesomeIcon icon={faLinkedin} />
+      </button>
     </div>
-  )
+  );
 }
 
 export default Social

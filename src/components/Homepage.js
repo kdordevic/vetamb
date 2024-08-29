@@ -58,7 +58,7 @@ function Homepage() {
               },
             }}
             style={{
-              backgroundImage: `url("././photos/enterijer-6.jpg")`,
+              backgroundImage: `url("././photos/enterijer-baloni.jpg")`,
               backgroundPosition: "center",
             }}
           ></motion.div>
@@ -95,10 +95,17 @@ function Homepage() {
             }}
           >
             <h3>{t("telefon")}</h3>
-            <h4>{t("naslovna-cekamo")}</h4>
             <a href="mailto:lovepet@lovepet.rs" className="mailto">
               <h3>{t("e-mail")}</h3>
             </a>
+
+            <h4>{t("naslovna-cekamo")}</h4>
+
+            <h3>
+              {t("footer2")}: {t("footer-radno-vreme")} i{" "}
+              {t("footer-radno-vreme-1")}
+            </h3>
+            <p> {t("van-radnog-vremena")}</p>
           </motion.div>
         </div>
       </motion.main>
