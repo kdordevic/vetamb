@@ -33,7 +33,6 @@ export default function Navbar() {
         <ul className="main-nav">
           <div className="logo-container">
             <Link to="/" className="logo-nav logo">
-              {/* <FontAwesomeIcon className="icon-nav" icon={faPaw} /> */}
             </Link>
           </div>
           <div className="links">
