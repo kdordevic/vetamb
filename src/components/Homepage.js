@@ -102,7 +102,7 @@ function Homepage() {
             <h4>{t("naslovna-cekamo")}</h4>
 
             <h3>
-              {t("footer2")}: {t("footer-radno-vreme")} i{" "}
+              {t("footer2")}: {t("footer-radno-vreme")} &{" "}
               {t("footer-radno-vreme-1")}
             </h3>
             <p> {t("van-radnog-vremena")}</p>

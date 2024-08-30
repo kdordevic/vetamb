@@ -151,6 +151,9 @@ display: flex;
 .homepage p{
     font-size: 16px;
 }
+.deco-2-text p {
+    margin-right: 20px;
+}
 .homepage h4{
 font-family: Nunito;
 }
@@ -173,10 +176,19 @@ font-family: Nunito;
     border-radius: 500px;
     height: 500px;
 }
+.deco-1-text,.deco-2-text{
+    width: 40%;
+    margin-top: 20px;
+}
+.homepage h4{
+font-size: 50px;
+
+}
+
+}
 @media screen and (min-height:1000px) {
 .container{
     height: 100vh;
-}
 }
 .deco-1-img,.deco-2-img{
     width: 500px;
@@ -186,13 +198,8 @@ font-family: Nunito;
 .deco-1,.deco-2{
 height: 600px;
 }
-.deco-1-text,.deco-2-text{
-    width: 40%;
-    margin-top: 20px;
-}
-.deco-2-text{
-     margin-top: 70px;
-};
+
+
 }
 
 @media screen and (max-width:768px) {
@@ -201,9 +208,7 @@ height: 600px;
     margin-left:70vw;
     top:120px;
 }
-    /* .circle{
-    top:40px;
-} */
+
 .contact-home{
     flex-direction: column;
 }
@@ -274,6 +279,9 @@ display: none;
     margin-top: 0px;
     margin-bottom:40px
 }
+.deco-2-text p {
+    margin-right: 0px;
+}
 } 
 @media screen and (max-height:450px ) {
 .heading-home{
@@ -314,4 +322,5 @@ display: none;
     border-radius: 350px;
     height: 350px;
 }
+
 }
