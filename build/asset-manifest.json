@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d3023ef.css",
-    "main.js": "/static/js/main.3f30e89e.js",
+    "main.css": "/static/css/main.680e4ecf.css",
+    "main.js": "/static/js/main.2cbf32d2.js",
     "static/js/879.4ecae95b.chunk.js": "/static/js/879.4ecae95b.chunk.js",
     "static/media/priscilla-du-preez-pv1qaGYYbuU-unsplash.jpg": "/static/media/priscilla-du-preez-pv1qaGYYbuU-unsplash.d67e9270691501b36a3d.jpg",
     "static/media/hedgehog.jpg": "/static/media/hedgehog.b6fad62d677ba45de6e3.jpg",
@@ -11,23 +11,23 @@
     "static/media/karsten-winegeart-loJL4ijUobg-unsplash.jpg": "/static/media/karsten-winegeart-loJL4ijUobg-unsplash.f79511a15fd093b9476e.jpg",
     "static/media/priscilla-du-preez-pWQ4TlnCFqY-unsplash.jpg": "/static/media/priscilla-du-preez-pWQ4TlnCFqY-unsplash.811a12b17bfd604603fe.jpg",
     "static/media/erik-jan-leusink-uamiRCpAmrU-unsplash.jpg": "/static/media/erik-jan-leusink-uamiRCpAmrU-unsplash.d40a7afa57bfc5940711.jpg",
-    "static/media/cekaonica-4.jpg": "/static/media/cekaonica-4.98ef4899eb3253d1297d.jpg",
-    "static/media/salter-1.jpg": "/static/media/salter-1.83e4c48da7821482f73f.jpg",
     "static/media/Nunito-VariableFont_wght.ttf": "/static/media/Nunito-VariableFont_wght.c0f0807a40aebdc41b40.ttf",
     "static/media/eksterijer-3.jpg": "/static/media/eksterijer-3.33060bff27b7b101f7fa.jpg",
-    "static/media/Jelena.JPG": "/static/media/Jelena.9a22bcdca8a5a88305d3.JPG",
+    "static/media/profilna.jpeg": "/static/media/profilna.ae49717a68f5e21c5534.jpeg",
     "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
     "static/media/white-cat.png": "/static/media/white-cat.38e160b2c9968e53ee16.png",
+    "static/media/apoteka.jpeg": "/static/media/apoteka.c0ac2fdf901759b0051e.jpeg",
+    "static/media/prijem1.jpeg": "/static/media/prijem1.04c7c78b21e99a048c96.jpeg",
     "static/media/logo-original.png": "/static/media/logo-original.8b01a940e82607c0bf12.png",
     "static/media/logo-zeleno-beli.png": "/static/media/logo-zeleno-beli.2f4ae1b75bc6f840177b.png",
     "static/media/logo-belo-sivi.png": "/static/media/logo-belo-sivi.43630f1ddc92ad3a58f2.png",
     "index.html": "/index.html",
-    "main.4d3023ef.css.map": "/static/css/main.4d3023ef.css.map",
-    "main.3f30e89e.js.map": "/static/js/main.3f30e89e.js.map",
+    "main.680e4ecf.css.map": "/static/css/main.680e4ecf.css.map",
+    "main.2cbf32d2.js.map": "/static/js/main.2cbf32d2.js.map",
     "879.4ecae95b.chunk.js.map": "/static/js/879.4ecae95b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d3023ef.css",
-    "static/js/main.3f30e89e.js"
+    "static/css/main.680e4ecf.css",
+    "static/js/main.2cbf32d2.js"
   ]
 }

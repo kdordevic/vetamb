@@ -58,7 +58,7 @@ function Homepage() {
               },
             }}
             style={{
-              backgroundImage: `url("././photos/enterijer-baloni.jpg")`,
+              backgroundImage: `url("././photos/enterijer-baloni.JPG")`,
               backgroundPosition: "center",
             }}
           ></motion.div>
