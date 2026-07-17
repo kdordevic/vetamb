@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import photos from "../files/photoGallery";
-import { i18n } from "./App.js";
 import "../style/Gallery.css";
 import Modal from "react-modal";
 import { motion } from "framer-motion";
@@ -41,7 +40,7 @@ function Gallery() {
 
   const allPhotos = photos.map((img, index) => {
     const { photo, id } = img;
-    const translatedTitle = i18n.t(img.title);
+    const translatedTitle = t(img.title);
 
     return (
       <div className="photo-gallery" key={id}>

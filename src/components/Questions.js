@@ -1,51 +1,51 @@
-import React from 'react';
+import React from "react";
 import { useTranslation } from "react-i18next";
 import qanda from "../files/qanda.js";
-import { i18n } from "./App.js"; 
 import "../style/Questions.css";
 import { motion } from "framer-motion";
 import Paw from "./Paw.js";
 
 function Questions() {
-  const example = qanda.map((article) => {
-  const { id ,photo} = article;
-  const translatedQ = i18n.t(article.question);
-  const translatedA = i18n.t(article.answer);
+  const { t } = useTranslation();
+  const faqItems = qanda.map(({ id, photo, question, answer }) => {
+    const translatedQuestion = t(question);
+    const translatedAnswer = t(answer);
 
     return (
       <motion.section
+        key={id}
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.9 }}
-        key={id}
       >
         <div
           className="faq-photo"
           style={{
             backgroundImage: `url(${photo})`,
           }}
-        >
-          {" "}
-        </div>
-        <p className="question">{translatedQ}</p>
+        />
+        <p className="question">{translatedQuestion}</p>
         <hr />
-        <p className="answer">{translatedA}</p>
+        <p className="answer">{translatedAnswer}</p>
       </motion.section>
     );
   });
-  const { t } = useTranslation();
-    return (
-      <motion.main
-        className="questions"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-      >
-        <div className="questions-text">
-          <h1>{t("pitanja naslov")}<Paw/></h1>
-          <div className="faq">{example}</div>
-        </div>
-      </motion.main>
-    );
+
+  return (
+    <motion.main
+      className="questions"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+    >
+      <div className="questions-text">
+        <h1>
+          {t("pitanja naslov")}
+          <Paw />
+        </h1>
+        <div className="faq">{faqItems}</div>
+      </div>
+    </motion.main>
+  );
 }
 
-export default Questions
+export default Questions;

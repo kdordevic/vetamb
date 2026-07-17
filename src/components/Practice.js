@@ -1,7 +1,6 @@
 import React from 'react';
 import articles from '../files/articles.js';
 import { useTranslation } from "react-i18next";
-import { i18n } from "./App.js"; 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
@@ -20,11 +19,12 @@ import Paw from "./Paw.js";
 
 
 function Practice() {
+  const { t } = useTranslation();
 
   const example = articles.map((article) => {
   const { id } = article;
-  const translatedTitle = i18n.t(article.title);
-  const translatedText = i18n.t(article.text);
+  const translatedTitle = t(article.title);
+  const translatedText = t(article.text);
     
     return (
       <section key={id}>
@@ -62,7 +62,6 @@ function Practice() {
       </section>
     );
   });
-  const { t } = useTranslation();
    return (
      <motion.main
        className="practice"

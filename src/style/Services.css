@@ -35,6 +35,9 @@
     padding-bottom: 30px;
     text-align: right;
     padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 .middle-text{
     text-align: left;
@@ -48,6 +51,77 @@
     margin-left: 20px;
     transform: translateY(10px);
 margin-top:-10px ;
+}
+.service-trigger{
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4px;
+    align-self: flex-end;
+    border: none;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    padding: 4px 0;
+    text-align: inherit;
+}
+.middle-text .service-trigger{
+    align-self: flex-start;
+}
+.service-trigger span{
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease, opacity 0.2s ease;
+}
+.service-trigger:hover span,
+.service-trigger:focus-visible span{
+    border-color: currentColor;
+    opacity: 0.8;
+}
+.service-modal-overlay{
+    position: fixed;
+    inset: 0;
+    background: rgba(30, 24, 16, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    z-index: 1000;
+}
+.service-modal{
+    width: min(680px, 100%);
+    max-height: 90vh;
+    overflow-y: auto;
+    background: #f7f0de;
+    color: #404041;
+    border-radius: 24px;
+    padding: 32px;
+    position: relative;
+    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.18);
+}
+.service-modal-header{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 20px;
+}
+.service-modal-header h2{
+    margin: 0;
+}
+.service-modal-close{
+    border: none;
+    background: #404041;
+    color: #f7f0de;
+    padding: 10px 14px;
+    border-radius: 999px;
+    cursor: pointer;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.service-modal p{
+    line-height: 1.7;
+    margin: 0;
 }
 
 @media screen and (max-width:768px) {
@@ -66,6 +140,11 @@ margin-top:-10px ;
 .services-text{
     padding-top: 0px;
 }
+.service-trigger,
+.middle-text .service-trigger{
+    align-self: center;
+    justify-content: center;
+}
 .services-text:nth-child(2){
     padding-top: 0px;
     padding-bottom: 0px;
@@ -74,8 +153,15 @@ margin-top:-10px ;
 .services.second-photo{
     display: none;
 }
+.service-modal{
+    padding: 24px 18px;
 }
-
+.service-modal-header{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+}
 
 
 

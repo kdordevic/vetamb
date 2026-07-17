@@ -1,11 +1,51 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from "react-i18next";
 import "../style/Services.css";
 import { motion } from "framer-motion";
 import Paw from "./Paw.js";
+import Modal from "react-modal";
+import servicesData from "../files/servicesData.js";
+
+Modal.setAppElement("#root");
 
 function Services() {
     const { t } = useTranslation();
+    const [selectedService, setSelectedService] = useState(null);
+
+    const serviceGroups = {
+      first: servicesData.filter((service) => service.group === "first"),
+      second: servicesData.filter((service) => service.group === "second"),
+      third: servicesData.filter((service) => service.group === "third"),
+    };
+
+    const renderIcon = (service) => {
+      if (!service.icon) {
+        return null;
+      }
+
+      return (
+        <img
+          className="ikonice"
+          src={service.icon}
+          alt=""
+          aria-hidden="true"
+        />
+      );
+    };
+
+    const renderServiceItem = (service) => (
+      <button
+        key={service.id}
+        type="button"
+        className="service-trigger"
+        onClick={() => setSelectedService(service)}
+      >
+        {service.iconPosition !== "after" && renderIcon(service)}
+        <span>{t(service.titleKey)}</span>
+        {service.iconPosition === "after" && renderIcon(service)}
+      </button>
+    );
+
   return (
     <motion.main
       className="services"
@@ -32,40 +72,7 @@ function Services() {
             },
           }}
         >
-          <h4>
-            <img
-              className="ikonice"
-              src="././ikonice-PNG/1_Specijalisticki_pregledi@2x.png"
-              alt=""
-            />
-            {t("usluga 1")}
-          </h4>
-          <h4>{t("usluga 2")}</h4>
-          <h4>{t("usluga 3")}</h4>
-          <h4>{t("usluga 4")}</h4>
-          <h4>
-            <img
-              className="ikonice"
-              src="././ikonice-PNG/Medicinska_hrana+lekovi@2x.png"
-              alt=""
-            />
-            {t("usluga 5")}
-          </h4>
-          <h4>
-            <img className="ikonice" src="././ikonice-PNG/pasport.png" alt="" />
-            {t("usluga 6")}
-          </h4>
-          <h4>
-            <img
-              className="ikonice"
-              src="././ikonice-PNG/Laboratorija@2x.png"
-              alt=""
-            />
-            {t("usluga 7")}
-          </h4>
-          <h4>{t("usluga 8")}</h4>
-          <h4>{t("usluga 9")}</h4>
-          {/* <h4>{t("usluga 10")}</h4> */}
+          {serviceGroups.first.map(renderServiceItem)}
         </motion.div>
         <motion.div
           className="services-photo first-photo"
@@ -111,32 +118,7 @@ function Services() {
             },
           }}
         >
-          <h4>{t("usluga 10")}</h4>
-          <h4>{t("usluga 11")}</h4>
-          <h4>{t("usluga 12")}</h4>
-          <h4>{t("usluga 13")}</h4>
-          <h4>{t("usluga 14")}</h4>
-          <h4>
-            {t("usluga 15")}
-            <img
-              className="ikonice"
-              src="././ikonice-PNG/paraziti@2x.png"
-              alt=""
-            />
-          </h4>
-          <h4>{t("usluga 16")}</h4>
-          <h4>{t("usluga 17")}</h4>
-          <h4>{t("usluga 18")}</h4>
-          {/* <h4>
-            {t("usluga 19")}
-            <img
-              className="ikonice"
-              src="././ikonice-PNG/hirurgija@2x.png"
-              alt=""
-            />
-          </h4> */}
-          {/* <h4>{t("usluga 20")}</h4> */}
-          {/* <div className="logo-deco"></div> */}
+          {serviceGroups.second.map(renderServiceItem)}
         </motion.div>
       </section>
       <section>
@@ -154,73 +136,7 @@ function Services() {
             },
           }}
         >
-          <h4>
-            {t("usluga 19")}
-            <img
-              className="ikonice"
-              src="././ikonice-PNG/hirurgija@2x.png"
-              alt=""
-            />
-          </h4>
-          <h4>{t("usluga 20")}</h4>
-          <h4>{t("usluga 21")}</h4>
-          <h4>{t("usluga 22")}</h4>
-          {/* <h4>{t("usluga 23")}</h4>
-          <h4>{t("usluga 24")}</h4> */}
-          <h4>
-            {" "}
-            <img
-              className="ikonice"
-              src="././ikonice-PNG/egzoticni_ljubimci@2x.png"
-              alt=""
-            />
-            {t("usluga 25")}
-          </h4>
-          <h4>
-            {" "}
-            <img
-              className="ikonice"
-              src="././ikonice-PNG/ultrazvuk@2x.png"
-              alt=""
-            />
-            {t("usluga 26")}
-          </h4>
-          <h4>
-            {" "}
-            <img
-              className="ikonice"
-              src="././ikonice-PNG/rentgen@2x.png"
-              alt=""
-            />
-            {t("usluga 27")}
-          </h4>
-          <h4>
-            {" "}
-            <img
-              className="ikonice"
-              src="././ikonice-PNG/magnet@2x.png"
-              alt=""
-            />
-            {t("usluga 28")}
-          </h4>
-          <h4>
-            {" "}
-            <img
-              className="ikonice"
-              src="././ikonice-PNG/kupanje_i_sisanje@2x.png"
-              alt=""
-            />
-            {t("usluga 29")}
-          </h4>
-          <h4>
-            {" "}
-            <img
-              className="ikonice"
-              src="././ikonice-PNG/hrana+lekovi@2x.png"
-              alt=""
-            />
-            {t("usluga 30")}
-          </h4>
+          {serviceGroups.third.map(renderServiceItem)}
         </motion.div>
         <motion.div
           className="services-photo third-photo"
@@ -237,6 +153,32 @@ function Services() {
           }}
         ></motion.div>
       </section>
+      <Modal
+        isOpen={Boolean(selectedService)}
+        onRequestClose={() => setSelectedService(null)}
+        overlayClassName="service-modal-overlay"
+        className="service-modal"
+      >
+        {selectedService && (
+          <>
+            <button
+              type="button"
+              className="service-modal-close"
+              onClick={() => setSelectedService(null)}
+            >
+              {t("zatvori")}
+            </button>
+            <div className="service-modal-header">
+              {selectedService.iconPosition !== "after" &&
+                renderIcon(selectedService)}
+              <h2>{t(selectedService.titleKey)}</h2>
+              {selectedService.iconPosition === "after" &&
+                renderIcon(selectedService)}
+            </div>
+            <p>{t(selectedService.descriptionKey)}</p>
+          </>
+        )}
+      </Modal>
     </motion.main>
   );
 }

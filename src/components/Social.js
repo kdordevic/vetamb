@@ -3,7 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSquareFacebook,
   faSquareInstagram,
-  faLinkedin,
+  faSquareThreads,
+  faTiktok
 } from "@fortawesome/free-brands-svg-icons";
 
 const openInNewTab = (url) => {
@@ -35,12 +36,22 @@ function Social() {
       >
         <FontAwesomeIcon icon={faSquareFacebook} />
       </button>
+     
       <button
         className="social-icon"
         role="link"
-        onClick={() => openInNewTab("https://linkedin.com")}
+        onClick={() => openInNewTab("https://tiktok.com/@love.pet.ordinacija")}
       >
-        <FontAwesomeIcon icon={faLinkedin} />
+        <span className="social-icon-square">
+          <FontAwesomeIcon icon={faTiktok} />
+        </span>
+      </button>
+      <button
+        className="social-icon"
+        role="link"
+        onClick={() => openInNewTab("https://www.threads.net/@love_pet_ordinacija")}
+      >
+        <FontAwesomeIcon icon={faSquareThreads} />
       </button>
     </div>
   );

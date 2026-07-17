@@ -1,34 +1,23 @@
-import React, { useState, useEffect } from "react";
-import { motion, useAnimation } from "framer-motion";
+import React from "react";
+import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
 function VerticalSlider() {
-  const [scrollY, setScrollY] = useState(0);
-  const controls = useAnimation();
-  const controls1 = useAnimation();
+  const { scrollY } = useScroll();
+  const slideDown = useSpring(useTransform(scrollY, [0, 1200], [0, 600]), {
+    stiffness: 90,
+    damping: 30,
+    mass: 0.25,
+  });
+  const slideUp = useSpring(useTransform(scrollY, [0, 1200], [0, -600]), {
+    stiffness: 90,
+    damping: 30,
+    mass: 0.25,
+  });
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollY(window.scrollY);
-    };
-
-    const debouncedHandleScroll = debounce(handleScroll, 20); // Adjust debounce time as needed
-
-    window.addEventListener("scroll", debouncedHandleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", debouncedHandleScroll);
-    };
-  }, []);
-
-  useEffect(() => {
-    controls.start({ opacity: 1, y: scrollY / 2 });
-    controls1.start({ opacity: 1, y: -scrollY / 2 });
-  }, [scrollY, controls, controls1]);
   return (
     <div>
       <motion.div
-        animate={controls}
-        initial={{ opacity: 0, y: 0 }}
+        style={{ y: slideDown }}
         className="vertical-slider v-s-one"
       >
         <div
@@ -88,8 +77,7 @@ function VerticalSlider() {
         ></div>
       </motion.div>
       <motion.div
-        animate={controls1}
-        initial={{ opacity: 0, y: 0 }}
+        style={{ y: slideUp }}
         className="vertical-slider v-s-two"
       >
         <div
@@ -149,8 +137,7 @@ function VerticalSlider() {
         ></div>
       </motion.div>
       <motion.div
-        animate={controls}
-        initial={{ opacity: 0, y: 0 }}
+        style={{ y: slideDown }}
         className="vertical-slider v-s-three"
       >
         <div
@@ -215,8 +202,7 @@ function VerticalSlider() {
         ></div>
       </motion.div>
       <motion.div
-        animate={controls1}
-        initial={{ opacity: 0, y: 0 }}
+        style={{ y: slideUp }}
         className="vertical-slider v-s-four"
       >
         <div
@@ -272,14 +258,5 @@ function VerticalSlider() {
       </motion.div>
     </div>
   );
-}
-function debounce(func, delay) {
-  let timeoutId;
-  return function (...args) {
-    clearTimeout(timeoutId);
-    timeoutId = setTimeout(() => {
-      func.apply(this, args);
-    }, delay);
-  };
 }
 export default VerticalSlider

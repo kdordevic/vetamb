@@ -10,18 +10,23 @@ const LanguageSwitcher = () => {
 
   const handleLanguageChange = (newLang) => {
     i18n.changeLanguage(newLang);
+    setToogle(true);
+  };
+
+  const handleToggle = () => {
     setToogle(!toogle);
   };
   return (
     <div className="lang">
-      <div className={toogle ? "lang-change" : "choice"}>
-        <span
-          className="change"
-          onClick={() => handleLanguageChange("")}
-          style={{ cursor: "pointer" }}
-        >
-          <FontAwesomeIcon icon={faGlobe} />
-        </span>
+      <span
+        className="change"
+        onClick={handleToggle}
+        style={{ cursor: "pointer" }}
+      >
+        <FontAwesomeIcon icon={faGlobe} />
+      </span>
+      {!toogle && (
+        <div className="lang-options">
         <span
           className="sr"
           onClick={() => handleLanguageChange("en")}
@@ -39,9 +44,9 @@ const LanguageSwitcher = () => {
           {/* <ReactCountryFlag countryCode="RS" /> */}
         </span>
       </div>
+      )}
     </div>
   );
 };
 
 export default LanguageSwitcher;
-
