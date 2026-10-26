@@ -18,31 +18,14 @@ function Services() {
       third: servicesData.filter((service) => service.group === "third"),
     };
 
-    const renderIcon = (service) => {
-      if (!service.icon) {
-        return null;
-      }
-
-      return (
-        <img
-          className="ikonice"
-          src={service.icon}
-          alt=""
-          aria-hidden="true"
-        />
-      );
-    };
-
     const renderServiceItem = (service) => (
       <button
         key={service.id}
         type="button"
-        className="service-trigger"
+        className={`service-trigger${service.id === 1 || service.id === 6 || service.id === 14 || service.id === 19 || service.id === 26 || service.id === 27 || service.id === 28 ? " service-trigger--bold" : ""}`}
         onClick={() => setSelectedService(service)}
       >
-        {service.iconPosition !== "after" && renderIcon(service)}
         <span>{t(service.titleKey)}</span>
-        {service.iconPosition === "after" && renderIcon(service)}
       </button>
     );
 
@@ -154,10 +137,10 @@ function Services() {
         ></motion.div>
       </section>
       <Modal
-        isOpen={Boolean(selectedService)}
-        onRequestClose={() => setSelectedService(null)}
-        overlayClassName="service-modal-overlay"
-        className="service-modal"
+      //  isOpen={Boolean(selectedService)}
+      //  onRequestClose={() => setSelectedService(null)}
+      //  overlayClassName="service-modal-overlay"
+       // className="service-modal"
       >
         {selectedService && (
           <>
@@ -169,11 +152,7 @@ function Services() {
               {t("zatvori")}
             </button>
             <div className="service-modal-header">
-              {selectedService.iconPosition !== "after" &&
-                renderIcon(selectedService)}
               <h2>{t(selectedService.titleKey)}</h2>
-              {selectedService.iconPosition === "after" &&
-                renderIcon(selectedService)}
             </div>
             <p>{t(selectedService.descriptionKey)}</p>
           </>

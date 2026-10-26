@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.096586e8.css",
-    "main.js": "/static/js/main.19a6be08.js",
+    "main.css": "/static/css/main.462bf601.css",
+    "main.js": "/static/js/main.2950ec15.js",
     "static/js/879.a5f573cc.chunk.js": "/static/js/879.a5f573cc.chunk.js",
     "static/media/priscilla-du-preez-pv1qaGYYbuU-unsplash.jpg": "/static/media/priscilla-du-preez-pv1qaGYYbuU-unsplash.d67e9270691501b36a3d.jpg",
     "static/media/hedgehog.jpg": "/static/media/hedgehog.b6fad62d677ba45de6e3.jpg",
@@ -14,7 +14,11 @@
     "static/media/Nunito-VariableFont_wght.ttf": "/static/media/Nunito-VariableFont_wght.c0f0807a40aebdc41b40.ttf",
     "static/media/eksterijer-3.jpg": "/static/media/eksterijer-3.33060bff27b7b101f7fa.jpg",
     "static/media/profilna.jpeg": "/static/media/profilna.ae49717a68f5e21c5534.jpeg",
+    "static/media/basaivana.jpeg": "/static/media/basaivana.5f3d19426c6c6fff3ad5.jpeg",
+    "static/media/sanja1.jpeg": "/static/media/sanja1.f8e8cfeba5ba2b54b72b.jpeg",
     "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/ivanan.jpeg": "/static/media/ivanan.964949cb60964404eaef.jpeg",
+    "static/media/kristina.jpeg": "/static/media/kristina.6cf586ab967286183405.jpeg",
     "static/media/white-cat.png": "/static/media/white-cat.38e160b2c9968e53ee16.png",
     "static/media/apoteka.jpeg": "/static/media/apoteka.c0ac2fdf901759b0051e.jpeg",
     "static/media/prijem1.jpeg": "/static/media/prijem1.04c7c78b21e99a048c96.jpeg",
@@ -22,12 +26,12 @@
     "static/media/logo-zeleno-beli.png": "/static/media/logo-zeleno-beli.2f4ae1b75bc6f840177b.png",
     "static/media/logo-belo-sivi.png": "/static/media/logo-belo-sivi.43630f1ddc92ad3a58f2.png",
     "index.html": "/index.html",
-    "main.096586e8.css.map": "/static/css/main.096586e8.css.map",
-    "main.19a6be08.js.map": "/static/js/main.19a6be08.js.map",
+    "main.462bf601.css.map": "/static/css/main.462bf601.css.map",
+    "main.2950ec15.js.map": "/static/js/main.2950ec15.js.map",
     "879.a5f573cc.chunk.js.map": "/static/js/879.a5f573cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.096586e8.css",
-    "static/js/main.19a6be08.js"
+    "static/css/main.462bf601.css",
+    "static/js/main.2950ec15.js"
   ]
 }

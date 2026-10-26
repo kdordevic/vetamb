@@ -22,6 +22,22 @@
     background-image: url('../locales/photos/profilna.jpeg');
    
 }
+.about .third-photo{
+    background-image: url('../locales/photos/ivanan.jpeg');
+   
+}
+.about .fourth-photo{
+    background-image: url('../locales/photos/basaivana.jpeg');
+   
+}
+.about .fifth-photo{
+    background-image: url('../locales/photos/sanja1.jpeg');
+   
+}
+.about .sixth-photo{
+    background-image: url('../locales/photos/kristina.jpeg');
+   
+}
 .text-about{
     width: 100%;
     padding-top: 30px;

@@ -4,7 +4,6 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import "../style/Contact.css";
 import Map from "./Map";
 import Social from "./Social.js"
-// import ContactUs from "./ContactUs";
 import { motion } from "framer-motion";
 import Paw from "./Paw.js";
 
@@ -41,7 +40,6 @@ function Contact() {
           <div className="contact-interior-3"></div>
         </div>
         <section className="map-form">
-          {/* <ContactUs /> */}
           <div className="map">
             <Map />
           </div>
